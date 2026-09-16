@@ -4,30 +4,762 @@
   "source": "Cyprus Mathematical Society — KZ' Cyprus Mathematical Olympiad 2026",
   "imagePath": "images/kmo-2026-e-st-dimotikou",
   "questions": [
-    { "number": 1, "text": "How many different numbers greater than 2026 can we form using each time the digits 2, 0, 2, 6 once each?", "options": [ {"label":"A","text":"3"}, {"label":"B","text":"6"}, {"label":"C","text":"8"}, {"label":"D","text":"9"}, {"label":"E","text":"11"} ], "answer": "C", "points": 4 },
-    { "number": 2, "text": "The product of 2 natural numbers is 25, and their sum is 26. What is the difference between the two numbers?", "options": [ {"label":"A","text":"1"}, {"label":"B","text":"4"}, {"label":"C","text":"10"}, {"label":"D","text":"22"}, {"label":"E","text":"24"} ], "answer": "E", "points": 4 },
-    { "number": 3, "text": "The numbers 1, 2, 3, ... are written in 6 columns in a board as shown below. In which column is the number 278 located?", "table": [["1","2","3","4","5","6"],["7","8","9","10","11","12"],["13","14","15","16","17","18"],["19","20","...","...","...","..."]], "options": [ {"label":"A","text":"In the 1st"}, {"label":"B","text":"In the 2nd"}, {"label":"C","text":"In the 3rd"}, {"label":"D","text":"In the 4th"}, {"label":"E","text":"In the 5th or in the 6th"} ], "answer": "B", "points": 4 },
-    { "number": 4, "text": "What is the value of the expression (20 × 26) / (2 + 0 + 2 + 6)?", "options": [ {"label":"A","text":"52"}, {"label":"B","text":"50"}, {"label":"C","text":"26"}, {"label":"D","text":"20"}, {"label":"E","text":"1"} ], "answer": "A", "points": 4 },
-    { "number": 5, "text": "The number A = 1 × 2 × 3 × ... × 20 is given. What is the number of zeros that A has at the end?", "options": [ {"label":"A","text":"1"}, {"label":"B","text":"2"}, {"label":"C","text":"3"}, {"label":"D","text":"4"}, {"label":"E","text":"5"} ], "answer": "D", "points": 4 },
-    { "number": 6, "text": "In the equation (63 − 33)/(17 + 13) × A = 10 − 8 + 6 − 4 + 2, what is the value of A?", "options": [ {"label":"A","text":"8"}, {"label":"B","text":"6"}, {"label":"C","text":"4"}, {"label":"D","text":"2"}, {"label":"E","text":"1"} ], "answer": "B", "points": 4 },
-    { "number": 7, "text": "A garden consists of equal squares as shown in the figure below. If the perimeter of the garden is 80 cm, what is its area?", "image": "q7.png", "options": [ {"label":"A","text":"175 cm²"}, {"label":"B","text":"125 cm²"}, {"label":"C","text":"200 cm²"}, {"label":"D","text":"700 cm²"}, {"label":"E","text":"800 cm²"} ], "answer": "A", "points": 4 },
-    { "number": 8, "text": "A student has 2 squares of cardboard with an area of 4 cm² each. After cutting them into smaller pieces as shown in the picture on the left, he used some of the pieces to make a shape like a bird as shown in the picture on the right. What is the area of the bird?", "image": "q8.png", "options": [ {"label":"A","text":"3 cm²"}, {"label":"B","text":"4 cm²"}, {"label":"C","text":"4.5 cm²"}, {"label":"D","text":"5 cm²"}, {"label":"E","text":"6 cm²"} ], "answer": "E", "points": 4 },
-    { "number": 9, "text": "A radio station continuously plays the same sequence of 5 songs: A, B, C, D, E. Song A lasts 5 minutes, B lasts 3 minutes, C lasts 4 minutes, D lasts 4 minutes, and E lasts 2 minutes. At this moment, song A begins playing. Which song will be playing an hour later?", "options": [ {"label":"A","text":"Song A"}, {"label":"B","text":"Song B"}, {"label":"C","text":"Song C"}, {"label":"D","text":"Song D"}, {"label":"E","text":"Song E"} ], "answer": "B", "points": 4 },
-    { "number": 10, "text": "How many whole numbers from 1 to 99 don't have the digit 1?", "options": [ {"label":"A","text":"19"}, {"label":"B","text":"50"}, {"label":"C","text":"79"}, {"label":"D","text":"80"}, {"label":"E","text":"81"} ], "answer": "D", "points": 4 },
-    { "number": 11, "text": "Kostas divided a square piece of paper with a perimeter of 28 cm into 2 rectangles. The perimeter of one of the rectangles is 18 cm. What is the perimeter of the other rectangle?", "options": [ {"label":"A","text":"18 cm"}, {"label":"B","text":"20 cm"}, {"label":"C","text":"22 cm"}, {"label":"D","text":"23 cm"}, {"label":"E","text":"24 cm"} ], "answer": "E", "points": 4 },
-    { "number": 12, "text": "A series of squares is made from equal small squares as shown in the figure below. How many more small squares does the 11th square have than the 10th square?", "image": "q12.png", "options": [ {"label":"A","text":"1"}, {"label":"B","text":"21"}, {"label":"C","text":"100"}, {"label":"D","text":"121"}, {"label":"E","text":"221"} ], "answer": "B", "points": 4 },
-    { "number": 13, "text": "All the puppies have the same weight between them, and all the kittens have the same weight between them. Three puppies and six kittens weigh 90 kilograms. How much do two kittens and one puppy weigh?", "options": [ {"label":"A","text":"10 kilograms"}, {"label":"B","text":"20 kilograms"}, {"label":"C","text":"30 kilograms"}, {"label":"D","text":"40 kilograms"}, {"label":"E","text":"50 kilograms"} ], "answer": "C", "points": 4 },
-    { "number": 14, "text": "At each break between two lessons that occur on the same day, George eats a candy. There are at least two lessons every day. In two days, Monday and Tuesday, 13 lessons were held in total. How many candies did George eat in total on these two days?", "options": [ {"label":"A","text":"10"}, {"label":"B","text":"11"}, {"label":"C","text":"12"}, {"label":"D","text":"13"}, {"label":"E","text":"22"} ], "answer": "B", "points": 4 },
-    { "number": 15, "text": "In the square below, the sums along every row, column and diagonal are the same. What is the sum α + β + γ + δ?", "table": [["α","4","β"],["10","16","22"],["γ","28","δ"]], "options": [ {"label":"A","text":"56"}, {"label":"B","text":"60"}, {"label":"C","text":"62"}, {"label":"D","text":"64"}, {"label":"E","text":"68"} ], "answer": "D", "points": 4 },
-    { "number": 16, "text": "The Woodpecker is a bird that hits trees with its beak. A Woodpecker hits a tree with its beak 10 times every 5 seconds. How many times will it hit the tree with its beak within 2 minutes and 25 seconds?", "options": [ {"label":"A","text":"60"}, {"label":"B","text":"100"}, {"label":"C","text":"225"}, {"label":"D","text":"290"}, {"label":"E","text":"300"} ], "answer": "D", "points": 4 },
-    { "number": 17, "text": "In the 4×4 square of the figure below we write numbers. In squares that have a common side, the numbers differ by 1. The number 3 is written in the upper left square and the number 9 is written in at least one square. How many different numbers appear in the table?", "image": "q17.png", "options": [ {"label":"A","text":"5"}, {"label":"B","text":"6"}, {"label":"C","text":"7"}, {"label":"D","text":"8"}, {"label":"E","text":"It cannot be determined"} ], "answer": "C", "points": 4 },
-    { "number": 18, "text": "The teacher of the sixth grade of a primary school can divide the students of her class into groups of 4 or groups of 6, or groups of 8 without anyone being left over. How many students does the class have, if it does not have more than 25 students?", "options": [ {"label":"A","text":"6"}, {"label":"B","text":"8"}, {"label":"C","text":"12"}, {"label":"D","text":"16"}, {"label":"E","text":"24"} ], "answer": "E", "points": 4 },
-    { "number": 19, "text": "The number 30 was increased by p% and became 210. What is the value of p?", "options": [ {"label":"A","text":"6"}, {"label":"B","text":"7"}, {"label":"C","text":"8"}, {"label":"D","text":"600"}, {"label":"E","text":"700"} ], "answer": "D", "points": 4 },
-    { "number": 20, "text": "With which three of the numbered pieces can you complete the shape below to form a rectangle?", "image": "q20.png", "options": [ {"label":"A","text":"1, 3, and 4"}, {"label":"B","text":"1, 3, and 6"}, {"label":"C","text":"2, 3, and 5"}, {"label":"D","text":"2, 3, and 6"}, {"label":"E","text":"2, 5, and 6"} ], "answer": "D", "points": 4 },
-    { "number": 21, "text": "A school is organizing a field trip. The students will be transported using a specific number of buses, each with 40 seats. If only 36 students get on each bus, there will be 12 students left over. If all the buses are full except for the last one, there will be 8 seats left over on the last bus. How many students are there?", "options": [ {"label":"A","text":"192"}, {"label":"B","text":"232"}, {"label":"C","text":"120"}, {"label":"D","text":"228"}, {"label":"E","text":"152"} ], "answer": "D", "points": 5 },
-    { "number": 22, "text": "A father's age is four times the age of his son. In 20 years, the father's age will be twice the age of his son. How old is the father today?", "options": [ {"label":"A","text":"30"}, {"label":"B","text":"35"}, {"label":"C","text":"40"}, {"label":"D","text":"45"}, {"label":"E","text":"50"} ], "answer": "C", "points": 5 },
-    { "number": 23, "text": "Petros gave a €5 note for an item worth €3.80. The change he got was in coins of 10, 20 and 50 cents. He got a total of 5 coins. How many coins worth 20 cents did he get?", "options": [ {"label":"A","text":"5"}, {"label":"B","text":"4"}, {"label":"C","text":"3"}, {"label":"D","text":"2"}, {"label":"E","text":"1"} ], "answer": "C", "points": 5 },
-    { "number": 24, "text": "A special substance doubles its volume every minute. At 9:00 a.m. a small part of the substance is placed in a container and at 10:00 a.m. the container is completely filled. At what time was the container exactly 1/4 full?", "options": [ {"label":"A","text":"9:15 a.m."}, {"label":"B","text":"9:30 a.m."}, {"label":"C","text":"9:45 a.m."}, {"label":"D","text":"9:50 a.m."}, {"label":"E","text":"9:58 a.m."} ], "answer": "C", "points": 5 },
-    { "number": 25, "text": "Chloe goes to a post office to buy 3 stamps. The clerk has only 7 stamps joined together in one piece, as shown in the diagram below. In how many ways can she cut and give Chloe a single piece of 3 stamps? (The stamps are cut along the dotted lines.)", "image": "q25.png", "options": [ {"label":"A","text":"2"}, {"label":"B","text":"3"}, {"label":"C","text":"4"}, {"label":"D","text":"5"}, {"label":"E","text":"6"} ], "answer": "E", "points": 5 }
+    {
+      "number": 1,
+      "text": "How many different numbers greater than 2026 can we form using each time the digits 2, 0, 2, 6 once each?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "The product of 2 natural numbers is 25, and their sum is 26. What is the difference between the two numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "22"
+        },
+        {
+          "label": "E",
+          "text": "24"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 3,
+      "text": "The numbers 1, 2, 3, ... are written in 6 columns in a board as shown below. In which column is the number 278 located?",
+      "table": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        [
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        [
+          "19",
+          "20",
+          "...",
+          "...",
+          "...",
+          "..."
+        ]
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "In the 1st"
+        },
+        {
+          "label": "B",
+          "text": "In the 2nd"
+        },
+        {
+          "label": "C",
+          "text": "In the 3rd"
+        },
+        {
+          "label": "D",
+          "text": "In the 4th"
+        },
+        {
+          "label": "E",
+          "text": "In the 5th or in the 6th"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "What is the value of the expression (20 × 26) / (2 + 0 + 2 + 6)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "1"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "The number A = 1 × 2 × 3 × ... × 20 is given. What is the number of zeros that A has at the end?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "In the equation (63 − 33)/(17 + 13) × A = 10 − 8 + 6 − 4 + 2, what is the value of A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        },
+        {
+          "label": "E",
+          "text": "1"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "A garden consists of equal squares as shown in the figure below. If the perimeter of the garden is 80 cm, what is its area?",
+      "image": "q7.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "175 cm²"
+        },
+        {
+          "label": "B",
+          "text": "125 cm²"
+        },
+        {
+          "label": "C",
+          "text": "200 cm²"
+        },
+        {
+          "label": "D",
+          "text": "700 cm²"
+        },
+        {
+          "label": "E",
+          "text": "800 cm²"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "A student has 2 squares of cardboard with an area of 4 cm² each. After cutting them into smaller pieces as shown in the picture on the left, he used some of the pieces to make a shape like a bird as shown in the picture on the right. What is the area of the bird?",
+      "image": "q8.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 cm²"
+        },
+        {
+          "label": "B",
+          "text": "4 cm²"
+        },
+        {
+          "label": "C",
+          "text": "4.5 cm²"
+        },
+        {
+          "label": "D",
+          "text": "5 cm²"
+        },
+        {
+          "label": "E",
+          "text": "6 cm²"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "A radio station continuously plays the same sequence of 5 songs: A, B, C, D, E. Song A lasts 5 minutes, B lasts 3 minutes, C lasts 4 minutes, D lasts 4 minutes, and E lasts 2 minutes. At this moment, song A begins playing. Which song will be playing an hour later?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Song A"
+        },
+        {
+          "label": "B",
+          "text": "Song B"
+        },
+        {
+          "label": "C",
+          "text": "Song C"
+        },
+        {
+          "label": "D",
+          "text": "Song D"
+        },
+        {
+          "label": "E",
+          "text": "Song E"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "How many whole numbers from 1 to 99 don't have the digit 1?",
+      "options": [
+        {
+          "label": "A",
+          "text": "19"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "79"
+        },
+        {
+          "label": "D",
+          "text": "80"
+        },
+        {
+          "label": "E",
+          "text": "81"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "Kostas divided a square piece of paper with a perimeter of 28 cm into 2 rectangles. The perimeter of one of the rectangles is 18 cm. What is the perimeter of the other rectangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18 cm"
+        },
+        {
+          "label": "B",
+          "text": "20 cm"
+        },
+        {
+          "label": "C",
+          "text": "22 cm"
+        },
+        {
+          "label": "D",
+          "text": "23 cm"
+        },
+        {
+          "label": "E",
+          "text": "24 cm"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "A series of squares is made from equal small squares as shown in the figure below. How many more small squares does the 11th square have than the 10th square?",
+      "image": "q12.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "100"
+        },
+        {
+          "label": "D",
+          "text": "121"
+        },
+        {
+          "label": "E",
+          "text": "221"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "All the puppies have the same weight between them, and all the kittens have the same weight between them. Three puppies and six kittens weigh 90 kilograms. How much do two kittens and one puppy weigh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 kilograms"
+        },
+        {
+          "label": "B",
+          "text": "20 kilograms"
+        },
+        {
+          "label": "C",
+          "text": "30 kilograms"
+        },
+        {
+          "label": "D",
+          "text": "40 kilograms"
+        },
+        {
+          "label": "E",
+          "text": "50 kilograms"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "At each break between two lessons that occur on the same day, George eats a candy. There are at least two lessons every day. In two days, Monday and Tuesday, 13 lessons were held in total. How many candies did George eat in total on these two days?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "22"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "In the square below, the sums along every row, column and diagonal are the same. What is the sum α + β + γ + δ?",
+      "table": [
+        [
+          "α",
+          "4",
+          "β"
+        ],
+        [
+          "10",
+          "16",
+          "22"
+        ],
+        [
+          "γ",
+          "28",
+          "δ"
+        ]
+      ],
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "64"
+        },
+        {
+          "label": "E",
+          "text": "68"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "The Woodpecker is a bird that hits trees with its beak. A Woodpecker hits a tree with its beak 10 times every 5 seconds. How many times will it hit the tree with its beak within 2 minutes and 25 seconds?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "225"
+        },
+        {
+          "label": "D",
+          "text": "290"
+        },
+        {
+          "label": "E",
+          "text": "300"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "In the 4×4 square of the figure below we write numbers. In squares that have a common side, the numbers differ by 1. The number 3 is written in the upper left square and the number 9 is written in at least one square. How many different numbers appear in the table?",
+      "image": "q17.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "It cannot be determined"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "The teacher of the sixth grade of a primary school can divide the students of her class into groups of 4 or groups of 6, or groups of 8 without anyone being left over. How many students does the class have, if it does not have more than 25 students?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        },
+        {
+          "label": "E",
+          "text": "24"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "The number 30 was increased by p% and became 210. What is the value of p?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "600"
+        },
+        {
+          "label": "E",
+          "text": "700"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "With which three of the numbered pieces can you complete the shape below to form a rectangle?",
+      "image": "q20.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 3, and 4"
+        },
+        {
+          "label": "B",
+          "text": "1, 3, and 6"
+        },
+        {
+          "label": "C",
+          "text": "2, 3, and 5"
+        },
+        {
+          "label": "D",
+          "text": "2, 3, and 6"
+        },
+        {
+          "label": "E",
+          "text": "2, 5, and 6"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "A school is organizing a field trip. The students will be transported using a specific number of buses, each with 40 seats. If only 36 students get on each bus, there will be 12 students left over. If all the buses are full except for the last one, there will be 8 seats left over on the last bus. How many students are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "192"
+        },
+        {
+          "label": "B",
+          "text": "232"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "228"
+        },
+        {
+          "label": "E",
+          "text": "152"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "A father's age is four times the age of his son. In 20 years, the father's age will be twice the age of his son. How old is the father today?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "35"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "45"
+        },
+        {
+          "label": "E",
+          "text": "50"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 23,
+      "text": "Petros gave a €5 note for an item worth €3.80. The change he got was in coins of 10, 20 and 50 cents. He got a total of 5 coins. How many coins worth 20 cents did he get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        },
+        {
+          "label": "E",
+          "text": "1"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "A special substance doubles its volume every minute. At 9:00 a.m. a small part of the substance is placed in a container and at 10:00 a.m. the container is completely filled. At what time was the container exactly 1/4 full?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9:15 a.m."
+        },
+        {
+          "label": "B",
+          "text": "9:30 a.m."
+        },
+        {
+          "label": "C",
+          "text": "9:45 a.m."
+        },
+        {
+          "label": "D",
+          "text": "9:50 a.m."
+        },
+        {
+          "label": "E",
+          "text": "9:58 a.m."
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "Chloe goes to a post office to buy 3 stamps. The clerk has only 7 stamps joined together in one piece, as shown in the diagram below. In how many ways can she cut and give Chloe a single piece of 3 stamps? (The stamps are cut along the dotted lines.)",
+      "image": "q25.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    }
   ]
 }

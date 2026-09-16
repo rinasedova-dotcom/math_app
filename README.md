@@ -54,17 +54,19 @@ similar to how these two sample courses were built.
 
 1. Drop the two source PDFs into `problems/<course-id>/problems.pdf` and
    `answers/<course-id>/answers.pdf`.
-2. Extract the **Level 5-6** (or equivalent "5th & 6th grade") column from
-   the answer-key PDF into a simple question-number → correct-letter
-   mapping.
-3. Extract each question's text and options from the problem PDF. Where a
-   question has a genuine diagram (not just numeric options), crop it out
-   of the PDF as a PNG into `images/<course-id>/qN.png` — `pdftoppm` /
-   PyMuPDF (`fitz`) work well for this: render the page, then crop the
-   figure's bounding box. Small structured grids (like a magic-square
-   puzzle) can instead be written as a `"table"` array (see the example
-   below) rather than an image, which renders sharper.
-4. Write `data/<course-id>.json` with this shape:
+2. If the PDFs match one of the two layouts already seen (THALES/Kangourou,
+   or Cyprus Mathematical Society/KMO), run the matching script in
+   `tools/` — `parse_kangourou.py` or `parse_kmo.py` — to generate most of
+   `data/<course-id>.json` automatically (question text, options and the
+   correct-answer column are extracted by regex over `pdftotext -layout`
+   output). See `tools/README.md` for usage and what still needs a manual
+   pass afterward (mainly: cropping diagrams — the scripts can't see
+   images, only flag which questions likely need one). For a genuinely new
+   layout, there's no shortcut yet; extract by hand the same way, using the
+   steps below as a guide, and consider writing a third script once the
+   layout is understood.
+3. Whichever way you built it, `data/<course-id>.json` should end up with
+   this shape:
 
 ```json
 {
@@ -94,5 +96,5 @@ similar to how these two sample courses were built.
    image already shows the labeled choices, and the app just renders plain
    lettered buttons for picking one.
 
-5. Add an entry to `data/courses.json` pointing at the new file. The course
+4. Add an entry to `data/courses.json` pointing at the new file. The course
    picker on the home page and the quiz pool pick it up automatically.
