@@ -1,0 +1,6 @@
+{
+  "courses": [
+    { "id": "kangourou-2025-2026-level-5-6", "name": "Kangourou Mathematics 2025-2026 — Level 5-6", "dataFile": "data/kangourou-2025-2026-level-5-6.json" },
+    { "id": "kmo-2026-e-st-dimotikou", "name": "27th Cyprus Mathematical Olympiad 2026 — 5th & 6th Grade Primary", "dataFile": "data/kmo-2026-e-st-dimotikou.json" }
+  ]
+}

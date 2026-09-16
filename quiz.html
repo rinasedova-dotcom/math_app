@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Math Quiz — Practice</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🧮 Math Quiz</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="results.html">Results</a>
+  </nav>
+</header>
+<main>
+  <div class="card" id="quiz-card">
+    <p id="loading-msg">Loading question…</p>
+  </div>
+</main>
+<footer class="pagefoot" id="pool-info"></footer>
+
+<script src="js/storage.js"></script>
+<script src="js/data.js"></script>
+<script>
+let pool = [];
+let current = null;
+let answered = false;
+let lastKey = null;
+
+function pickQuestion() {
+  if (pool.length === 0) return null;
+  if (pool.length === 1) return pool[0];
+  let choice;
+  do {
+    choice = pool[Math.floor(Math.random() * pool.length)];
+  } while (lastKey && choice.courseId + "-" + choice.question.number === lastKey);
+  return choice;
+}
+
+function renderQuestion() {
+  current = pickQuestion();
+  answered = false;
+  if (!current) {
+    document.getElementById("quiz-card").innerHTML = "<p>No questions available for the selected course(s).</p>";
+    return;
+  }
+  lastKey = current.courseId + "-" + current.question.number;
+  const q = current.question;
+  const card = document.getElementById("quiz-card");
+
+  let mediaHtml = "";
+  if (q.image) {
+    mediaHtml += `<div class="question-image"><img src="${current.imagePath}/${q.image}" alt="Question diagram"></div>`;
+  }
+  if (q.table) {
+    mediaHtml += `<table class="puzzle-table">` + q.table.map(row =>
+      "<tr>" + row.map(cell => `<td>${cell}</td>`).join("") + "</tr>"
+    ).join("") + `</table>`;
+  }
+
+  const hasOptionText = q.options.some(o => o.text && o.text.trim() !== "");
+  const optionsClass = hasOptionText ? "options text-options" : "options";
+
+  const optionsHtml = q.options.map(o => `
+    <button class="option" data-label="${o.label}">
+      <span class="letter">${o.label}</span>
+      <span class="opt-text">${o.text || ""}</span>
+    </button>
+  `).join("");
+
+  card.innerHTML = `
+    <div class="question-meta">
+      <span class="badge course">${current.courseName}</span>
+      <span class="badge points">Question ${q.number} · ${q.points} pts</span>
+    </div>
+    <div class="question-text">${q.text}</div>
+    ${mediaHtml}
+    <div class="${optionsClass}" id="options-wrap">${optionsHtml}</div>
+    <div class="feedback" id="feedback"></div>
+    <div class="actions">
+      <button class="btn" id="next-btn" style="display:none;">Next question →</button>
+    </div>
+  `;
+
+  document.querySelectorAll(".option").forEach(btn => {
+    btn.addEventListener("click", () => handleAnswer(btn.dataset.label));
+  });
+}
+
+function handleAnswer(label) {
+  if (answered) return;
+  answered = true;
+  const q = current.question;
+  const isCorrect = label === q.answer;
+
+  document.querySelectorAll(".option").forEach(btn => {
+    btn.classList.add("disabled");
+    if (btn.dataset.label === q.answer) {
+      btn.classList.add("correct");
+    } else if (btn.dataset.label === label) {
+      btn.classList.add("wrong");
+    }
+  });
+
+  const feedback = document.getElementById("feedback");
+  feedback.classList.add("show", isCorrect ? "right" : "wrong");
+  feedback.textContent = isCorrect
+    ? "Correct! Well done."
+    : `Not quite — the correct answer is ${q.answer}.`;
+
+  document.getElementById("next-btn").style.display = "inline-block";
+  document.getElementById("next-btn").addEventListener("click", renderQuestion);
+
+  saveResult({
+    courseId: current.courseId,
+    courseName: current.courseName,
+    questionNumber: q.number,
+    questionText: q.text,
+    answerGiven: label,
+    correctAnswer: q.answer,
+    isCorrect: isCorrect,
+  });
+}
+
+async function init() {
+  const prefs = getPrefs();
+  let allCourses;
+  try {
+    allCourses = await loadAllCourses();
+  } catch (e) {
+    document.getElementById("quiz-card").innerHTML =
+      "<p>Could not load course data. Please serve this site with a local web server.</p>";
+    return;
+  }
+  const selectedIds = prefs.selectedCourseIds && prefs.selectedCourseIds.length
+    ? prefs.selectedCourseIds
+    : allCourses.map(c => c.id);
+
+  pool = buildQuestionPool(allCourses, selectedIds);
+  document.getElementById("pool-info").textContent =
+    pool.length + " question(s) in the current practice pool.";
+  renderQuestion();
+}
+
+init();
+</script>
+</body>
+</html>

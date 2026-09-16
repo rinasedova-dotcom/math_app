@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Math Quiz</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🧮 Math Quiz</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="results.html">Results</a>
+  </nav>
+</header>
+<main>
+  <div class="card">
+    <h2>Choose your course(s)</h2>
+    <p id="loading-msg">Loading courses…</p>
+    <div class="course-list" id="course-list"></div>
+    <div class="actions">
+      <button class="btn" id="start-btn" disabled>Start Quiz</button>
+      <button class="btn secondary" id="select-all-btn">Select all</button>
+    </div>
+  </div>
+
+  <div class="card" id="stats-card" style="display:none;">
+    <h2>Your progress so far</h2>
+    <div class="stats">
+      <div class="stat"><div class="num" id="stat-answered">0</div><div class="label">Answered</div></div>
+      <div class="stat"><div class="num" id="stat-correct">0</div><div class="label">Correct</div></div>
+      <div class="stat"><div class="num" id="stat-accuracy">0%</div><div class="label">Accuracy</div></div>
+    </div>
+    <div class="actions">
+      <a class="btn secondary" href="results.html">View full results</a>
+    </div>
+  </div>
+</main>
+<footer class="pagefoot">Practice questions sourced from math competition papers, Level 5-6 / 5th &amp; 6th grade.</footer>
+
+<script src="js/storage.js"></script>
+<script src="js/data.js"></script>
+<script>
+let allCourses = [];
+
+function selectedCourseIds() {
+  return Array.from(document.querySelectorAll(".course-item input:checked")).map(cb => cb.value);
+}
+
+function refreshStartButton() {
+  document.getElementById("start-btn").disabled = selectedCourseIds().length === 0;
+}
+
+async function init() {
+  try {
+    allCourses = await loadAllCourses();
+  } catch (e) {
+    document.getElementById("loading-msg").textContent =
+      "Could not load courses. If you opened this file directly, please serve the site with a local web server instead.";
+    return;
+  }
+  document.getElementById("loading-msg").remove();
+
+  const prefs = getPrefs();
+  const previouslySelected = prefs.selectedCourseIds || allCourses.map(c => c.id);
+
+  const list = document.getElementById("course-list");
+  allCourses.forEach(course => {
+    const label = document.createElement("label");
+    label.className = "course-item";
+    const checked = previouslySelected.includes(course.id) ? "checked" : "";
+    label.innerHTML = `
+      <input type="checkbox" value="${course.id}" ${checked} />
+      <span>${course.name}</span>
+      <span class="count">${course.questions.length} questions</span>
+    `;
+    list.appendChild(label);
+  });
+
+  list.addEventListener("change", () => {
+    savePrefs({ ...getPrefs(), selectedCourseIds: selectedCourseIds() });
+    refreshStartButton();
+  });
+
+  refreshStartButton();
+
+  document.getElementById("select-all-btn").addEventListener("click", () => {
+    document.querySelectorAll(".course-item input").forEach(cb => cb.checked = true);
+    savePrefs({ ...getPrefs(), selectedCourseIds: selectedCourseIds() });
+    refreshStartButton();
+  });
+
+  document.getElementById("start-btn").addEventListener("click", () => {
+    const ids = selectedCourseIds();
+    if (ids.length === 0) return;
+    savePrefs({ ...getPrefs(), selectedCourseIds: ids });
+    window.location.href = "quiz.html";
+  });
+
+  renderStats();
+}
+
+function renderStats() {
+  const results = getResults();
+  if (results.length === 0) return;
+  document.getElementById("stats-card").style.display = "block";
+  const correct = results.filter(r => r.isCorrect).length;
+  document.getElementById("stat-answered").textContent = results.length;
+  document.getElementById("stat-correct").textContent = correct;
+  document.getElementById("stat-accuracy").textContent = Math.round((correct / results.length) * 100) + "%";
+}
+
+init();
+</script>
+</body>
+</html>

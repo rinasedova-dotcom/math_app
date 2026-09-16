@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Math Quiz — Results</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🧮 Math Quiz</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="results.html">Results</a>
+  </nav>
+</header>
+<main>
+  <div class="card">
+    <h2>Your results</h2>
+    <div class="stats" id="stats-row"></div>
+    <div class="filters">
+      <label for="course-filter">Course:</label>
+      <select id="course-filter">
+        <option value="">All courses</option>
+      </select>
+      <label for="outcome-filter">Outcome:</label>
+      <select id="outcome-filter">
+        <option value="">All</option>
+        <option value="correct">Correct only</option>
+        <option value="wrong">Wrong only</option>
+      </select>
+    </div>
+    <div class="table-scroll">
+      <table class="results-table" id="results-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Course</th>
+            <th>Question</th>
+            <th>Your answer</th>
+            <th>Correct answer</th>
+            <th>Result</th>
+            <th>Date / time</th>
+          </tr>
+        </thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+    <div class="empty-state" id="empty-state" style="display:none;">
+      No answers recorded yet. <a href="quiz.html">Start a quiz</a> to begin tracking your results.
+    </div>
+    <div class="actions">
+      <button class="btn danger" id="clear-btn">Clear all results</button>
+    </div>
+  </div>
+</main>
+
+<script src="js/storage.js"></script>
+<script>
+function fmtDate(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString() + " " + d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+}
+
+function render() {
+  const results = getResults().slice().reverse();
+  const courseFilter = document.getElementById("course-filter").value;
+  const outcomeFilter = document.getElementById("outcome-filter").value;
+
+  const filtered = results.filter(r => {
+    if (courseFilter && r.courseId !== courseFilter) return false;
+    if (outcomeFilter === "correct" && !r.isCorrect) return false;
+    if (outcomeFilter === "wrong" && r.isCorrect) return false;
+    return true;
+  });
+
+  const body = document.getElementById("results-body");
+  body.innerHTML = filtered.map((r, i) => `
+    <tr>
+      <td>${filtered.length - i}</td>
+      <td>${r.courseName}</td>
+      <td>Q${r.questionNumber}</td>
+      <td>${r.answerGiven}</td>
+      <td>${r.correctAnswer}</td>
+      <td>${r.isCorrect ? '<span class="tag-correct">Correct</span>' : '<span class="tag-wrong">Wrong</span>'}</td>
+      <td>${fmtDate(r.timestamp)}</td>
+    </tr>
+  `).join("");
+
+  document.getElementById("results-table").style.display = filtered.length ? "table" : "none";
+  document.getElementById("empty-state").style.display = filtered.length ? "none" : "block";
+
+  const total = results.length;
+  const correct = results.filter(r => r.isCorrect).length;
+  document.getElementById("stats-row").innerHTML = `
+    <div class="stat"><div class="num">${total}</div><div class="label">Answered</div></div>
+    <div class="stat"><div class="num">${correct}</div><div class="label">Correct</div></div>
+    <div class="stat"><div class="num">${total ? Math.round((correct/total)*100) : 0}%</div><div class="label">Accuracy</div></div>
+  `;
+}
+
+function populateCourseFilter() {
+  const results = getResults();
+  const seen = new Map();
+  results.forEach(r => seen.set(r.courseId, r.courseName));
+  const select = document.getElementById("course-filter");
+  seen.forEach((name, id) => {
+    const opt = document.createElement("option");
+    opt.value = id;
+    opt.textContent = name;
+    select.appendChild(opt);
+  });
+}
+
+document.getElementById("course-filter").addEventListener("change", render);
+document.getElementById("outcome-filter").addEventListener("change", render);
+document.getElementById("clear-btn").addEventListener("click", () => {
+  if (confirm("Clear all recorded results? This cannot be undone.")) {
+    clearResults();
+    render();
+  }
+});
+
+populateCourseFilter();
+render();
+</script>
+</body>
+</html>
