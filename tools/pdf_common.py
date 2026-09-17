@@ -45,16 +45,59 @@ def run_pdftotext(pdf_path):
     return result.stdout.decode("utf-8", errors="replace")
 
 
-def split_pages(text, header_lines=2, drop_trailing_blank_and_pagenum=True):
-    """Split raw pdftotext -layout output on form-feeds into per-page line
-    lists, stripping the repeated header lines and the trailing page-number
-    line every page in these papers carries."""
-    pages = []
-    for chunk in text.split("\x0c"):
-        lines = chunk.split("\n")
-        if not lines or not "".join(lines).strip():
+def _header_key(line):
+    """Normalize a line for header comparison: collapse internal
+    whitespace runs too, not just the edges -- some years' pages re-flow
+    the same header text with a slightly different gap width per page
+    (still visually "the same line", but not byte-identical), so a plain
+    .strip() comparison misses the repeat entirely."""
+    return re.sub(r"\s+", " ", line.strip())
+
+
+def _detect_repeated_header(raw_pages):
+    """Most of these papers repeat a 1-2 line header ("THALES Foundation -
+    Kangourou Mathematics Competition ... / Ίδρυμα ΘΑΛΗΣ...") on every
+    page, but not all of them do (some older papers have no per-page
+    header at all) -- and blindly stripping a fixed line count from a page
+    that doesn't have one silently eats real question text instead
+    (confirmed the hard way: it ate a question that happened to fall on a
+    fresh page). So detect it instead of assuming it: look for the first K
+    lines (trying K=2, then K=1) that are the same, up to whitespace,
+    across at least half of the pages after the first (a cover page's own
+    title lines shouldn't count as "the header"). Returns a tuple of the
+    (whitespace-normalized) header lines, or () if none was found.
+    """
+    candidates = raw_pages[1:] if len(raw_pages) > 1 else raw_pages
+    for k in (2, 1):
+        counts = {}
+        for page in candidates:
+            lines = page.split("\n")
+            if len(lines) < k:
+                continue
+            sig = tuple(_header_key(l) for l in lines[:k])
+            if all(sig):
+                counts[sig] = counts.get(sig, 0) + 1
+        if not counts:
             continue
-        lines = lines[header_lines:]
+        best_sig, freq = max(counts.items(), key=lambda kv: kv[1])
+        if freq >= max(2, len(candidates) // 2):
+            return best_sig
+    return ()
+
+
+def split_pages(text, drop_trailing_blank_and_pagenum=True):
+    """Split raw pdftotext -layout output on form-feeds into per-page line
+    lists, stripping the repeated header lines (auto-detected -- see
+    _detect_repeated_header) and the trailing page-number line every page
+    in these papers carries."""
+    raw_pages = [p for p in text.split("\x0c") if p.strip()]
+    header_sig = _detect_repeated_header(raw_pages)
+
+    pages = []
+    for chunk in raw_pages:
+        lines = chunk.split("\n")
+        if header_sig and tuple(_header_key(l) for l in lines[:len(header_sig)]) == header_sig:
+            lines = lines[len(header_sig):]
         if drop_trailing_blank_and_pagenum:
             while lines and (not lines[-1].strip() or lines[-1].strip().isdigit()):
                 lines.pop()

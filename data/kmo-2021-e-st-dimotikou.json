@@ -1,0 +1,708 @@
+{
+  "id": "kmo-2021-e-st-dimotikou",
+  "name": "22nd Cyprus Mathematical Olympiad 2021 — 5th & 6th Grade Primary",
+  "source": "Cyprus Mathematical Society",
+  "imagePath": "images/kmo-2021-e-st-dimotikou",
+  "questions": [
+    {
+      "number": 1,
+      "text": "A school with 328 students is going on a field trip. If each bus can carry 46 students, then what is the smallest number of buses needed to carry the students?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "Which of the following numbers is between 6,28 and 6,282?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6.29"
+        },
+        {
+          "label": "B",
+          "text": "6.082"
+        },
+        {
+          "label": "C",
+          "text": "6.141"
+        },
+        {
+          "label": "D",
+          "text": "6.281"
+        },
+        {
+          "label": "E",
+          "text": "6.14"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 3,
+      "text": "On the two scales there are spherical marbles, a pentagon and weights of 20 gr. 20 gr 20 gr 20 gr If the scales are in balance, then how many grams correspond to the pentagon?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 gr"
+        },
+        {
+          "label": "B",
+          "text": "11 gr"
+        },
+        {
+          "label": "C",
+          "text": "12 gr"
+        },
+        {
+          "label": "D",
+          "text": "13 gr"
+        },
+        {
+          "label": "E",
+          "text": "14 gr"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "In the figure below, the area of the shaded part of the square is 8 cm2 . What is the length of the side of the square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 cm"
+        },
+        {
+          "label": "B",
+          "text": "2 cm"
+        },
+        {
+          "label": "C",
+          "text": "4 cm"
+        },
+        {
+          "label": "D",
+          "text": "8 cm"
+        },
+        {
+          "label": "E",
+          "text": "16 cm"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "Five athletes, Α1 , Α2 , Α3 , Α4 and Α5 , take part in a race. Α1 is in the lead and Α3 is in the middle. If Α4 is ahead of Α2 and Α5 is exactly behind Α3 , then who is in the second place?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Α1"
+        },
+        {
+          "label": "B",
+          "text": "Α2"
+        },
+        {
+          "label": "C",
+          "text": "Α3"
+        },
+        {
+          "label": "D",
+          "text": "Α4"
+        },
+        {
+          "label": "E",
+          "text": "Α5"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "A three-digit number is a multiple of 5 and 8. If the sum of its digits is 3, then what is the product of its digits?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "The chart below shows the times of five swimmers in a swimming race. Which swimmer finished the race first? Swimmer 22 40 54 66 74 Time (sec)",
+      "options": [
+        {
+          "label": "A",
+          "text": "Κ1"
+        },
+        {
+          "label": "B",
+          "text": "Κ2"
+        },
+        {
+          "label": "C",
+          "text": "Κ3"
+        },
+        {
+          "label": "D",
+          "text": "Κ4"
+        },
+        {
+          "label": "E",
+          "text": "Κ5"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "Eight cubes are put together to form the shape T, as shown in the image below. The complete outside of the shape is painted blue and then the cubes are separated. How many of the cubes have exactly 4 blue faces?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "The sum of five consecutive even numbers is 320. What is the sum of the digits of the smallest of the five numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "Each one of the figures below have parts which are shaded. Which one of them has a different fraction shaded than the rest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Α"
+        },
+        {
+          "label": "B",
+          "text": "Β"
+        },
+        {
+          "label": "C",
+          "text": "Γ"
+        },
+        {
+          "label": "D",
+          "text": "Δ"
+        },
+        {
+          "label": "E",
+          "text": "Ε"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "A rectangle is divided into four parts, as shown in the figure below. What is the area of the shaded part? 28 cm2 36 cm2 21 cm2",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 cm2"
+        },
+        {
+          "label": "B",
+          "text": "27 cm2"
+        },
+        {
+          "label": "C",
+          "text": "28 cm2"
+        },
+        {
+          "label": "D",
+          "text": "29 cm2"
+        },
+        {
+          "label": "E",
+          "text": "30 cm2"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Salomi thinks of a number, multiplies it by 2, adds 2, divides by 2 and then subtracts 2. Her answer is 2. What was her original number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "An amount of €463 will be shared amongst 8 men, 9 women and 10 children, so that each woman gets €3 less than each man and €2 more than each child. How much will each child get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "€14"
+        },
+        {
+          "label": "B",
+          "text": "€15"
+        },
+        {
+          "label": "C",
+          "text": "€17"
+        },
+        {
+          "label": "D",
+          "text": "€18"
+        },
+        {
+          "label": "E",
+          "text": "€19"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Daniel has 3 apples and 4 oranges. What is the least number of fruits that Daniel must 2 buy, so that of all of his fruits are apples? 3",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "A barrel holds 200 litres of wine. At the moment only X litres are missing out of 200. 3 If we remove another 50 litres, then the barrel will be full at its . How many are the 5 X litres that are missing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "120"
+        },
+        {
+          "label": "E",
+          "text": "180"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "In the figure below, what is the sum of the angles â + β̂ + γ̂ + δ̂? a 50◦ 50◦",
+      "options": [
+        {
+          "label": "A",
+          "text": "180◦"
+        },
+        {
+          "label": "B",
+          "text": "200◦"
+        },
+        {
+          "label": "C",
+          "text": "260◦"
+        },
+        {
+          "label": "D",
+          "text": "300◦"
+        },
+        {
+          "label": "E",
+          "text": "360◦"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Of the students of class A\" in a school, half of the students go to school on foot, of 3 1 them is using a bike, goes by bus and the remaining 4 students go with their parents’ 9 car. How many students does class A\" have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "72"
+        },
+        {
+          "label": "C",
+          "text": "76"
+        },
+        {
+          "label": "D",
+          "text": "84"
+        },
+        {
+          "label": "E",
+          "text": "90"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "If = = , then what is the sum A + B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "57"
+        },
+        {
+          "label": "C",
+          "text": "396"
+        },
+        {
+          "label": "D",
+          "text": "454"
+        },
+        {
+          "label": "E",
+          "text": "400"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "In the subtraction below, each letter represents a different digit. − 4 6 0 8 What is the sum of the digits A, B, Γ and Δ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "A, B Γ are different positive integers. If and B is less than 100, then what must number B be?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        },
+        {
+          "label": "E",
+          "text": "64"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "Five different integers, chosen amongst the numbers from 1 to 30, add up to 30. What is the greatest possible value of the largest of these five numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "In the figure below, how many circles will there be in row 2021? Row 1 Row 2 Row 3 Row 4 .. .",
+      "options": [
+        {
+          "label": "A",
+          "text": "4035"
+        },
+        {
+          "label": "B",
+          "text": "4037"
+        },
+        {
+          "label": "C",
+          "text": "4039"
+        },
+        {
+          "label": "D",
+          "text": "4041"
+        },
+        {
+          "label": "E",
+          "text": "4043"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 23,
+      "text": "A bus starts at 08:10 from stop A and follows a route through the city, returning again to stop A. There are another 8 intermediate bus stops. To reach from one stop to another it takes 9 minutes and at each stop the bus remains there for 1 minute. What time will the bus arrive again at stop A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "09:29"
+        },
+        {
+          "label": "B",
+          "text": "09:30"
+        },
+        {
+          "label": "C",
+          "text": "09:39"
+        },
+        {
+          "label": "D",
+          "text": "09:40"
+        },
+        {
+          "label": "E",
+          "text": "09:50"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "In how many ways can three different numbers be selected from the set {13, 14, 15, 16, 17, 18}, such that the sum of these three numbers is even?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "10"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "Some people met on a house and had a handshake with everyone who was there. If the total number of handshakes that they exchanged were 28, how many people met in the house?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "28"
+        },
+        {
+          "label": "E",
+          "text": "29"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    }
+  ]
+}

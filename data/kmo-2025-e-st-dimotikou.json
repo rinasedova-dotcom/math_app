@@ -1,0 +1,708 @@
+{
+  "id": "kmo-2025-e-st-dimotikou",
+  "name": "26th Cyprus Mathematical Olympiad 2025 — 5th & 6th Grade Primary",
+  "source": "Cyprus Mathematical Society",
+  "imagePath": "images/kmo-2025-e-st-dimotikou",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Today is not Monday. Tomorrow is neither Monday, nor Friday or Sunday. Yesterday was neither Tuesday nor Monday. What day is it today?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "20% of the students in the 5th and 6th grade do not use the TokTik app. If the students who use the TokTik app are 200, how many students do not use the TokTik app?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1000"
+        },
+        {
+          "label": "B",
+          "text": "50"
+        },
+        {
+          "label": "C",
+          "text": "160"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        },
+        {
+          "label": "E",
+          "text": "200"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 3,
+      "text": "Given the following pattern, which shape is in the 20th place? Place: 1st 2nd 3rd 4th 5th 6th 7th ··· Shape: ···",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "A brick weighs one kilogram and half a brick. How many kilograms does one brick weigh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.5"
+        },
+        {
+          "label": "B",
+          "text": "2.5"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "1.5"
+        },
+        {
+          "label": "E",
+          "text": "2"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "The number A is the largest three-digit number with all digits different. The number B is the smallest three-digit number with all digits different. What is the result of the difference A − B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "875"
+        },
+        {
+          "label": "B",
+          "text": "885"
+        },
+        {
+          "label": "C",
+          "text": "895"
+        },
+        {
+          "label": "D",
+          "text": "864"
+        },
+        {
+          "label": "E",
+          "text": "884"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "What is the sum of the prime divisors of 60?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "To fill three bottles with oil, we need 12 kilograms of olives. How many kilograms of olives will we need to fill 10 bottles with oil?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40"
+        },
+        {
+          "label": "B",
+          "text": "2.5"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "120"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "How many divisors larger than 2 does the number 36 have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "Based on the scale shown below, which answer lists the shapes from the lightest to the heaviest?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "In a vase with three types of flowers, all are roses except 2, all are carnations except 2, and all are lilies except 2. How many flowers are in this vase?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "24"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "The operation X Ψ is defined as 3 What is the result of 2 7? 9",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "• The number α is the highest common factor (HCF) of the numbers 13 and 26. • The number β is the least common multiple (LCM) of the numbers 10 and 25. • The number γ is the smallest prime number. What is the result of the product α × β × γ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50"
+        },
+        {
+          "label": "B",
+          "text": "1300"
+        },
+        {
+          "label": "C",
+          "text": "2600"
+        },
+        {
+          "label": "D",
+          "text": "650"
+        },
+        {
+          "label": "E",
+          "text": "100"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "There are three bells. Bell A rings every 6 minutes, bell B rings every 3 minutes, and bell C rings every 7 minutes. If they all ring at exactly 12:00 noon, when is the next time they will ring together?",
+      "options": [
+        {
+          "label": "A",
+          "text": "13:03"
+        },
+        {
+          "label": "B",
+          "text": "14:06"
+        },
+        {
+          "label": "C",
+          "text": "12:49"
+        },
+        {
+          "label": "D",
+          "text": "13:06"
+        },
+        {
+          "label": "E",
+          "text": "12:42"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "A day (24 hours) has a total of A seconds. It also has a total of B minutes. What is the result of the division A ÷ B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "60"
+        },
+        {
+          "label": "D",
+          "text": "90"
+        },
+        {
+          "label": "E",
+          "text": "120"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "How many rectangles are there in the following figure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        },
+        {
+          "label": "E",
+          "text": "20"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "In the following figure AΘ = AB. What is the perimeter of the polygon ABΓ ∆EZHΘ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 cm"
+        },
+        {
+          "label": "B",
+          "text": "42 cm"
+        },
+        {
+          "label": "C",
+          "text": "44 cm"
+        },
+        {
+          "label": "D",
+          "text": "46 cm"
+        },
+        {
+          "label": "E",
+          "text": "48 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "There are 4 white, 6 red, and some blue marbles in a box. If I randomly pick a marble from the box, then the probability of it being blue is 3/5. How many blue marbles are there in the box?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "The average height of 8 basketball players on a team is 2 m. The coach, in order to increase the team’s average height, adds two more players with heights of 206 cm and 214 cm. What is the team’s new average height?",
+      "options": [
+        {
+          "label": "A",
+          "text": "201 cm"
+        },
+        {
+          "label": "B",
+          "text": "202 cm"
+        },
+        {
+          "label": "C",
+          "text": "203 cm"
+        },
+        {
+          "label": "D",
+          "text": "204 cm"
+        },
+        {
+          "label": "E",
+          "text": "205 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "In the following addition, some digits have been replaced by the letters K, Λ, M and N , all of them different than zero. K M M K Λ K K K M N What are the values of K, Λ, M and N ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "K = 3, Λ = 1, M = 5, N = 8"
+        },
+        {
+          "label": "B",
+          "text": "K = 1, Λ = 5, M = 2, N = 8"
+        },
+        {
+          "label": "C",
+          "text": "K = 1, Λ = 2, M = 5, N = 9"
+        },
+        {
+          "label": "D",
+          "text": "K = 2, Λ = 1, M = 5, N = 8"
+        },
+        {
+          "label": "E",
+          "text": "K = 2, Λ = 5, M = 1, N = 9"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Georgia broke apart the cube on the left of the figure below and used the small cubes to create the structure on the right of the figure. How many small cubes does she have left over?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "33"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "35"
+        },
+        {
+          "label": "E",
+          "text": "44"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "In the figure below ABΓ ∆ is a rectangle. What is the area of the unshaded region?",
+      "options": [
+        {
+          "label": "A",
+          "text": "56 m2"
+        },
+        {
+          "label": "B",
+          "text": "12 m2"
+        },
+        {
+          "label": "C",
+          "text": "25 m2"
+        },
+        {
+          "label": "D",
+          "text": "31 m2"
+        },
+        {
+          "label": "E",
+          "text": "47 m2"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "In a survey conducted by the 5th and 6th grade students of a primary school, 73 of the students surveyed said that they wish to visit Greece during the summer holidays. Of the remaining students, 45 said they wish to visit other European countries, and 15 said they will stay in Cyprus. How many students participated in the survey?",
+      "options": [
+        {
+          "label": "A",
+          "text": "105"
+        },
+        {
+          "label": "B",
+          "text": "115"
+        },
+        {
+          "label": "C",
+          "text": "125"
+        },
+        {
+          "label": "D",
+          "text": "135"
+        },
+        {
+          "label": "E",
+          "text": "145"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 23,
+      "text": "The product of two prime number is always:",
+      "options": [
+        {
+          "label": "A",
+          "text": "Prime"
+        },
+        {
+          "label": "B",
+          "text": "Composite"
+        },
+        {
+          "label": "C",
+          "text": "Even"
+        },
+        {
+          "label": "D",
+          "text": "Odd"
+        },
+        {
+          "label": "E",
+          "text": "None of the previous"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "Five friends, Π, P, Σ, T, and Y have different ages, with T being the youngest. P is older than Y and younger than Σ, while Π is younger than P but older than Y . What is the correct order if we want to place them from the oldest to the youngest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Σ, P, Π, Υ, T"
+        },
+        {
+          "label": "B",
+          "text": "P, Π, Υ, Σ, T"
+        },
+        {
+          "label": "C",
+          "text": "T, Σ, Π, P, Υ"
+        },
+        {
+          "label": "D",
+          "text": "Π, P, Σ, Υ, T"
+        },
+        {
+          "label": "E",
+          "text": "Σ, Π, Υ, P, T"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "The following correspondence is given. What is the result of the operation below? + × −( + )÷",
+      "options": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "61"
+        },
+        {
+          "label": "C",
+          "text": "62"
+        },
+        {
+          "label": "D",
+          "text": "63"
+        },
+        {
+          "label": "E",
+          "text": "111"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    }
+  ]
+}

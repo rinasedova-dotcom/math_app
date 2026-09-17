@@ -1,6 +1,109 @@
 {
   "courses": [
-    { "id": "kangourou-2025-2026-level-5-6", "name": "Kangourou Mathematics 2025-2026 — Level 5-6", "dataFile": "data/kangourou-2025-2026-level-5-6.json" },
-    { "id": "kmo-2026-e-st-dimotikou", "name": "27th Cyprus Mathematical Olympiad 2026 — 5th & 6th Grade Primary", "dataFile": "data/kmo-2026-e-st-dimotikou.json" }
+    {
+      "id": "kangourou-2025-2026-level-5-6",
+      "name": "Kangourou Mathematics 2025-2026 — Level 5-6",
+      "dataFile": "data/kangourou-2025-2026-level-5-6.json"
+    },
+    {
+      "id": "kmo-2026-e-st-dimotikou",
+      "name": "27th Cyprus Mathematical Olympiad 2026 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2026-e-st-dimotikou.json"
+    },
+    {
+      "id": "kangourou-2012-level-5-6",
+      "name": "Kangourou Mathematics 2012 — Level 5-6",
+      "dataFile": "data/kangourou-2012-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2015-level-5-6",
+      "name": "Kangourou Mathematics 2015 — Level 5-6",
+      "dataFile": "data/kangourou-2015-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2016-level-5-6",
+      "name": "Kangourou Mathematics 2016 — Level 5-6",
+      "dataFile": "data/kangourou-2016-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2018-level-5-6",
+      "name": "Kangourou Mathematics 2018 — Level 5-6",
+      "dataFile": "data/kangourou-2018-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2019-level-5-6",
+      "name": "Kangourou Mathematics 2019 — Level 5-6",
+      "dataFile": "data/kangourou-2019-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2020-partA-level-5-6",
+      "name": "Kangourou Mathematics 2020 (Part A) — Level 5-6",
+      "dataFile": "data/kangourou-2020-partA-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2021-level-5-6",
+      "name": "Kangourou Mathematics 2021 — Level 5-6",
+      "dataFile": "data/kangourou-2021-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2023-level-5-6",
+      "name": "Kangourou Mathematics 2023 — Level 5-6",
+      "dataFile": "data/kangourou-2023-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2023-2024-level-5-6",
+      "name": "Kangourou Mathematics 2023-2024 — Level 5-6",
+      "dataFile": "data/kangourou-2023-2024-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2024-2025-level-5-6",
+      "name": "Kangourou Mathematics 2024-2025 — Level 5-6",
+      "dataFile": "data/kangourou-2024-2025-level-5-6.json"
+    },
+    {
+      "id": "kmo-2013-e-st-dimotikou",
+      "name": "14th Cyprus Mathematical Olympiad 2013 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2013-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2016-e-st-dimotikou",
+      "name": "17th Cyprus Mathematical Olympiad 2016 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2016-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2017-e-st-dimotikou",
+      "name": "18th Cyprus Mathematical Olympiad 2017 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2017-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2018-e-st-dimotikou",
+      "name": "19th Cyprus Mathematical Olympiad 2018 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2018-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2019-e-st-dimotikou",
+      "name": "20th Cyprus Mathematical Olympiad 2019 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2019-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2021-e-st-dimotikou",
+      "name": "22nd Cyprus Mathematical Olympiad 2021 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2021-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2022-e-st-dimotikou",
+      "name": "23rd Cyprus Mathematical Olympiad 2022 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2022-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2023-e-st-dimotikou",
+      "name": "24th Cyprus Mathematical Olympiad 2023 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2023-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2025-e-st-dimotikou",
+      "name": "26th Cyprus Mathematical Olympiad 2025 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2025-e-st-dimotikou.json"
+    }
   ]
 }

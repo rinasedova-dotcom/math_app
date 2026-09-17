@@ -1,0 +1,820 @@
+{
+  "id": "kangourou-2024-2025-level-5-6",
+  "name": "Kangourou Mathematics 2024-2025 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2024-2025-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which of the pieces shown would complete the pattern?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "Anna has built a wall that displays the year 2025. Maria stands on the other side of the wall. What does Maria see?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Mike has a leaflet with numbers and holes in the flaps on both sides, as shown in the picture. He folds the right flap along the dotted line and sees the numbers 2, 3, 5 and 6 through the holes. Then he folds the left flap along the other dotted line. What is the sum of the numbers he sees now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "A cube is decorated by gluing identical grey squares on it. All faces of the cube look the same. How many grey squares are there in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "30"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Emily put slices of tomato, black olives, chillis, mushrooms and onion rings on top of a pizza, but not necessarily in that order. She only put one ingredient at a time. Her finished the pizza is shown in the picture. Which was the third topping she put on the pizza?",
+      "options": [
+        {
+          "label": "A",
+          "text": "tomato slices"
+        },
+        {
+          "label": "B",
+          "text": "black olives"
+        },
+        {
+          "label": "C",
+          "text": "Chillis"
+        },
+        {
+          "label": "D",
+          "text": "Mushrooms"
+        },
+        {
+          "label": "E",
+          "text": "Onion rings"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Container A holds 10 litres of water. All five plugs at the bottom of a container A are taken out at the same time and the water flows out. What volume of water flows into container B?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "Thea rotates a piece of paper divided into six equal parts. When the paper is rotated, it is turned clockwise one part. The original sheet of paper and the result of one rotation are shown in the diagram. What does the sheet of paper look like after a total of eight rotations?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "The menu of my favourite burger restaurant is written on a board. However, the rain has washed away some of the numbers. The burgers are ordered by price. Which of the following is the price of one of my burgers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4.10"
+        },
+        {
+          "label": "B",
+          "text": "5.50"
+        },
+        {
+          "label": "C",
+          "text": "5.60"
+        },
+        {
+          "label": "D",
+          "text": "6.30"
+        },
+        {
+          "label": "E",
+          "text": "6.60"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "Six children took part in a race. Ariadne finished in the third place. Maria finished sixth, just behind Elena. Fanos finished between Ariadne and Elena. Dimitra overtook Christos right before the finish line. Who won the race?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ariadne"
+        },
+        {
+          "label": "B",
+          "text": "Christos"
+        },
+        {
+          "label": "C",
+          "text": "Dimitra"
+        },
+        {
+          "label": "D",
+          "text": "Elena"
+        },
+        {
+          "label": "E",
+          "text": "Fanos"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "A bookshelf with three shelves has 17 books on the top shelf, 15 books on the middle shelf and 7 books on the bottom shelf. Monika wants all shelves to have the same number of books on. She also wants to move as few books as possible. How many books should she move from the middle shelf to the bottom shelf?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Three turtles participate in a 10-kilometre race. Each of them moves at a constant speed. When the first turtle 1 1 finishes, the second turtle has covered 4 of the distance, and the third turtle has covered 5 of the distance. How far from the finish line will the third turtle be when the second turtle finishes? 1 1",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 km"
+        },
+        {
+          "label": "B",
+          "text": "2 km"
+        },
+        {
+          "label": "C",
+          "text": "3 km"
+        },
+        {
+          "label": "D",
+          "text": "4 km"
+        },
+        {
+          "label": "E",
+          "text": "5 km"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "The picture shows five wheels of fortune. Each wheel is divided into a different number of identical parts. You will win a prize when the wheel is spun and then stops with the triangle above the wheel pointing to a part that is shaded. Which wheel gives you the best chance of winning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Which shape or any rotation of the shape, cannot be placed onto the white parts of the large square?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "My school’s swimming team is practising for a relay competition. Five swimmers swam the same distance, one after the other. The pictures below show the times on their coach’s stopwatch when each swimmer had finished their leg. The first swimmer needed 2 minutes and 8 seconds. Which on of the swimmers needed the least time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the 1st 1ος"
+        },
+        {
+          "label": "B",
+          "text": "the 2nd 2ος"
+        },
+        {
+          "label": "C",
+          "text": "the 3rd 3ος"
+        },
+        {
+          "label": "D",
+          "text": "the 4th 4ος"
+        },
+        {
+          "label": "E",
+          "text": "the 5th 5ος"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Yianna cuts four identical squares from the corners of a square sheet of paper, as shown. The total area she cut off is 16 cm2 and the area of the cross that remains is 9 cm2. What is the perimeter of the cross in cm?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        },
+        {
+          "label": "E",
+          "text": "32"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Each of the cards shown below have two 3-digit numbers written on them, but some of the digits cannot be seen as they are covered in ink. On one of the cards, the sum of the digits of both numbers is the same. On which card are those two numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "The shape in the diagram is made of identical squares. Point B is halfway between points A and C. Also, point D is halfway between points C and E. Maria wants to divide the shape into two parts of equal area. Which of the points A, B, C, D or E should she connect with a straight line to point S to do this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Harry wants to write a 0 or a 1 in each cell of the diagram so that the sum of the numbers in each row, column and diagonal is 3. He has already written a 0 in one of the cells. When he finishes, what will the sum of the numbers in the cells shown with a question mark be?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Maria and Petros each wrote down three 3-digit numbers using the digits 1 to 9 exactly once. Then they ordered their numbers as smallest, middle and largest. Maria wrote down the largest possible value the middle number could have. Peter wrote down the smallest possible value the middle number could have. What Μικρότερος Μεσαίος Μεγαλύτερος is the difference between their two middle numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "A witch had 10 apples, 9 bananas and 6 pears. One day she performed some magic and turned each of her pieces of fruit into one of the other two types. For ΠΡΙΝ example, she changed each apple into either a banana or a pear. She now has 15 apples, 7 bananas and 3 pears. How many apples did she change into a banana?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "The side-length of the square shown in the diagram is 10 cm. the line down in the middle of the square divides it into two equal rectangles. What is the area of the shaded region?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12.5 cm2"
+        },
+        {
+          "label": "B",
+          "text": "25 cm2"
+        },
+        {
+          "label": "C",
+          "text": "30 cm2"
+        },
+        {
+          "label": "D",
+          "text": "40 cm2"
+        },
+        {
+          "label": "E",
+          "text": "50 cm2"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "Joanna divides the figure shown into five equally shaped parts, each consisting of three squares. The square containing which letter is in the same part as the square marked with a star?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Fanos never tell the truth on Tuesdays, Thursdays and Saturdays. He always tells the truth on the other four days. One day Markos had the following conversation with Fanos: Markos: “What day is today?” Fanos: “Saturday” Markos: “What day will be tomorrow?” Fanos: “Wednesday” On which day did this conversation take place?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday"
+        },
+        {
+          "label": "B",
+          "text": "Tuesday"
+        },
+        {
+          "label": "C",
+          "text": "Wednesday"
+        },
+        {
+          "label": "D",
+          "text": "Thursday"
+        },
+        {
+          "label": "E",
+          "text": "Friday"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "Thomas wants to construct this cross shape shown in the picture using pieces shaped like the ones below the cross. He has many copies of each piece and knows he can rotate them if needed. The pieces must not overlap. What is the smallest number of pieces he could use to construct the shape?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        },
+        {
+          "label": "E",
+          "text": "17"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Some blocks are balanced on top of each other, as shown. Blocks that are shaded in the same way have the same weight. Sara wants to order the three different types of square block from heaviest to lightest. What order should Sara obtain?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Elena wants to write the numbers from 1 to 9 into the squares in the diagram, with one number in each square. She wants the sum of the numbers in any two adjacent squares to be equal to the number shown on the line joining these squares. What is the sum of the numbers she writes in the shaded row?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "21"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "Timos combines the three building blocks shown on the right. Which of the following constructions could he make?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Sara had three times as many chocolates as Suzy. Sara then gave a quarter of her chocolates to Suzy. Sara now has six more chocolates than Suzy. How many more chocolates than Suzy did Sara have originally?",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        },
+        {
+          "label": "E",
+          "text": "20"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "Zeta wants to buy some flowers. The prices of the three flowers she can buy are shown in the picture. How many different bouquets with a total cost of exactly 23 can she buy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    }
+  ]
+}

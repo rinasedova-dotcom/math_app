@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2016-level-5-6",
+  "name": "Kangourou Mathematics 2016 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2016-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which of the following traffic signs has the largest number of lines of symmetry?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "Mike cuts a pizza into quarters. Then he cuts every quarter into thirds. What part of the whole pizza is one piece?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a third"
+        },
+        {
+          "label": "B",
+          "text": "a quarter"
+        },
+        {
+          "label": "C",
+          "text": "a seventh"
+        },
+        {
+          "label": "D",
+          "text": "an eighth"
+        },
+        {
+          "label": "E",
+          "text": "a twelfth"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "A thread of length 10 cm is folded into equal parts as shown in the figure. The thread is cut at the two marked places. What are the lengths of the three parts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 cm, 3 cm, 5 cm"
+        },
+        {
+          "label": "B",
+          "text": "2 cm, 2 cm, 6 cm"
+        },
+        {
+          "label": "C",
+          "text": "1 cm, 4 cm, 5 cm"
+        },
+        {
+          "label": "D",
+          "text": "1 cm, 3 cm, 6 cm"
+        },
+        {
+          "label": "E",
+          "text": "3 cm, 3 cm, 4 cm"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "On Lisa's refrigerator 8 strong magnets hold some postcards. What is the largest number of magnets that she could remove so that no postcard falls to the ground?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Cathy draws a square with side length 10 cm. She joins the midpoints of the sides to make a smaller square. What is the area of the smaller square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 𝑐𝑚2"
+        },
+        {
+          "label": "B",
+          "text": "20 𝑐𝑚2"
+        },
+        {
+          "label": "C",
+          "text": "25 𝑐𝑚2"
+        },
+        {
+          "label": "D",
+          "text": "40 𝑐𝑚2"
+        },
+        {
+          "label": "E",
+          "text": "50 𝑐𝑚2"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Alice's mother wants to see a knife on the right side of each plate and a fork on the left side. How many interchanges of a knife and a fork does Alice need to make in order to please her mother?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "A centipede has 25 pairs of shoes. It needs one shoe for each of its 100 feet. How many more shoes does the centipede need to buy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "35"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        },
+        {
+          "label": "E",
+          "text": "75"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Tom and John build rectangular boxes using the same number of identical cubes. How many levels will John's box have? Tom's box looks like this: The first level of John's box looks like this:",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "On the left side of the room, Bea and Pia are sleeping with their heads on their pillows facing each other. On the right side of the room, Mary and Karen are sleeping with their heads on their pillows with their backs to each other. How many girls are sleeping with their right ear on their pillow?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        },
+        {
+          "label": "E",
+          "text": "4"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "The piece of paper shown is folded along the dotted lines to make an open box. The box is put on a table with the top open. Which face is at the bottom of the box?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Which of the following figures cannot be formed by gluing these two identical squares of paper together?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Mary, Ann, and Nata work in a kindergarten. Each day from Monday to Friday exactly two of them come to work. Mary works 3 days per week and Ann works 4 days per week. How many days per week does Nata work?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "Five squirrels 𝑨, 𝑩, 𝑪, 𝑫, and 𝑬 are sitting on the line. They pick 6 nuts marked by crosses. At one moment the squirrels start running to the nearest nut at the same speed. As soon as a squirrel picks a nut it starts running to the next closest nut. Which squirrel will get two nuts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "𝐴"
+        },
+        {
+          "label": "B",
+          "text": "𝐵"
+        },
+        {
+          "label": "C",
+          "text": "𝐶"
+        },
+        {
+          "label": "D",
+          "text": "𝐷"
+        },
+        {
+          "label": "E",
+          "text": "𝐸"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "There are 30 students in a class. They sit by pairs so that each boy is sitting with a girl, and exactly half of the girls are sitting with a boy. How many boys are there in the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "The number 2581953764 is written on a strip of paper. John cuts the strip 2 times and gets 3 numbers. Then he adds these 3 numbers. Which is the smallest possible sum he can get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2675"
+        },
+        {
+          "label": "B",
+          "text": "2975"
+        },
+        {
+          "label": "C",
+          "text": "2978"
+        },
+        {
+          "label": "D",
+          "text": "4217"
+        },
+        {
+          "label": "E",
+          "text": "4298"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Bart is getting his hair cut. When he looks in the mirror the clock looks like the one shown. What would he have seen if he had looked in the mirror ten minutes earlier?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Grandmother bought enough cat food for her four cats to last for 12 days. On her way home she brought back two stray cats. If she gives each cat the same amount of food every day, how many days will the cat food last?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "4"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "Each letter in BENJAMIN represents one of the digits 1, 2, 3, 4, 5, 6 or 7. Different letters represent different digits. The number BENJAMIN is odd and divisible by 3. Which digit corresponds to N?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Tim, Tom and Jim are triplets, while their brother Carl is 3 years younger. Which of the following numbers could be the sum of the ages of the four brothers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53"
+        },
+        {
+          "label": "B",
+          "text": "54"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "59"
+        },
+        {
+          "label": "E",
+          "text": "60"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "The perimeter of the rectangle 𝑨𝑩𝑪𝑫 is 30 cm. Three other rectangles are placed so that their centres are at the points 𝑨, 𝑩 and 𝑫 (see the figure). The sum of their perimeters is 20 cm. What is the total length of the thick line?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "Anna folds a round sheet of paper at the middle. Then she folds it once more and then one last time. In the end Anna cuts the folded paper along the marked line: What is the shape of the middle part of the paper when unfolded?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Richard writes down all the numbers with the following properties: a. the first digit is 1, b. each of the following digits is at least as big as the one before it, c. the sum of the digits is 5. How many numbers does he write?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "What is the greatest number of shapes of the form that can be cut out from a 𝟓 × 𝟓 square?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Luigi started a small restaurant. His friend Giacomo gave him some square tables and chairs. If he uses all the tables as single tables with 4 chairs each, he would need 6 more chairs. If he uses all the tables as double tables with 6 chairs each, he would have 4 chairs left over. How many tables did Luigi get from Giacomo?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "Clara wants to construct a big triangle using identical small triangular tiles. She has already put some tiles together as shown in the picture. How many tiles does she need to complete a triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        },
+        {
+          "label": "E",
+          "text": "18"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "A big cube was built from 8 identical small cubes, some black ones and some white ones. Five faces of the big cube are: What does the sixth face of the big cube look like?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Kirsten wrote numbers in 5 of the 10 circles as shown in the figure. She wants to write a number in each of the remaining 5 circles such that the sums of the 3 numbers along each side of the pentagon are equal. Which number will she have to write in the circle marked by 𝑿?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "The symbols , , and represent 3 different digits. If you add the digits of the 3-digit number the result is the 2-digit number . If you add the digits of the 2-digit number , you find the 1-digit number . Which digit does represent?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "A little Kangaroo is playing with his calculator. He starts with the number 12. He multiplies or divides the number by 2 or 3 (if possible) 60 times in a row. Which of the following results cannot be obtained?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "72"
+        },
+        {
+          "label": "E",
+          "text": "108"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "Two 3-digit numbers have all their 6 digits distinct. The first digit of the second number is twice the last digit of the first number. What is the smallest possible sum of two such numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "552"
+        },
+        {
+          "label": "B",
+          "text": "546"
+        },
+        {
+          "label": "C",
+          "text": "301"
+        },
+        {
+          "label": "D",
+          "text": "535"
+        },
+        {
+          "label": "E",
+          "text": "537"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    }
+  ]
+}

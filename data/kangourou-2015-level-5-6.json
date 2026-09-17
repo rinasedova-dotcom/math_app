@@ -1,0 +1,820 @@
+{
+  "id": "kangourou-2015-level-5-6",
+  "name": "Kangourou Mathematics 2015 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2015-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which figure has one half shaded?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "My umbrella has KANGAROO written on top. It is shown in the picture. Which of the following pictures does not show my umbrella?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Sam painted the 9 squares with the colours black, white and grey as shown. At least how many squares does he need to repaint so that no two squares with a common side have the same colour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "There are 10 ducks. 5 of these ducks lay an egg every day. The other 5 lay an egg every second day. How many eggs do the 10 ducks lay in a period of 10 days?",
+      "options": [
+        {
+          "label": "A",
+          "text": "75"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "50"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        },
+        {
+          "label": "E",
+          "text": "10"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "The figure shows a board where each small square has an area of 4 cm2. What is the length of the thick black line?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16 cm"
+        },
+        {
+          "label": "B",
+          "text": "18 cm"
+        },
+        {
+          "label": "C",
+          "text": "20 cm"
+        },
+        {
+          "label": "D",
+          "text": "21 cm"
+        },
+        {
+          "label": "E",
+          "text": "23 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Which of the following fractions is smaller than 2?",
+      "options": [
+        {
+          "label": "A",
+          "text": "19/8"
+        },
+        {
+          "label": "B",
+          "text": "20/9"
+        },
+        {
+          "label": "C",
+          "text": "21/10"
+        },
+        {
+          "label": "D",
+          "text": "22/11"
+        },
+        {
+          "label": "E",
+          "text": "23/12"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "How much does Dita weigh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 kg"
+        },
+        {
+          "label": "B",
+          "text": "3 kg"
+        },
+        {
+          "label": "C",
+          "text": "4 kg"
+        },
+        {
+          "label": "D",
+          "text": "5 kg"
+        },
+        {
+          "label": "E",
+          "text": "6 kg"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Peter looks through a magnifying glass at different parts of a drawing on a wall. Which is the picture that he cannot see?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "Each plant in John’s garden has either 5 leaves, or 2 leaves and 1 flower. In total, the plants have 6 flowers and 32 leaves. How many plants are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "Alva has 4 paper strips of the same length. She glues 2 of them together with a 10 cm overlap, and gets a strip 50 cm long. With the other two paper strips, she wants to make a strip 56 cm long. How long should the overlap be?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 cm"
+        },
+        {
+          "label": "B",
+          "text": "6 cm"
+        },
+        {
+          "label": "C",
+          "text": "8 cm"
+        },
+        {
+          "label": "D",
+          "text": "10 cm"
+        },
+        {
+          "label": "E",
+          "text": "12 cm"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Tom used 6 squares with side 1 to form the shape in the picture. What is the perimeter of the shape?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Every day Mary writes down the date and calculates the sum of the digits written. For example, on March 19 she writes 19.03 and calculates 1 + 9 + 0 + 3 = 13. What is the largest sum that she calculates during a year?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "13"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        },
+        {
+          "label": "E",
+          "text": "20"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "The rectangle ABCD in the picture consists of 4 equal rectangles. If BC has length 10 cm, what is the length of AB? A B D C",
+      "options": [
+        {
+          "label": "A",
+          "text": "40 cm"
+        },
+        {
+          "label": "B",
+          "text": "30 cm"
+        },
+        {
+          "label": "C",
+          "text": "20 cm"
+        },
+        {
+          "label": "D",
+          "text": "10 cm"
+        },
+        {
+          "label": "E",
+          "text": "5 cm"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Which of these five nets cannot be the net of a pyramid?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "On Jump Street, there are 9 houses in a row. At least one person lives in each house. Any two neighboring houses together are inhabited by at most six people. What is the largest number of people that could be living on Jump Street?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        },
+        {
+          "label": "E",
+          "text": "31"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Lucy and her mother were both born in January. If today was March 21, 2015, Lucy adds the year of her birth, the year of her mother’s birth, her age, and her mother’s age. What result does she get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4028"
+        },
+        {
+          "label": "B",
+          "text": "4029"
+        },
+        {
+          "label": "C",
+          "text": "4030"
+        },
+        {
+          "label": "D",
+          "text": "4031"
+        },
+        {
+          "label": "E",
+          "text": "4032"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "The area of a rectangle is 12 cm2. The lengths of its sides are natural numbers. Then, the perimeter of this rectangle could be:",
+      "options": [
+        {
+          "label": "A",
+          "text": "20 cm"
+        },
+        {
+          "label": "B",
+          "text": "26 cm"
+        },
+        {
+          "label": "C",
+          "text": "28 cm"
+        },
+        {
+          "label": "D",
+          "text": "32 cm"
+        },
+        {
+          "label": "E",
+          "text": "48 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "We have three transparent sheets with the following patterns. We can only rotate the three sheets without turning over. Then we put them exactly on top of each other. What is the maximum possible number of black squares seen in the obtained square if looked at from above?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "In a bag there are 3 green apples, 5 yellow apples, 7 green pears and 2 yellow pears. Simon randomly takes fruits out of the bag one by one. How many fruits must he take out in order to be sure that he has at least one apple and one pear of the same colour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "A new chess piece ”kangaroo” has been introduced. In each move, it jumps either 3 squares vertically and 1 horizontally, or 3 squares horizontally and 1 vertically, as shown in the picture. What is the minimum number of moves the kangaroo needs in order to go from its current position to the square marked with A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "In this sum, equal letters represent equal digits, and different letters represent different digits. Which digit is represented by the letter X?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Jane bought 3 toys. For the first toy she paid half of her money and EUR1 more. For the second toy she paid half of the remaining money and EUR2 more. Finally, for the third toy she paid half of the remaining money and EUR3 more, thus spending all of her money. How much money did she have initially in euro?",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "45"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "65"
+        },
+        {
+          "label": "E",
+          "text": "100"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "Carla wants to fold a cube from a paper net. By mistake she drew 7 squares on her sheet instead of 6 squares. Which square can she remove so that the figure remains connected and Carla can fold a cube from it?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "The number 100 is multiplied either by 2 or by 3, then the result is increased either by 1 or by 2, and then the new result is divided either by 3 or by 4. The final result is a natural number. What is this final result?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "In a 4-digit number ABCD, the digits A, B, C, and D are in increasing order from left to right. What is the largest possible difference BD − AC of the 2-digit numbers BD and AC?",
+      "options": [
+        {
+          "label": "A",
+          "text": "86"
+        },
+        {
+          "label": "B",
+          "text": "61"
+        },
+        {
+          "label": "C",
+          "text": "56"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Mary writes a number on each face of a cube. Then, for each vertex, she adds the numbers on the three faces which share that vertex (for example, for vertex B she adds the numbers on faces BCDA, BAEF and BFGC). The numbers computed by Mary for vertices C, D and E are 14, 16 and 24, respectively. What number does she compute for vertex F?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        },
+        {
+          "label": "E",
+          "text": "26"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "A train has 12 coaches. Each coach has the same number of compartments. Mike is travelling in the third coach and in the 18th compartment from the train engine. Jane sat in the 7th coach in the 50th compartment from the engine. How many compartments are there in each coach?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "In how many ways can you place the 3 kangaroos in 3 different cells so that no 2 kangaroos are neighbors?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Four points lie on a line. The distances between them are, in increasing order: 2, 3, k, 11, 12, 14. What is k?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    }
+  ]
+}

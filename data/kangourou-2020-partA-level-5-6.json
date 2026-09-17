@@ -1,0 +1,820 @@
+{
+  "id": "kangourou-2020-partA-level-5-6",
+  "name": "Kangourou Mathematics 2020 (Part A) — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2020-partA-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which tile is completes the figure?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "Which pair of colored squares are identical? You are allowed to turn the squares.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 & 3"
+        },
+        {
+          "label": "B",
+          "text": "3 & 6"
+        },
+        {
+          "label": "C",
+          "text": "3 & 4"
+        },
+        {
+          "label": "D",
+          "text": "1 & 4"
+        },
+        {
+          "label": "E",
+          "text": "1 & 6"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "A large square consists of small white and grey squares. What does the large square look like if the colours are interchanged?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "Mikas wants to bake 24 muffins for his birthday party. To bake six muffins two eggs are needed. Eggs are sold in boxes of six. How many boxes does Mikas need to buy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Flora reflects the letter F about the two lines shown. .What will the reflections look like?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Kim has several chains of length 5 and length 7. By joining chains one after the other, Kim can create different lengths. Which of these lengths is impossible to make?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "Maria has 10 sheets of paper. She cuts some of the sheets into five parts each. After that Maria has 22 pieces in total. How many sheets did she cut?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Cindy colours each region on the plate with either red, blue or yellow. She colours neighbouring regions with different colours. She colours the outer ring of the plate blue. How many of the regions will be blue in the end?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "Four baskets contain 1, 4, 6 and 9 apples respectively. How many apples do we need to move among the baskets in order to get the same number of apples in each basket?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "A dog and a cat walk in the park along the path marked by the thick black line. At the same time, the dog starts from P and the cat from Q. If the dog walks three times as fast as the cat, where are they going to meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "The numbers from 1 to 10 have to be placed in the small circles, one in each circle. Numbers in two neighbouring circles must have the same sum as the numbers in the two diametrically opposite circles. Some of the numbers are already placed. What number should be placed in the circle with the question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "When the bat Elyse leaves the cave a digital clock shows When Elyse has come back and is hanging upside down she sees again. How long has she been hunting outside the cave?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 hours, 28 minutes"
+        },
+        {
+          "label": "B",
+          "text": "3 hours, 40 minutes"
+        },
+        {
+          "label": "C",
+          "text": "3 hours, 42 minutes"
+        },
+        {
+          "label": "D",
+          "text": "4 hours, 18 minutes"
+        },
+        {
+          "label": "E",
+          "text": "5 hours, 42 minutes"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "An elf and a troll meet. The troll always lies, while the elf always tells the truth. They both have just said one of the following sentences: which one?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Mary has exactly 10 white cubes, 9 light grey cubes and 8 dark grey cubes, all of the same size. She glues all these cubes together, to build a big cube. Which of the cubes below can be the one she built?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "There are five paths from X to Y marked with the thick line. Which one is the shortest?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "A father kangaroo lives with his three children. They decide on all matters by vote, and each member of the family gets as many votes as its age. The father is aged 36 and the children are 13, 6 and 4 years old, so the father always wins. How many years will it take for the children to win all votes, if they all agree?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Giorgio has two equal pieces of wire of shape . Which of the following shapes cannot be obtained putting together these two pieces?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "The following scheme shows the friendship among Ann, Beatrice, Chloe, Diana, Elisabeth and Fiona. Each number represents one of the girls and each line represents a friendship between two girls. Each of the 3 girls Chloe, Diana and Fiona has four friends. Chloe and Diana are both friends of Beatrice. Beatrice has no other friends. Which number represents Fiona? τη Fiona;",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Mary put the same amount of liquid in three rectangular vessels. Viewed from the front, they seem to have the same size, but the liquid has risen to different levels in the three vessels. Which of the following images represents the three vessels viewed from above?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "What does the object in the picture look like when viewed from above?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Three small squares are drawn inside a big square as shown. What is the length of the segment with the question mark ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17 cm"
+        },
+        {
+          "label": "B",
+          "text": "17.5 cm"
+        },
+        {
+          "label": "C",
+          "text": "18 cm"
+        },
+        {
+          "label": "D",
+          "text": "18.5 cm"
+        },
+        {
+          "label": "E",
+          "text": "19 cm"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "Nine tokens are black on one side and white on the other. Initially, 4 tokens have the black side upwards. In each turn you have to flip 3 tokens. What is the least number of turns you need to have so all tokens are showing the same colour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Which of the following options balances the third scale for sure ?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "Ten people ordered ice cream, one scoop each: 4 scoops vanilla, 3 scoops chocolate, 2 scoops lemon and 1 scoop mango. The scoops were decorated with 4 umbrellas, 3 cherries, 2 wafers and 1 chocolate chip, one decoration on each scoop, such that no two ice creams were alike. Which of the following combinations was NOT served?",
+      "options": [
+        {
+          "label": "A",
+          "text": "chocolate with a cherry"
+        },
+        {
+          "label": "B",
+          "text": "mango with an umbrella"
+        },
+        {
+          "label": "C",
+          "text": "vanilla with an umbrella"
+        },
+        {
+          "label": "D",
+          "text": "lemon with a wafer"
+        },
+        {
+          "label": "E",
+          "text": "vanilla with a chocolate chip"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "We call a 3-digit number \"𝑛𝑖𝑐𝑒\" if the middle digit is greater than the sum of its neighbours. What is the largest number of successive nice numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "In a chess tournament, Magnus has 15 games to play. Some time during the tournament he has won half of the games he has played, he has lost one third and two have ended in a draw. How many games has Magnus still to play in the tournament?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "Vadim has a square piece of paper divided into nine cells. He folds the paper as shown - overlapping horizontally, and then, vertically so that the grey square ends on top. Vadim wants to write the numbers from 1 to 9 into the cells so that, once the paper is folded, the numbers would be in increasing order with number 1 on top layer. What numbers should he write in the cells of 𝑎, 𝑏 and 𝑐?",
+      "options": [
+        {
+          "label": "A",
+          "text": "𝑎 = 6, 𝑏 = 4, 𝑐 = 8"
+        },
+        {
+          "label": "B",
+          "text": "𝑎 = 4, 𝑏 = 6, 𝑐 = 8"
+        },
+        {
+          "label": "C",
+          "text": "𝑎 = 5, 𝑏 = 7, 𝑐 = 9"
+        },
+        {
+          "label": "D",
+          "text": "𝑎 = 4, 𝑏 = 5, 𝑐 = 7"
+        },
+        {
+          "label": "E",
+          "text": "𝑎 = 6, 𝑏 = 4, 𝑐 = 7"
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Don builds a pyramid with balls. The square base consists of 3 x 3 balls: The middle layer has 2 x 2 balls, and there is one ball at the top. There is glue at each contact point between two balls. How many glue points are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "32"
+        },
+        {
+          "label": "E",
+          "text": "36"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "A large square is divided into smaller squares. In one of the squares a diagonal is also drawn. What fraction of the large square is shaded? 4 3 4 1 1",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        },
+        {
+          "label": "E",
+          "text": "2"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    }
+  ]
+}

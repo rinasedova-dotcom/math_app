@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2023-level-5-6",
+  "name": "Kangourou Mathematics 2023 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2023-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Mario fills the rest of the table with the numbers up to 40, following the system shown: Which of the pieces shown could be cut from the table?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "Matchsticks can be placed to build numbers, as shown. For example, to build the number 15, one needs 7 matchsticks and one need the same number of matchsticks to build the number 8. What is the largest positive number that can be built with the seven matchsticks?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Which of the following shapes cannot be divided into two triangles by a single straight line?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "Roza has a piece of paper, marked as shown, which she folds to form a cube. Which of the following five cubes can she get from this paper? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Claudia climbs from the bottom to the top of the cylindrical tower shown. The steps are all equal sized. Nine steps are visible. How many steps are not visible?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Anna has five circular discs of different sizes. She wants to build a tower of four discs so that each disc in her tower is smaller than the disc immediately below it. How many different towers could Anna build?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "The picture shows a parcel around which four tapes labelled M, N, P, Q are placed. In what order, from the first to last, were the tapes placed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "M, N, Q, P"
+        },
+        {
+          "label": "B",
+          "text": "N, M, P, Q"
+        },
+        {
+          "label": "C",
+          "text": "N, Q, M, P"
+        },
+        {
+          "label": "D",
+          "text": "N, M, Q, P"
+        },
+        {
+          "label": "E",
+          "text": "Q, N, M, P"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Alice has the four puzzle pieces shown. Which pair can be combined to form this hexagon? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "The grey circle with three hols punched in it is placed on top of the clock-face. The grey circle is turned around its center. Which three numbers is it possible to see at the same time?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "John glued the three pieced of paper shown onto the black circle on the right. Which of the following patterns could not obtain?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Francesca wrote down three consecutive 2-digit numbers in their natural order, but instead of the digits she used symbols: □♢, ♡△, ♡□. Which number is next?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "The Coopers have a patio which is tiled with square tiles of three different sizes. The smallest squares have a perimeter of 80 cm. A snake rests on the patio, as shown in the diagram. What is the length of the snake?",
+      "options": [
+        {
+          "label": "A",
+          "text": "380 cm"
+        },
+        {
+          "label": "B",
+          "text": "400 cm"
+        },
+        {
+          "label": "C",
+          "text": "420 cm"
+        },
+        {
+          "label": "D",
+          "text": "440 cm"
+        },
+        {
+          "label": "E",
+          "text": "1680 cm"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "I look in a mirror, I can see the image of my digital clock standing on the table behind me, as shown. What image will I see when I look in the mirror 30 minutes later? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Maria, Peter, Andrey and Tina were playing football in the classroom and one of them broke a window. When the principal asked who did it, she got the following responses: Maria: “It was Peter.” Peter: “It was Andrey.” Andrey: “It wasn’t me.” Tina: “It wasn’t me.”. Only one child was telling the truth. Who broke the window?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Maria"
+        },
+        {
+          "label": "B",
+          "text": "Tina"
+        },
+        {
+          "label": "C",
+          "text": "Peter"
+        },
+        {
+          "label": "D",
+          "text": "Andrey"
+        },
+        {
+          "label": "E",
+          "text": "can’t be determined with certainty"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "Which two tiles should be used to complete the puzzle?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "The diagram shows five rectangles. Lukas wants to colour the rectangles red, blue and yellow so that any two adjacent rectangles are coloured different colours. In how many different ways can he do this?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "George has four blocks, stacked as shown. In a single move, George can take some, or all of the blocks from the top of the stack and place them upside down, as shown. He wants the blocks to be stacked in this order: What is the smallest number of moves he needs to make to get the correct order? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "A rabbit, a beaver and a kangaroo are having a START competition. The beaver moves one space at a time, the rabbit moves two spaces at a time and the kangaroo moves three spaces at a time. They all start from the point marked “Start”. The winner is the animal who lands exactly on the point marked “Finish” in the smallest number of complete moves. Who wins the competition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the beaver"
+        },
+        {
+          "label": "B",
+          "text": "the rabbit"
+        },
+        {
+          "label": "C",
+          "text": "the kangaroo"
+        },
+        {
+          "label": "D",
+          "text": "the kangaroo and the rabbit"
+        },
+        {
+          "label": "E",
+          "text": "the kangaroo and the beaver"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Luna wants the sum of the numbers in the white cells to equal the sum of the numbers in the grey cells. Which two numbers does she need to swap? 7 4 6 8 11",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "The gear marked A is turned clockwise, as shown. Which two boxes will move upwards?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "Tina wants to draw figures in the six boxes of the pyramid shown. Each box should contain all of the figures in the two boxes directly below it and nothing more. She has drawn the figures in some of the boxes already. Which figures should she draw in the box in the middle of the bottom row?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Martha chose one of the five structures below and combined it with the structure of the right. The table shows the number of the cubes in each column in the combined structure when seen from above. Which of the five structures did Martha choose?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "Elsa has two machines. Machine R rotates the paper 90◦ clockwise. Machine S stamps the paper with a ♣ . In which order are the machines used to create the image shown? Machine? Machine? Machine? Machine?",
+      "options": [
+        {
+          "label": "A",
+          "text": "SRRR"
+        },
+        {
+          "label": "B",
+          "text": "RSRR"
+        },
+        {
+          "label": "C",
+          "text": "SRSR"
+        },
+        {
+          "label": "D",
+          "text": "RRRS"
+        },
+        {
+          "label": "E",
+          "text": "SRRS"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Four stakes are placed along a 120m track, as shown. What is the smallest number of stakes that should be added so that the track is divided into sections of equal length?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "On a table there is a tower made of blocks numbered from 1 to 50. Emma 50 2 builds a new tower in the following way. She takes two blocks from the top 49 1 of the original tower and puts them on the table as the base of the new tower. She continues by taking the two top blocks from the remainder of 4 48 the original tower and putting them on the top of the new tower, as seen in 3 47 the diagram. Which of the following pairs of numbers are on adjacent 2 50 1 49 blocks in the new tower?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Martin has three cards with numbers written on both sides. The card with number 1 on one side has number 4 on the opposite side, the card with 2 on has 5 on the opposite side and the card with 3 on has 6 on the opposite side. Martin randomly Κάρτα 1 / places three cards on the table and adds up the three numbers he sees. How many different sums can Martin get? Κάρτα 2 / KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "In a second hand shop, two belts are sold for the same price as five skirts, three skirts for the same price as eight t-shirts and two t-shirts for the same price as three caps. Which of the following collections is the most valuable?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a belt and five skirts"
+        },
+        {
+          "label": "B",
+          "text": "a belt, three skirts and a cap"
+        },
+        {
+          "label": "C",
+          "text": "eight skirts and six t-shirts"
+        },
+        {
+          "label": "D",
+          "text": "thirty-seven caps"
+        },
+        {
+          "label": "E",
+          "text": "three skirts and three caps"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "Sonia and Andrey are playing a game. They can alternately take 1, 2, 3, 4 or 5 tiles from a pile of tiles. Whoever takes the last tile or tiles loses. At one point of the game, there are 10 tiles left in the pile and it is Sonia’s turn to take some tiles. How many tiles should Sonia leave to Robert to be sure that she will win?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Which of the following four shapes has the greatest area?",
+      "options": [
+        {
+          "label": "A",
+          "text": "W"
+        },
+        {
+          "label": "B",
+          "text": "diamond"
+        },
+        {
+          "label": "C",
+          "text": "the crown"
+        },
+        {
+          "label": "D",
+          "text": "lightning"
+        },
+        {
+          "label": "E",
+          "text": "they all have the same area"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "An explorer wants to find a path through the maze shown from the point marked “start” to the point marked “finish”. She can only move horizontally or vertically and she can only pass through white circles. She also has to pass through all the white circles exactly once. When she reaches the circle marked X, what will her next move be?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    }
+  ]
+}

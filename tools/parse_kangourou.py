@@ -15,10 +15,24 @@ import sys
 from pdf_common import (
     run_pdftotext, split_pages, is_greek_line, strip_greek_asides,
     collapse_ws, max_blank_run, fix_stray_greek_letters, likely_has_stacked_formula,
+    GREEK_LETTER_TO_LATIN,
 )
 
-QUESTION_START_RE = re.compile(r"^\s{0,4}(\d{1,2})\.\s+(.*)$")
-OPTION_TOKEN_RE = re.compile(r"\(([A-E])\)\s*([^()]*?)(?=\s*\([A-E]\)|$)")
+# A handful of years render the ordered-list marker as a stray symbol
+# before the number ("# 1." instead of "1." -- likely a symbol-font
+# bullet pdftotext couldn't map), so that lone leading glyph is optional.
+QUESTION_START_RE = re.compile(r"^\s{0,4}[^\w\s]?\s*(\d{1,2})\.\s*(.*)$")
+# Most years use plain "(A) ... (E)"; a few (2023, 2023-2024) use Greek
+# option letters in parens instead, "(Α) ... (Ε)", occasionally mixed with
+# a stray Latin letter in the same line (a typesetting slip, not a format
+# switch) -- so accept either alphabet per option, not per file.
+_OPTION_LETTERS = "A-EΑΒΓΔΕ"
+OPTION_LINE_START_RE = re.compile(rf"^\([{_OPTION_LETTERS}]\)")
+OPTION_TOKEN_RE = re.compile(rf"\(([{_OPTION_LETTERS}])\)\s*([^()]*?)(?=\s*\([{_OPTION_LETTERS}]\)|$)")
+
+
+def _normalize_label(label):
+    return GREEK_LETTER_TO_LATIN.get(label, label)
 
 
 def parse_problems(pdf_path):
@@ -60,10 +74,10 @@ def parse_problems(pdf_path):
         # Greek-line filter, otherwise an options line with several such
         # asides can look majority-Greek by character count and get
         # dropped whole.
-        cleaned = [strip_greek_asides(l) if "(A)" in l or l.strip().startswith("(") else l for l in block]
+        cleaned = [strip_greek_asides(l) if OPTION_LINE_START_RE.match(l.strip()) or l.strip().startswith("(") else l for l in block]
         kept = [l for l in cleaned if l.strip() and not is_greek_line(l)]
 
-        option_line_idxs = [i for i, l in enumerate(kept) if l.strip().startswith("(A)")]
+        option_line_idxs = [i for i, l in enumerate(kept) if OPTION_LINE_START_RE.match(l.strip())]
         prompt_lines = kept[: option_line_idxs[0]] if option_line_idxs else kept
         prompt = fix_stray_greek_letters(collapse_ws(" ".join(prompt_lines)))
 
@@ -74,12 +88,12 @@ def parse_problems(pdf_path):
                 found = OPTION_TOKEN_RE.findall(oline)
                 if len(found) > 1:
                     for label, text in found:
-                        options.append({"label": label, "text": strip_greek_asides(text)})
+                        options.append({"label": _normalize_label(label), "text": strip_greek_asides(text)})
                 elif len(found) == 1:
-                    label, text = found[0]
+                    label, _text = found[0]
                     # a lone "(X) ..." line -- text may run to end of line
-                    text = re.sub(r"^\([A-E]\)\s*", "", oline.strip())
-                    options.append({"label": label, "text": strip_greek_asides(text)})
+                    text = re.sub(rf"^\([{_OPTION_LETTERS}]\)\s*", "", oline.strip())
+                    options.append({"label": _normalize_label(label), "text": strip_greek_asides(text)})
         needs_image_options = len(options) < 5
         if needs_image_options:
             options = [{"label": chr(ord("A") + i), "text": ""} for i in range(5)]
@@ -95,47 +109,125 @@ def parse_problems(pdf_path):
     return questions
 
 
-def parse_answer_key(pdf_path, level_label):
-    """The header has two rows: 'LEVEL x-y' labels loosely centered over
-    each 3-column group, then 'QUESTION ANSWER POINTS' repeated once per
-    group. The LEVEL label's own x-position doesn't line up tightly with
-    its data columns, but the two header rows list the same groups in the
-    same left-to-right order -- so match by position-in-sequence (the Nth
-    LEVEL label's data lives under the Nth QUESTION/ANSWER/POINTS triplet),
-    not by character offset.
+_LEVEL_LABEL_RE = re.compile(r"level\s+\d+-\d+", re.IGNORECASE)
+_SUBHEADER_WORD_RE = re.compile(r"\b(question|answer|points|marks|ans\.?|q)\b", re.IGNORECASE)
+
+
+def _group_column_bounds(data_row, n_groups, group_index):
+    """These tables vary a lot across years -- 'LEVEL' vs 'Level', a
+    QUESTION/Q sub-column per level vs none, POINTS vs MARKS vs ANS. -- so
+    trying to line up a boundary with *header* text (as the 2025-2026-only
+    version of this function did) breaks the moment a year's header
+    doesn't literally repeat a marker word once per level: the header
+    label's x-position doesn't reliably line up with its own data columns
+    (confirmed the hard way earlier -- see git history), so a boundary
+    derived from it can bleed a character or two into the next group.
+
+    What's actually reliable: every *data* row has the same number of
+    space-separated tokens per level-group (either 2: answer, points: or
+    3: question, answer, points), optionally with one shared row-number
+    token before the first group (years where the question number isn't
+    repeated per level). So figure out the token layout from an actual
+    data row instead of the header, and use real token positions as the
+    column boundaries -- that can't drift out of alignment with the data
+    because it *is* the data.
     """
+    tokens = [(m.start(), m.end()) for m in re.finditer(r"\S+", data_row)]
+    total = len(tokens)
+    leading = 1 if total % n_groups != 0 and (total - 1) % n_groups == 0 else 0
+    per_group = (total - leading) // n_groups
+    if per_group <= 0:
+        return None
+    start_tok = leading + group_index * per_group
+    end_tok = start_tok + per_group
+    if start_tok >= total:
+        return None
+    x0 = tokens[start_tok][0]
+    x1 = tokens[end_tok][0] if end_tok < total else None
+    return x0, x1
+
+
+def parse_answer_key(pdf_path, level_label):
     raw = run_pdftotext(pdf_path)
     lines = raw.split("\n")
 
-    level_row = next(line for line in lines if line.count("LEVEL") >= 2)
-    sub_row = next(line for line in lines if line.count("QUESTION") >= 2)
-    data_lines = lines[lines.index(sub_row) + 1:]
-
-    level_labels = [m.group() for m in re.finditer(r"LEVEL\s+\d+-\d+", level_row)]
-    pattern = re.compile(re.escape(level_label).replace(r"\ ", r"\s*"), re.IGNORECASE)
-    matches = [i for i, lbl in enumerate(level_labels) if pattern.fullmatch(lbl) or pattern.search(lbl)]
+    header_i = next(i for i, l in enumerate(lines) if len(_LEVEL_LABEL_RE.findall(l)) >= 2)
+    level_labels = _LEVEL_LABEL_RE.findall(lines[header_i])
+    target = re.sub(r"\s+", " ", level_label).strip().lower()
+    matches = [i for i, lbl in enumerate(level_labels) if re.sub(r"\s+", " ", lbl).strip().lower() == target]
     if not matches:
         raise ValueError(f"Level {level_label!r} not found among {level_labels}")
     group_index = matches[0]
 
-    question_starts = [m.start() for m in re.finditer(r"QUESTION", sub_row)]
-    if group_index >= len(question_starts):
-        raise ValueError("Level/QUESTION column count mismatch in answer key header")
-    x0 = question_starts[group_index]
-    x1 = question_starts[group_index + 1] if group_index + 1 < len(question_starts) else None
+    data_lines = [l for l in lines[header_i + 1:] if l.strip()]
+    n_levels = len(level_labels)
 
+    # Learn the row layout (a shared leading row-number token before the
+    # groups, or not; 2 or 3 tokens per group) from the first data row,
+    # which -- by these papers' own convention -- always has every level's
+    # column populated (the lowest levels have the fewest questions, so if
+    # any row has all of them, row one does). Reusing this rather than
+    # inferring it fresh per row also survives a stray "VOID" cell (some
+    # older years void out a bad question for one level) -- VOID is a
+    # single token exactly like a letter grade would be, so it doesn't
+    # change the token count, but *counting* valid answer letters (an
+    # earlier version of this function did that) would have miscounted it
+    # as a missing group and thrown off every group index on that row.
+    first_row = next((l for l in data_lines if l.split(None, 1)[0][:1].isdigit()
+                       and not _SUBHEADER_WORD_RE.search(l)), None)
+    if first_row is None:
+        return {}
+    first_total = len(re.findall(r"\S+", first_row))
+    leading = 1 if first_total % n_levels != 0 and (first_total - 1) % n_levels == 0 else 0
+    if (first_total - leading) % n_levels != 0:
+        return {}  # layout doesn't match any known pattern; give up rather than guess
+    per_group = (first_total - leading) // n_levels
+
+    # Column positions still drift by a character or two row to row in
+    # these pdftotext-flattened tables (a double-digit question number
+    # shifts everything after it, for instance), so bounds are still
+    # recomputed from each row's own tokens, just using the group count
+    # and layout learned above instead of re-deriving them per row.
     answers = {}
+    qnum = 0
     for line in data_lines:
-        if not line.strip():
+        first_token = line.split(None, 1)[0]
+        if not first_token[:1].isdigit() and _SUBHEADER_WORD_RE.search(line):
+            continue  # a repeated "QUESTION ANSWER POINTS"-style sub-header row
+        # Every remaining line is a genuine question row -- count it even if
+        # the rest of this iteration bails out below, so a row we can't
+        # parse (e.g. one year has a one-off "A or B or D or E" answer for
+        # a level that isn't even our target, which throws the token count
+        # off for the whole row) costs only that one question's answer,
+        # not a permanent off-by-one shift on every question after it.
+        qnum += 1
+
+        total = len(re.findall(r"\S+", line))
+        if (total - leading) <= 0 or (total - leading) % per_group != 0:
             continue
+        n_present = (total - leading) // per_group
+        if n_present <= 0 or n_present > n_levels:
+            continue
+        # The lower levels have fewer questions (e.g. Level 1-2 and 3-4
+        # often stop at 24 while 5-6 and up run to 30), so past a certain
+        # row only a suffix of the level columns still has data -- shift
+        # which group index we're after to match.
+        row_group_index = group_index - (n_levels - n_present)
+        if row_group_index < 0:
+            continue  # this row has no data for our target level at all
+
+        bounds = _group_column_bounds(line, n_present, row_group_index)
+        if bounds is None:
+            continue
+        x0, x1 = bounds
         cell = line[x0:x1].strip()
-        if not cell:
+        tokens = cell.split()
+        if len(tokens) < 2:
             continue
-        parts = cell.split()
-        if len(parts) != 3 or not parts[0].isdigit() or not parts[2].isdigit():
-            continue
-        qnum, answer, points = parts
-        answers[int(qnum)] = {"answer": answer, "points": int(points)}
+        answer, points = tokens[-2], tokens[-1]
+        if not points.isdigit() or not re.fullmatch(r"[A-EΑΒΓΔΕ]", answer):
+            continue  # e.g. a voided question for this level -- leave it unanswered
+        answers[qnum] = {"answer": GREEK_LETTER_TO_LATIN.get(answer, answer), "points": int(points)}
     return answers
 
 

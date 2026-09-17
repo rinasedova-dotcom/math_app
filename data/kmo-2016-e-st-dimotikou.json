@@ -1,0 +1,708 @@
+{
+  "id": "kmo-2016-e-st-dimotikou",
+  "name": "17th Cyprus Mathematical Olympiad 2016 — 5th & 6th Grade Primary",
+  "source": "Cyprus Mathematical Society",
+  "imagePath": "images/kmo-2016-e-st-dimotikou",
+  "questions": [
+    {
+      "number": 1,
+      "text": "What is the unit digit of the number ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "Thirty students are standing in a row. They start calling out 1, 2, 3, … from the left, and Mike calls out 13. If the calling starts from the right instead, what number will Mike call out?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 3,
+      "text": "What is the sum of 21,5 2,15 0,215 0,0215?",
+      "options": [
+        {
+          "label": "A",
+          "text": "23.8765"
+        },
+        {
+          "label": "B",
+          "text": "23.6665"
+        },
+        {
+          "label": "C",
+          "text": "23.8762"
+        },
+        {
+          "label": "D",
+          "text": "23.5555"
+        },
+        {
+          "label": "E",
+          "text": "23.8865"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "The given figure is the net of a cube, and each face is labeled with a letter. When the cube is formed, which letter is on the face opposite to the one labeled with the letter ?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "In how many ways 3 people can take a photo, if they are standing in a straight line?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "The perimeter of a square field is 600 . What is the area of the field in ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "150"
+        },
+        {
+          "label": "B",
+          "text": "300"
+        },
+        {
+          "label": "C",
+          "text": "22500"
+        },
+        {
+          "label": "D",
+          "text": "90000"
+        },
+        {
+          "label": "E",
+          "text": "360000"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "The figure below, shows two scales. How many circles are needed in order to balance six squares?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "10"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "Which of the following numbers, cannot be expressed as the sum of three consecutive integers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "33"
+        },
+        {
+          "label": "E",
+          "text": "36"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "What number must be filled into the missing square so that the equality holds? 222 2222 7 244400",
+      "options": [
+        {
+          "label": "A",
+          "text": "83"
+        },
+        {
+          "label": "B",
+          "text": "53"
+        },
+        {
+          "label": "C",
+          "text": "63"
+        },
+        {
+          "label": "D",
+          "text": "73"
+        },
+        {
+          "label": "E",
+          "text": "93"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "Given a round table with 8 balloons on it, as shown on the diagram below. Starting from and moving clockwise we burst every fourth balloon. is the first balloon to burst. If we carry on this procedure, what is the last balloon to burst?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "In the figure below, each square represents 1 ². What is the ratio of the area of the triangle to the triangle ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1: 1"
+        },
+        {
+          "label": "B",
+          "text": "1: 2"
+        },
+        {
+          "label": "C",
+          "text": "1: 3"
+        },
+        {
+          "label": "D",
+          "text": "3: 4"
+        },
+        {
+          "label": "E",
+          "text": "2: 1"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "If we build a house with an area of 225 in a square field of side 30 . What percentage of the field is occupied by the house?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10%"
+        },
+        {
+          "label": "B",
+          "text": "25%"
+        },
+        {
+          "label": "C",
+          "text": "20%"
+        },
+        {
+          "label": "D",
+          "text": "40%"
+        },
+        {
+          "label": "E",
+          "text": "22.5%"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "What natural number must be filled into the missing box, so that the following inequality holds? 3 4 5 7 5",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Marios throws three ordinary dice, with the numbers 1, 2, 3, 4, 5 and 6 on its faces. The three numbers will be multiplied together. Which of the following numbers cannot be its product?",
+      "options": [
+        {
+          "label": "A",
+          "text": "48"
+        },
+        {
+          "label": "B",
+          "text": "84"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "180"
+        },
+        {
+          "label": "E",
+          "text": "216"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "In the following table, each shape represents a whole number. The numbers on the shaded squares represent the sum of each row and column. What it the sum of:",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "In the figure below, the square has a perimeter of 32 and the square has an area of 9 ². What is the perimeter of the square ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "28"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "A driver will cover a total distance of 1000 and he wants all the tires of the car to be used equally. If there are 4 tires and one spare, how many km will each tire have to cover?",
+      "options": [
+        {
+          "label": "A",
+          "text": "200"
+        },
+        {
+          "label": "B",
+          "text": "400"
+        },
+        {
+          "label": "C",
+          "text": "500"
+        },
+        {
+          "label": "D",
+          "text": "800"
+        },
+        {
+          "label": "E",
+          "text": "None of"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "What is the sum of all positive integers which are smaller than 100, their last digit is 3 and are also divisible by 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": "185"
+        },
+        {
+          "label": "B",
+          "text": "172"
+        },
+        {
+          "label": "C",
+          "text": "165"
+        },
+        {
+          "label": "D",
+          "text": "192"
+        },
+        {
+          "label": "E",
+          "text": "178"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "With €24 we can buy 2 pencils, 3 note books and 4 erasers. With €33 we can buy 3 pencils, 3 note books and 6 erasers. How much does each note book costs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "€1"
+        },
+        {
+          "label": "B",
+          "text": "€2"
+        },
+        {
+          "label": "C",
+          "text": "€3"
+        },
+        {
+          "label": "D",
+          "text": "€4"
+        },
+        {
+          "label": "E",
+          "text": "€5"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "The numbers in each rectangle represents their corresponding areas. Find the area of the rectangle label with the letter .",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "4, 5"
+        },
+        {
+          "label": "C",
+          "text": "4, 2"
+        },
+        {
+          "label": "D",
+          "text": "4, 6"
+        },
+        {
+          "label": "E",
+          "text": "4, 3"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "The figure below shows a square which has been divided into 5 equal rectangles. If the perimeter of each rectangle is 48 , what is the perimeter of the square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60"
+        },
+        {
+          "label": "B",
+          "text": "68"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "76"
+        },
+        {
+          "label": "E",
+          "text": "80"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "In the figure below, is a square, and are equilateral triangles. What is the value of the angle ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12, 5∘"
+        },
+        {
+          "label": "B",
+          "text": "15∘"
+        },
+        {
+          "label": "C",
+          "text": "10∘"
+        },
+        {
+          "label": "D",
+          "text": "7, 5∘"
+        },
+        {
+          "label": "E",
+          "text": "12∘"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 23,
+      "text": "In a school there are 220 boys and 280 girls. 50% of the boys and 25% of the girls are taking part into various sports. What percentage of the students in the school are the students who participate into various sports?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25%"
+        },
+        {
+          "label": "B",
+          "text": "37, 5%"
+        },
+        {
+          "label": "C",
+          "text": "75%"
+        },
+        {
+          "label": "D",
+          "text": "36%"
+        },
+        {
+          "label": "E",
+          "text": "50%"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "If we arrange the students of a school into rows of 3, 4 and 7, no student is left behind. If on the other hand we arrange the students into rows of 11, one student is missing in order to complete the last row. How many are the students in the school?",
+      "options": [
+        {
+          "label": "A",
+          "text": "252"
+        },
+        {
+          "label": "B",
+          "text": "175"
+        },
+        {
+          "label": "C",
+          "text": "336"
+        },
+        {
+          "label": "D",
+          "text": "296"
+        },
+        {
+          "label": "E",
+          "text": "179"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "John will construct a symmetrical shape by reflecting the image of the figure below on the dotted line. Which of the following figures represents the image of his construction?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    }
+  ]
+}

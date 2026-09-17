@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2019-level-5-6",
+  "name": "Kangourou Mathematics 2019 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2019-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Carrie has started to draw a cat as shown. She finishes her drawing by adding more graphics. Which of the figures below can be her drawing?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "The Mayan people wrote numbers with dots and bars. A dot is written for 1 and a bar for 5. How did they write 17?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "𝟐𝟐𝟐𝟐 × 𝟏𝟏𝟏𝟏 + 𝟐𝟐𝟐𝟐 + 𝟏𝟏𝟏𝟏 =",
+      "options": [
+        {
+          "label": "A",
+          "text": "389"
+        },
+        {
+          "label": "B",
+          "text": "399"
+        },
+        {
+          "label": "C",
+          "text": "409"
+        },
+        {
+          "label": "D",
+          "text": "419"
+        },
+        {
+          "label": "E",
+          "text": "429"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "There are 14 girls and 12 boys in a kindergarten. If half of the children go for a walk, at least how many of them are girls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        },
+        {
+          "label": "E",
+          "text": "1"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "The sum of the dots on opposite faces of an ordinary dice is equal to 7. Which of the following shows the ordinary one?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Which of the following geometric figures is not in this design?",
+      "options": [
+        {
+          "label": "A",
+          "text": "triangle"
+        },
+        {
+          "label": "B",
+          "text": "square"
+        },
+        {
+          "label": "C",
+          "text": "regular hexagon"
+        },
+        {
+          "label": "D",
+          "text": "regular octagon"
+        },
+        {
+          "label": "E",
+          "text": "regular dodecagon"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "Laura wants to colour a 𝟐𝟐 × 𝟐𝟐 square of this figure . How many possibilities are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "The 6 smallest odd natural numbers are written on the faces of a dice. Toni throws it three times and adds the results. Which of the following numbers cannot be the sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        },
+        {
+          "label": "E",
+          "text": "29"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "The sum of the ages of a group of kangaroos is 36 years. In two years’ time the sum of their ages will be 60 years. How many kangaroos are in that group?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "24"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "Michael paints the following buildings made up of identical cubes. Their bases are made of 8 cubes. Which building needs the most paint?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "On each of three pieces of paper a three digit number is written. Two of the digits are covered. The sum of the three numbers is 826. What is the sum of the two covered digits?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Riri the frog usually eats 5 spiders a day. When Riri is very hungry, she eats 10 spiders a day. She ate 60 spiders in 9 days. For how many days was she very hungry?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "AliBaba and 40 thieves equally divided 42 identical bags of gold coins. Each of them got one full bag and 2 coins. How many coins did a bag contain?",
+      "options": [
+        {
+          "label": "A",
+          "text": "42"
+        },
+        {
+          "label": "B",
+          "text": "81"
+        },
+        {
+          "label": "C",
+          "text": "82"
+        },
+        {
+          "label": "D",
+          "text": "84"
+        },
+        {
+          "label": "E",
+          "text": "41"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Five equal squares are divided into smaller squares. Which square has the largest black area?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "A big triangle is divided into equilateral triangles as in the figure. The side of the small gray triangle is 1 m. What is the perimeter of the big triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 m"
+        },
+        {
+          "label": "B",
+          "text": "17 m"
+        },
+        {
+          "label": "C",
+          "text": "18 m"
+        },
+        {
+          "label": "D",
+          "text": "20 m"
+        },
+        {
+          "label": "E",
+          "text": "21 m"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "In the garden of a witch there are 30 animals: dogs, cats and mice. The witch turns 6 dogs into cats. Then she turns 5 cats into mice. Now her garden has the same number of dogs, cats and mice. How many cats were there at the beginning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "With blocks of dimension 1cm × 1cm × 2cm, you can build towers as shown in the picture. How high is a tower that is built in the same way with 28 blocks?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9 cm"
+        },
+        {
+          "label": "B",
+          "text": "11 cm"
+        },
+        {
+          "label": "C",
+          "text": "12 cm"
+        },
+        {
+          "label": "D",
+          "text": "14 cm"
+        },
+        {
+          "label": "E",
+          "text": "17 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "There are 11 wagons in the train, 350 passengers are traveling in them. In any three consecutive wagons there are 99 passengers. How many passengers are in the sixth wagon?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32"
+        },
+        {
+          "label": "B",
+          "text": "33"
+        },
+        {
+          "label": "C",
+          "text": "39"
+        },
+        {
+          "label": "D",
+          "text": "46"
+        },
+        {
+          "label": "E",
+          "text": "53"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Alex, Bob and Carl go for a walk every day. If Alex doesn't wear a hat, then Bob wears a hat. If Bob doesn't wear a hat, then Carl wears a hat. Today Bob is not wearing a hat. Who is wearing a hat?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Alex and Carl"
+        },
+        {
+          "label": "B",
+          "text": "Only Alex"
+        },
+        {
+          "label": "C",
+          "text": "Only Carl"
+        },
+        {
+          "label": "D",
+          "text": "Neither Alex, nor Carl"
+        },
+        {
+          "label": "E",
+          "text": "It is not possible to determine"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Each of the following pictures shows the net of a cube. Only one of the resulting cubes has a closed line on it. Which one?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "The cube shown in the figure has a positive integer written on each face. The products of the two numbers on opposite faces are the same. What is the smallest possible sum of the six numbers on the cube?",
+      "options": [
+        {
+          "label": "A",
+          "text": "36"
+        },
+        {
+          "label": "B",
+          "text": "37"
+        },
+        {
+          "label": "C",
+          "text": "41"
+        },
+        {
+          "label": "D",
+          "text": "44"
+        },
+        {
+          "label": "E",
+          "text": "60"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Six identical black beads and three identical white beads are arranged on weighing scales as shown in the picture. What is the total weight of these nine beads?",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 g"
+        },
+        {
+          "label": "B",
+          "text": "99 g"
+        },
+        {
+          "label": "C",
+          "text": "96 g"
+        },
+        {
+          "label": "D",
+          "text": "94 g"
+        },
+        {
+          "label": "E",
+          "text": "90 g"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "Robert made 5 statements (A) - (E), exactly one of which is false. Which one?",
+      "options": [
+        {
+          "label": "A",
+          "text": "My son Basil has 3 sisters"
+        },
+        {
+          "label": "B",
+          "text": "My daughter Ann has 2 brothers 2 αδελφούς"
+        },
+        {
+          "label": "C",
+          "text": "My daughter Ann has 2 sisters"
+        },
+        {
+          "label": "D",
+          "text": "My son Basil has 2 brothers 2 αδελφούς"
+        },
+        {
+          "label": "E",
+          "text": "I have 5 children 5 παιδιά"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Benjamin writes an integer in the first circle and then fills the other five circles by following the instructions. How many of the six numbers in the circles are divisible by 3?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "The cardboard is folded into a 𝟐𝟐 × 𝟏𝟏 × 𝟏𝟏 box. Which picture does NOT show this box?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Emily took selfies with her 8 cousins. Each of the 8 cousins is in two or three pictures. In each picture there are exactly 5 cousins. How many selfies did Emily take?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Jette and Willi are throwing balls at two identical pyramids of 15 cans. Jette knocks down 6 cans with a total of 25 points. Willi knocks down 4 cans. How many points does Willi score?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "26"
+        },
+        {
+          "label": "E",
+          "text": "28"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "Every digit on my digital clock is composed of at most 7 segments, as follows: But, unfortunately, in every set of 7 segments the same 2 segments don't work. At this moment my clock shows: What will it show after 3 hours and 45 minutes?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Linas builds a 𝟒𝟒 × 𝟒𝟒 × 𝟒𝟒 cube using 𝟑𝟑𝟑𝟑 white and 𝟑𝟑𝟑𝟑 black 𝟏𝟏 × 𝟏𝟏 × 𝟏𝟏 cubes. He arranges the cubes so that as much of the surface of his large cube is white. What fraction of the surface of his cube is white?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1/14"
+        },
+        {
+          "label": "B",
+          "text": "1/12"
+        },
+        {
+          "label": "C",
+          "text": "1/23"
+        },
+        {
+          "label": "D",
+          "text": "1/34"
+        },
+        {
+          "label": "E",
+          "text": "1/38"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "Zev has two machines: one exchanges 1 white token into 4 red tokens, while the other exchanges 1 red token into 3 white ones. Zev has 4 white tokens. After exactly 11 exchanges, he has 31 tokens. How many of those are red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    }
+  ]
+}

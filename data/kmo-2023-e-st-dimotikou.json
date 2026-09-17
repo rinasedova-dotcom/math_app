@@ -1,0 +1,652 @@
+{
+  "id": "kmo-2023-e-st-dimotikou",
+  "name": "24th Cyprus Mathematical Olympiad 2023 — 5th & 6th Grade Primary",
+  "source": "Cyprus Mathematical Society",
+  "imagePath": "images/kmo-2023-e-st-dimotikou",
+  "questions": [
+    {
+      "number": 1,
+      "text": "For the number 587, five students say the following: Andreas: “It is a three-digit number.” Bryan: “All of the three digits are different.” Callum: “The tenths-digit is 8.” Dima: “The three digits sum up to 20.” Eva: “All digits are odd numbers.” Which student made a false statement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Andreas"
+        },
+        {
+          "label": "B",
+          "text": "Bryan"
+        },
+        {
+          "label": "C",
+          "text": "Callum"
+        },
+        {
+          "label": "D",
+          "text": "Dima"
+        },
+        {
+          "label": "E",
+          "text": "Eva"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "Nick wrote all numbers from 1 up to 100. How many times did he write the digit 9?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "21"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "If K, Λ are distinct digits such that what is the value of the product K × Λ? 1 7 6",
+      "options": [
+        {
+          "label": "A",
+          "text": "72"
+        },
+        {
+          "label": "B",
+          "text": "63"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "27"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "If Γ, ∆ and E are positive integer numbers satisfying Γ × ∆ = 14, ∆ × E = 10 and Γ × E = 35 then the sum is equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "24"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "Several balls are placed inside 5 boxes such that each box contains different number of balls. The following restrictions are also satisfied: (a) each box contains at least 8 balls, and (b) the number of balls in each box is not a multiple of 3. The smallest possible total number of balls in the 5 boxes is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "56"
+        },
+        {
+          "label": "B",
+          "text": "49"
+        },
+        {
+          "label": "C",
+          "text": "51"
+        },
+        {
+          "label": "D",
+          "text": "50"
+        },
+        {
+          "label": "E",
+          "text": "40"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "A rectangle has length equal to 24 cm and width equal to 15 cm. Τhe length is reduced by 6 cm. For the area of the rectangle to remain the same, the width has to increase by:",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 cm"
+        },
+        {
+          "label": "B",
+          "text": "5 cm"
+        },
+        {
+          "label": "C",
+          "text": "6 cm"
+        },
+        {
+          "label": "D",
+          "text": "20 cm"
+        },
+        {
+          "label": "E",
+          "text": "21 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "When Pinocchio lies, the length of his nose increases by 6 cm. When he tells the truth, his nose decreases by 2 cm. At some point his nose had a length of 9 cm. Which of the following lengths cannot be Pinocchio’s nose at any point, no matter how may lies or truths he says?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 cm"
+        },
+        {
+          "label": "B",
+          "text": "8 cm"
+        },
+        {
+          "label": "C",
+          "text": "23 cm"
+        },
+        {
+          "label": "D",
+          "text": "27 cm"
+        },
+        {
+          "label": "E",
+          "text": "31 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "In how many ways can we distribute 3 balls in three of the following seven boxes, so that there are no balls in consecutive boxes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "The following figure shows a grid of dots arranged horizontally and vertically. Each dot is at a distance of 1 cm from its neighbouring dots which are located above, below, to the left, and to the right of it. How many squares can we draw, using the dots as their vertices?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "Andreas has 5 pencils of different lengths. Each pencil is 2 cm longer than the previous pencil in ascending order. The sum of the lengths of the two shorter pencils is equal to the size of the longest pencil. What is the total length of all 5 pencils?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 cm"
+        },
+        {
+          "label": "B",
+          "text": "14 cm"
+        },
+        {
+          "label": "C",
+          "text": "22 cm"
+        },
+        {
+          "label": "D",
+          "text": "44 cm"
+        },
+        {
+          "label": "E",
+          "text": "50 cm"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "By only using the six digits 1, 2, 2, 3, 4, 4 we create two three-digit numbers. What is the largest possible sum that these two three-digit numbers can have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "358"
+        },
+        {
+          "label": "B",
+          "text": "448"
+        },
+        {
+          "label": "C",
+          "text": "556"
+        },
+        {
+          "label": "D",
+          "text": "853"
+        },
+        {
+          "label": "E",
+          "text": "844"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "How many three-digit numbers have their digits add up to 4?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Buses start their route from Larnaka to Nicosia every 35 minutes. If a bus departed from Larnaka at 8:10 a.m., how many buses will depart from Larnaka, from 9 a.m. to 3 p.m.",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "A sum of €300 will be shared between Andreas and his sister. If Andreas will get of 7 what his sister will get, how much money will Andreas get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "€80"
+        },
+        {
+          "label": "B",
+          "text": "€90"
+        },
+        {
+          "label": "C",
+          "text": "€100"
+        },
+        {
+          "label": "D",
+          "text": "€110"
+        },
+        {
+          "label": "E",
+          "text": "€120"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Integers 1, 2, 3, . . . are placed in the following order: Columns Rows 1st 2nd 3rd 4th 5th 6th 7th ··· 1st 1 4 7 10 2nd 2 5 8 3rd 3 6 9 The number located in the 3rd row and 27th column is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "39"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "34"
+        },
+        {
+          "label": "D",
+          "text": "33"
+        },
+        {
+          "label": "E",
+          "text": "31"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "A parcel company charges €3 euros to transport a parcel weighing a maximum of 1 kg. If the parcel weighs more than 1 kg and up to 2 kg, the company charges an additional€1,50. If the parcel weighs more than 2 kg and up to 3 kg, the company charges an additional€1,50. In the same way the company continues and charges €1,50 for each additional kilo. How much will we pay if we want to send a parcel weighing 7,2 kg?",
+      "options": [
+        {
+          "label": "A",
+          "text": "€10"
+        },
+        {
+          "label": "B",
+          "text": "€11"
+        },
+        {
+          "label": "C",
+          "text": "€11.50"
+        },
+        {
+          "label": "D",
+          "text": "€12"
+        },
+        {
+          "label": "E",
+          "text": "€13.50"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "Students at a school were asked to state which sport they prefer. Their responses were recorded in the following table: If we choose at random a student at this school, the Basketball 70 Football 100 Handball 80 Volleyball 50 probability that he has stated that he prefers football is: 1 1 1 1 1",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Let ABΓ ∆ be a square. From the vertices B and ∆ we create two equal squares. One of them is BEZH. From the vertex Γ we create the square Γ KΛM . It is also given that: • the area of the square ABΓ ∆ is 400 cm2 , • the area of the square BEZH is 25 cm2 , and • the length of EM is 11 cm. The shaded region has area equal to:",
+      "options": [
+        {
+          "label": "A",
+          "text": "342 cm2"
+        },
+        {
+          "label": "B",
+          "text": "175 cm2"
+        },
+        {
+          "label": "C",
+          "text": "169 cm2"
+        },
+        {
+          "label": "D",
+          "text": "160 cm2"
+        },
+        {
+          "label": "E",
+          "text": "159 cm2"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Peter has a box with 12 identical red balls, 20 identical yellow balls, and 22 identical green balls. He randomly takes balls out of the box without seeing. How many balls, at least, does he have to take to be sure to get 15 balls of the same colour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "41"
+        },
+        {
+          "label": "E",
+          "text": "53"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "In one choreography, the 50 dancers were arranged in three different rows. The sum of the dancers of the 1st and 2nd row is 38 and the sum of the dancers of the 2nd and 3rd row is 29. The sum of the dancers of the 1st and 3rd row is:",
+      "options": [
+        {
+          "label": "A",
+          "text": "33"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "29"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "Kostas had some coins in his bag. When he opened it, the coins fell to the floor. He tried to collect them, but he wasn’t sure if he had found them all. But he remembered that he had more than 40 and less than 55 coins. When he was separating them in pairs, there was one coin left. When he was separating them into triples there was no coin left, and when he was separating them into quadruples, there was one coin left. So the number of coins were:",
+      "options": [
+        {
+          "label": "A",
+          "text": "41"
+        },
+        {
+          "label": "B",
+          "text": "42"
+        },
+        {
+          "label": "C",
+          "text": "44"
+        },
+        {
+          "label": "D",
+          "text": "45"
+        },
+        {
+          "label": "E",
+          "text": "49"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "Which of the following fractions is not between and ? 3 4 17 33 35 18 65",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "14 teams participate in a student championship. In the first round they all play each other only once. For the final ranking, a 2nd round follows. In this 2nd round the teams are divided into the top 6 that play each other once and the bottom 8 teams that play each other again once. How many matches will take place in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "91"
+        },
+        {
+          "label": "B",
+          "text": "106"
+        },
+        {
+          "label": "C",
+          "text": "119"
+        },
+        {
+          "label": "D",
+          "text": "125"
+        },
+        {
+          "label": "E",
+          "text": "134"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2023-2024-level-5-6",
+  "name": "Kangourou Mathematics 2023-2024 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2023-2024-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Alina folds the image below along the dashed line. Which of the following squares folds onto an identical one?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "The picture shows the first few squares of a hopping game. Every fourth square in the game has the same image in it. Mia is playing the game. In which of the following squares will Mia land only on her right foot?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the 10th 10ο"
+        },
+        {
+          "label": "B",
+          "text": "the 15th 15ο"
+        },
+        {
+          "label": "C",
+          "text": "the 20th 20ο"
+        },
+        {
+          "label": "D",
+          "text": "the 22nd 22ο"
+        },
+        {
+          "label": "E",
+          "text": "the 23rd 23ο"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Simos created a secret alphabet. He writes “basil” as and “red” as . How does he write “bread”?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "Which of the strips should be placed in the space in the picture so that each child is connected to a different kite? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Dina has set up her three bricks on the floor behind a wall. When seen from the front, the bricks look like this How do the bricks look from the back?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "Mona wants to draw the figure shown without lifting up her pencil from the paper. The lengths of the three segments are given. What is the shortest total length she could draw?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 cm"
+        },
+        {
+          "label": "B",
+          "text": "7 cm"
+        },
+        {
+          "label": "C",
+          "text": "8 cm"
+        },
+        {
+          "label": "D",
+          "text": "9 cm"
+        },
+        {
+          "label": "E",
+          "text": "10 cm"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "There are 2 wheels each marked with 7 positions. The wheels spin in opposite directions and each makes a complete turn in seven minutes. At the end of each minute, each letter lies exactly in front of a number. The picture shows the first two positions of the wheels and we can see that initially letter A is in front of number 1, letter B is in front of number 2, and so on. The wheels turn until letter C is in front of number 2. Which number is in front of letter F at that point? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "There are six boxes on a truck as shown. A worker puts them on the floor. He takes one box at a time, provided that box does not have another box on top of it. He places his box on the ground or on top of another box. Which of the following stacks could he not build?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "Peter has a package of 445 g and the following eight weights: He put the package on the scale, as shown. What is the minimum number of weights he needs to use to balance the scale? 445 g",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "The rooms in the hotel are numbered in ascending order, starting from 1. No number is omitted. Kangaroo counted the digits in the rooms and found digit 2, 14 times and digit 5, 3 times. What is the largest number of rooms there can be in the hotel? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Two identical rectangles, each with an area of 18, overlap to form a new rectangle, as shown. The new rectangle can be divided into three identical squares. What is the area of the new rectangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "A student had five boxes of chocolates labelled A, B, C, D and E. The chocolates in the boxes have been given numbers according to their flavour, as shown. He ate most of the chocolates. The picture below shows what was left. What was the label of the box marked X?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "Rosa draws several identical rectangles to make the following picture. The width and the height of the picture are 45 cm and 30 cm respectively. What is the area of one rectangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 cm2"
+        },
+        {
+          "label": "B",
+          "text": "27 cm2"
+        },
+        {
+          "label": "C",
+          "text": "30 cm2"
+        },
+        {
+          "label": "D",
+          "text": "33 cm2"
+        },
+        {
+          "label": "E",
+          "text": "36 cm2"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Each of the 16 circles shown contains a number. Numbers in neighbouring circles differ by 1. One of the circles contains the number 5 and another one contains 13. How many different numbers are written in the 16 circles?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "The diagram shows two large squares with the same area. Part of each square is shaded, as shown. In the first square, the midpoints of adjacent sides are joined. In the second square, four smaller squares all with side- lengths equal to a third of the side-length of the large square are shaded. The shaded area in the first square is 9. What is the shaded area in the second square?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "The Braille system for blind people, when written down, has the digits 0 to 9 represented by a set of black or white dots, as shown. How many different two-digit numbers contain exactly five black dots?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "The figure below shows a beehive with 16 cells. Some of the cells contain honey. The number in each cell indicates how many of its neighbouring cells contain honey. Two cells are neighbours if they share a common edge. How many cells in the beehive contain honey? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "Annie wants to place the numbers 1 to 10 in the circles in the diagram with one number in each circle. She wants the sum of the numbers in any four circles that are in a straight line, for example the four grey ones, to be 23. What number must she place in the circle containing the question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Christian has cut four small squares from the corners of the larger square, so that the remaining area is half of the area of the original square. The side-lengths of the small squares are shown in the diagram. What is the perimeter of the shape left?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Ria wants to complete the puzzle shown so that each row and each column contain the numbers 1, 2, 3 and 4 exactly once. She wants to place the numbers so that the greater than and less symbols (> and <) give a correct relationship between the two values either side of them. The symbols work in all directions, as shown in the example. What number should she place in the grey circle? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "There are three identical special dice on the table. What is the sum of the numbers on the faces that touch the table?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "The diagram shows four touching rectangles. What is the area of the shaded rectangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 cm2"
+        },
+        {
+          "label": "B",
+          "text": "14 cm2"
+        },
+        {
+          "label": "C",
+          "text": "16 cm2"
+        },
+        {
+          "label": "D",
+          "text": "18 cm2"
+        },
+        {
+          "label": "E",
+          "text": "20 cm2"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "The figure shows the plan of the seven train routes of a small town. The circles indicate the stations. Martin wants to paint the lines in such a way that if two lines share a common station, then they are painted with different colours. What is the smallest number of colours that he can use?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Dimitri wants to fold the net shown to make a cube. He wants the triangles that touch the edges of neighbouring faces of the cube to be shaded the same. How should he shade the triangles of the unshaded square in the net? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "Simon takes four cups out of the cupboard and puts them randomly on the four saucers. Which statement is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is certain that none of the 4 cups stands on its matching saucer"
+        },
+        {
+          "label": "B",
+          "text": "It is certain that exactly 1 cup stands on its matching saucer. 1 φλιτζάνι"
+        },
+        {
+          "label": "C",
+          "text": "It is impossible for exactly 2 cups to stand on its matching saucer"
+        },
+        {
+          "label": "D",
+          "text": "It is impossible for exactly 3 cups to stand on its matching saucer"
+        },
+        {
+          "label": "E",
+          "text": "It is impossible for all 4 cups to stand on its matching saucer. 4"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "A cube with the filled in numbers is given. Mary wants to write the numbers 1 to 8 on the vertices of the cube. She wants the sum of the numbers of the vertices around each face to be the same. She has already written the numbers 6, 7 and 8, as shown. What number should she write on the vertex marked with the question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "A grandmother has some candies. She decides to divide them up amongst her grandchildren so that each has a bag containing same number of candies. She puts the largest possible number of candies in each bag and, when she is done, she sees that there are 20 candies in each bag and 12 candies are left over. What is the smallest possible number of candies she could have? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "Denis plans to cut a rope into 12 equal pieces and marks points where he needs to cut. Marios plans to cut the same rope into 16 equal pieces and marks points where he needs to cut. Then Mary cuts the rope at all the marked points. How many pieces does Mary get?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "Emma is playing with the seven caterpillar puzzle pieces shown. She wants to build a caterpillar that has one head, one tail and either one, two or three puzzle pieces in between. How many different caterpillars could Emma build?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "Andria writes a three-digit number on the whiteboard. Then Chris writes a fourth digit to the right of the previous ones. He says “Look! The number increased by 2024”. What digit did Chris write?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    }
+  ]
+}

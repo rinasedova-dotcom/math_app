@@ -1,0 +1,708 @@
+{
+  "id": "kmo-2018-e-st-dimotikou",
+  "name": "19th Cyprus Mathematical Olympiad 2018 — 5th & 6th Grade Primary",
+  "source": "Cyprus Mathematical Society",
+  "imagePath": "images/kmo-2018-e-st-dimotikou",
+  "questions": [
+    {
+      "number": 1,
+      "text": "The operation ∎ is defined as: 𝛢 ∎ 𝐵 = 𝐵 + 10 − 𝛢 What is the value of the expression 7 ∎ 5?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "22"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "20"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 2,
+      "text": "In the figure below, 𝛢𝛢𝛢𝛢 is a rectangle and the shaded figure is a parallelogram. What is the area of the shaded region?",
+      "options": [
+        {
+          "label": "A",
+          "text": "27 s.u"
+        },
+        {
+          "label": "B",
+          "text": "30 s.u"
+        },
+        {
+          "label": "C",
+          "text": "32 s.u"
+        },
+        {
+          "label": "D",
+          "text": "33 s.u"
+        },
+        {
+          "label": "E",
+          "text": "38 s.u"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 3,
+      "text": "A rocket travels 72 km in 9 seconds. How many kilometers does it travel in 1 minute and 40 seconds?",
+      "options": [
+        {
+          "label": "A",
+          "text": "320 km"
+        },
+        {
+          "label": "B",
+          "text": "480 km"
+        },
+        {
+          "label": "C",
+          "text": "800 km"
+        },
+        {
+          "label": "D",
+          "text": "1120 km"
+        },
+        {
+          "label": "E",
+          "text": "1400 km"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 4,
+      "text": "Which of the following figures has the largest perimeter?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Figure A"
+        },
+        {
+          "label": "B",
+          "text": "Figure Β"
+        },
+        {
+          "label": "C",
+          "text": "Figure Γ"
+        },
+        {
+          "label": "D",
+          "text": "Figure Δ"
+        },
+        {
+          "label": "E",
+          "text": "Figure Ε"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 5,
+      "text": "Hercules distributed fairly to his friends the cards from his collection of players, so that each friend could get the maximum possible number of cards. He gave to each of his friends 4 cards and 5 cards were left over. What is the minimum possible number of cards in Hercules’ collection?",
+      "options": [
+        {
+          "label": "A",
+          "text": "13"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        },
+        {
+          "label": "E",
+          "text": "29"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 6,
+      "text": "The following diagram shows the number of sales (in thousands) of two car models in the last years. Model 𝛢 Model 𝛣 2012 2013 2014 2015 2016 2017 Between which successive years did the total number of sales of the two models have the least change?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2012 − 2013"
+        },
+        {
+          "label": "B",
+          "text": "2013 − 2014"
+        },
+        {
+          "label": "C",
+          "text": "2014 − 2015"
+        },
+        {
+          "label": "D",
+          "text": "2015 − 2016"
+        },
+        {
+          "label": "E",
+          "text": "2016 − 2017"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 7,
+      "text": "The following rectangular mirror broke. Which of the following is the missing piece of the mirror?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 8,
+      "text": "What is the unit’s digit of the following product? 1 × 3 × 5 × ⋯ × 95 × 97 × 99",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 9,
+      "text": "What percentage of the shape is the shaded area?",
+      "options": [
+        {
+          "label": "A",
+          "text": "40%"
+        },
+        {
+          "label": "B",
+          "text": "45%"
+        },
+        {
+          "label": "C",
+          "text": "50%"
+        },
+        {
+          "label": "D",
+          "text": "55%"
+        },
+        {
+          "label": "E",
+          "text": "60%"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 10,
+      "text": "Antonis, Fany and Panos cut a pizza into three equal pieces and each of them took one 1 piece. Fany ate of the total pizza. What part of her own piece did she eat? 6 1 1 1 1 1 1 1 1 1 1",
+      "options": [
+        {
+          "label": "A",
+          "text": "÷"
+        },
+        {
+          "label": "B",
+          "text": "÷"
+        },
+        {
+          "label": "C",
+          "text": "−"
+        },
+        {
+          "label": "D",
+          "text": "÷3"
+        },
+        {
+          "label": "E",
+          "text": "3 − �3 × 6�"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 11,
+      "text": "Ioanna used the reduction tool of a photocopier to get a copy of a document to 40% of its original size. What percentage of the enlargement tool should be used to create another copy, which is the size of the original document?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60%"
+        },
+        {
+          "label": "B",
+          "text": "100%"
+        },
+        {
+          "label": "C",
+          "text": "200%"
+        },
+        {
+          "label": "D",
+          "text": "220%"
+        },
+        {
+          "label": "E",
+          "text": "250%"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Which shape in the sequence will consist of 36 dots? 1st 2nd 3rd 4th",
+      "options": [
+        {
+          "label": "A",
+          "text": "6th"
+        },
+        {
+          "label": "B",
+          "text": "7th"
+        },
+        {
+          "label": "C",
+          "text": "8th"
+        },
+        {
+          "label": "D",
+          "text": "9th"
+        },
+        {
+          "label": "E",
+          "text": "10th"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "On a numerical line the interval from to will be divided into 6 equal parts. The 3 2 corresponding number will be placed at the end of each section. Which number will be 1 after ? 3 13 3 11 5 17",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Today is Sunday. What day will it be in 220 days from today?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sunday"
+        },
+        {
+          "label": "B",
+          "text": "Monday"
+        },
+        {
+          "label": "C",
+          "text": "Wednesday"
+        },
+        {
+          "label": "D",
+          "text": "Friday"
+        },
+        {
+          "label": "E",
+          "text": "Saturday"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "Nick wrote 7 consecutive integer numbers. If the sum of the 3 largest numbers is 30, what is the sum of the 3 smaller ones?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "18"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "21"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "The ratio of John's money to Peter's money was 4 to 7. After John spent half his money and Peter spent 60 euros, Peter had twice the money of John. How much money did John have at the beginning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "120"
+        },
+        {
+          "label": "D",
+          "text": "140"
+        },
+        {
+          "label": "E",
+          "text": "160"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "What is the smallest possible sum of dates of Mondays in November (e.g. 1 November, 2 November, 3 November and 4 November give a total sum of dates 10)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "51"
+        },
+        {
+          "label": "B",
+          "text": "54"
+        },
+        {
+          "label": "C",
+          "text": "58"
+        },
+        {
+          "label": "D",
+          "text": "75"
+        },
+        {
+          "label": "E",
+          "text": "80"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "𝛢𝛢𝛢𝛢𝛢𝛢𝛢𝛢 is a regular octagon. How many of the following triangles have the same area? 𝛢𝛢𝛢, 𝛥𝛥𝛥, 𝛩𝛩𝛩, 𝛤𝛤𝛤, 𝛧𝛧𝛧, 𝛦𝛦𝛦, 𝛢𝛢𝛢, 𝛦𝛦𝛦",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "Sakis has 24 equal small cubes. He will use them all in order to construct a rectangular parallelepiped. How many rectangular parallelepipeds of different dimensions can he construct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Costas wants to cover a rectangular table of dimensions 120 cm × 216 cm with square tiles. What is the smallest number of tiles that can be used in order to cover the table exactly, if is not allowed to chop tiles?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        },
+        {
+          "label": "E",
+          "text": "45"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "Costas built a large solid cube using 27 small equaled sized cubes. Then he painted the outer faces of the big cube in blue. How many of the small cubes have only two painted faces?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 22,
+      "text": "Andreas bought 5 buns and 4 juices and paid €14. Maria bought 6 buns and 5 juices and paid €17. How much did Nick pay for 2 buns and 1 juice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "€2"
+        },
+        {
+          "label": "B",
+          "text": "€3"
+        },
+        {
+          "label": "C",
+          "text": "€4"
+        },
+        {
+          "label": "D",
+          "text": "€5"
+        },
+        {
+          "label": "E",
+          "text": "€6"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 23,
+      "text": "Which of the following figures has the largest shaded area?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "A test consists of 25 multiple choice questions. Each correct answer is awarded with 4 points. For each wrong answer, 1 point is deducted, while unanswered questions get 0 points. If a student got 77 points, how many were his correct answers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        },
+        {
+          "label": "E",
+          "text": "22"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 25,
+      "text": "Helen wrote down the integer numbers from 100 to 200. How many of them have at least two equal digits?",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "28"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        },
+        {
+          "label": "E",
+          "text": "30"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    }
+  ]
+}

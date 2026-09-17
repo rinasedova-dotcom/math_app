@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2018-level-5-6",
+  "name": "Kangourou Mathematics 2018 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2018-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "The drawing shows 3 flying arrows and 9 fixed balloons. When an arrow hits a balloon, it bursts, and the arrow flies further in the same direction. How many balloons will not be hit by arrows?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "4"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "There are three objects on the table. What does Peter see if he looks at the table from above?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Diana first got 14 points with two arrows on the target. The second time she got 16 points. How many points did she get the third time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "22"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "A garden is divided into identical squares. A fast and a slow snail move along the perimeter of the garden starting from the corner S but in different directions. The slow snail moves at the speed of 1 meter per hour (1 m/h) and the fast one at 2 meters per hour (2 m/h). At what point will the two snails meet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "Alice subtracted two 2-digit numbers. Then she painted two cells. What is the sum of the two digits in the painted cells?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "A star is made of four equilateral triangles and a square. The perimeter of the square is 36 cm. What is the perimeter of the star?",
+      "options": [
+        {
+          "label": "A",
+          "text": "144 cm"
+        },
+        {
+          "label": "B",
+          "text": "120 cm"
+        },
+        {
+          "label": "C",
+          "text": "104 cm"
+        },
+        {
+          "label": "D",
+          "text": "90 cm"
+        },
+        {
+          "label": "E",
+          "text": "72 cm"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "The picture shows the calendar of a certain month. Unfortunately an ink spot covers most of the dates. What day is the 25th of that month?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday"
+        },
+        {
+          "label": "B",
+          "text": "Wednesday"
+        },
+        {
+          "label": "C",
+          "text": "Thursday"
+        },
+        {
+          "label": "D",
+          "text": "Saturday"
+        },
+        {
+          "label": "E",
+          "text": "Sunday"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "How many times do we have to roll a regular die to be sure that at least one result will be repeated?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "18"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "There are 3 squares in the figure. The side length of the smallest square is 6 cm. What is the side length of the biggest square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "In the following figure, the circles are light bulbs connected to some other light bulbs. Initially, all light bulbs are off. When you touch a light bulb, this light bulb and all its neighbours are lit. At least how many light bulbs do you have to touch to light all the bulbs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "In which of the four squares is the ratio of the black area the largest?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Nine cars arrive at a crossroads and drive off as indicated by the arrows. Which figure shows these cars after leaving the crossroads?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "Each of the spots covers one of the numbers 1, 2, 3, 4 or 5 so that both of the calculations following the arrows are correct. What number is covered by the spot with the star?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "A lion is behind one of the three doors. A sentence is written on each door but only one of the three sentences is true. . Behind which door is the lion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Door 1"
+        },
+        {
+          "label": "B",
+          "text": "Door 2"
+        },
+        {
+          "label": "C",
+          "text": "Door 3"
+        },
+        {
+          "label": "D",
+          "text": "All three doors are possible"
+        },
+        {
+          "label": "E",
+          "text": "Both door 1 and door 2 are possible"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "Two girls, Eva and Olga and three boys, Adam, Isaac and Urban play with a ball. When a girl has the ball, she throws it to the other girl or to a boy. When a boy has the ball, he throws it to another boy but never to the boy from whom he just received it. Eva starts by throwing the ball to Adam. Who will do the fifth throw?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Adam"
+        },
+        {
+          "label": "B",
+          "text": "Eva"
+        },
+        {
+          "label": "C",
+          "text": "Isaac"
+        },
+        {
+          "label": "D",
+          "text": "Olga"
+        },
+        {
+          "label": "E",
+          "text": "Urban"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Emily wants to enter a number into each cell of the triangular table. The sum of the numbers in any two cells with a common edge must be the same. She has already entered two numbers. What is the sum of all the numbers in the table?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "On Monday Alexandra shares a picture with 5 friends. For several days everybody who receives the picture, sends it the next day to two friends who haven't seen the picture yet. On which day does the number of people who have seen the picture becomes greater than 100?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wednesday"
+        },
+        {
+          "label": "B",
+          "text": "Thursday"
+        },
+        {
+          "label": "C",
+          "text": "Friday"
+        },
+        {
+          "label": "D",
+          "text": "Saturday"
+        },
+        {
+          "label": "E",
+          "text": "Sunday"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "The faces of a cube are painted black, white or grey so that opposite faces are of different colour. Which of the following is not a possible net of this cube?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "John does a calculation using the digits 𝐴, 𝐵, 𝐶 and 𝐷. Which digit is represented by 𝐵?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "Four ladybugs sit on different cells of a 4x4 grid. One of them is sleeping and does not move. Each time you whistle, the other 3 ladybugs move to a free neighbouring cell. They can move up, down, right or left but they are not allowed to go back to the cell they just came from. Which of the following images might show the result after the fourth whistle?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "From the list 3, 5, 2, 6, 1, 4, 7 Masha chose 3 different numbers whose sum is 8. From the same list Dasha chose 3 different numbers whose sum is 7. How many common numbers have been chosen by both girls?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Five balls weigh 30 g, 50 g, 50 g, 50 g and 80 g, respectively. Which ball weighs 30 g?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "If A, B, C are distinct digits, then the largest possible 6-digit number written using 3 digits A, 2 digits B, and 1 digit C cannot be equal to",
+      "options": [
+        {
+          "label": "A",
+          "text": "AAABBC"
+        },
+        {
+          "label": "B",
+          "text": "CAAABB"
+        },
+        {
+          "label": "C",
+          "text": "BBAAAC"
+        },
+        {
+          "label": "D",
+          "text": "AAABCB"
+        },
+        {
+          "label": "E",
+          "text": "AAACBB"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "The sum of the ages of Kate and her mother is 36, and the sum of the ages of her mother and her granny is 81. How old was her granny when Kate was born?",
+      "options": [
+        {
+          "label": "A",
+          "text": "28"
+        },
+        {
+          "label": "B",
+          "text": "38"
+        },
+        {
+          "label": "C",
+          "text": "45"
+        },
+        {
+          "label": "D",
+          "text": "53"
+        },
+        {
+          "label": "E",
+          "text": "56"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "Nick wants to arrange the numbers 2, 3, 4, ..., 10 into several groups such that the sum of the numbers in each group is the same. What is the largest number of groups he can get?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Peter saw an 8 cm wide wooden shelf into 9 parts. One piece was a square, the rest were rectangles. Then he put all the pieces together as shown in the picture. How long was the shelf?",
+      "options": [
+        {
+          "label": "A",
+          "text": "150 cm"
+        },
+        {
+          "label": "B",
+          "text": "168 cm"
+        },
+        {
+          "label": "C",
+          "text": "196 cm"
+        },
+        {
+          "label": "D",
+          "text": "200 cm"
+        },
+        {
+          "label": "E",
+          "text": "232 cm"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Write 0 or 1 in each cell of the 5x5 table such that each 2x2 square of the 5x5 table contains exactly 3 equal numbers. What is the largest possible sum of all the numbers in the table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "21"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        },
+        {
+          "label": "E",
+          "text": "18"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "14 people are seated at a round table. Each person is either a liar or tells the truth. Everybody says: \"Both my neighbours are liars\". What is the maximum number of liars at the table?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "There are eight domino tiles on the table (pic 1). One half of one tile is covered. The 8 tiles can be arranged into a 4x4 square (pic 2), so that the number of dots in each row and column is the same. How many dots are on the covered part ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "Write the numbers 3, 4, 5, 6, 7, 8 and 9 in the seven circles to obtain equal sums along each of the three lines. What is the sum of all possible numbers replacing the question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "18"
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    }
+  ]
+}

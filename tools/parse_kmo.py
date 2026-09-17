@@ -19,10 +19,10 @@ import sys
 from pdf_common import (
     run_pdftotext, is_greek_line, strip_greek_asides, collapse_ws,
     max_blank_run, GREEK_LETTER_TO_LATIN, fix_stray_greek_letters,
-    likely_has_stacked_formula,
+    likely_has_stacked_formula, _detect_repeated_header, _header_key,
 )
 
-QUESTION_START_RE = re.compile(r"^\s{0,3}(\d{1,2})\.\s+(.*)$")
+QUESTION_START_RE = re.compile(r"^\s{0,6}(\d{1,2})\.\s*(.*)$")
 OPTION_LABELS = "".join(GREEK_LETTER_TO_LATIN)  # "ΑΒΓΔΕ"
 OPTION_LINE_RE = re.compile(rf"^\s*[{OPTION_LABELS}]\.\s")
 OPTION_SPLIT_RE = re.compile(rf"\s{{2,}}(?=[{OPTION_LABELS}]\.\s)")
@@ -34,15 +34,21 @@ EXCLUDE_PAGE_MARKERS = ("EXAM PAPER", "TIME:", "Examples of filling")
 def _english_content_pages(raw_text):
     pages = raw_text.split("\x0c")
     start = next(i for i, p in enumerate(pages) if "ENGLISH VERSION" in p)
+    kept_raw = [p for p in pages[start + 1:] if p.strip() and not any(m in p for m in EXCLUDE_PAGE_MARKERS)]
+    # Not every year's "English" pages actually translate the running
+    # header/footer too -- some (e.g. 2013) keep a one-line Greek header
+    # and a Greek "Σελίδα N" footer even though the question text itself
+    # is in English. Detecting the repeated header instead of assuming a
+    # fixed 2-line count (see pdf_common._detect_repeated_header) avoids
+    # eating a real question line when that year only has one header line.
+    header_sig = _detect_repeated_header(kept_raw)
     content = []
-    for page in pages[start + 1:]:
-        if not page.strip():
-            continue
-        if any(marker in page for marker in EXCLUDE_PAGE_MARKERS):
-            continue  # title/instructions page, not a content page
+    for page in kept_raw:
         lines = page.split("\n")
-        lines = lines[2:]  # drop the repeated "<grade>   ... Olympiad ... <date>" header
-        while lines and (not lines[-1].strip() or "Cyprus Mathematical Society" in lines[-1]):
+        if header_sig and tuple(_header_key(l) for l in lines[:len(header_sig)]) == header_sig:
+            lines = lines[len(header_sig):]
+        while lines and (not lines[-1].strip() or "Cyprus Mathematical Society" in lines[-1]
+                          or re.match(r"^\s*Σελίδα\b", lines[-1])):
             lines.pop()
         content.append(lines)
     return content
@@ -110,10 +116,18 @@ def parse_problems(pdf_path):
     return questions
 
 
-def parse_answer_key(pdf_path, grade_label):
+def parse_answer_key(pdf_path, grade_label, grade_pattern=None):
     """Multi-line wrapped column headers (see pdf_common.find_column_range
     for why a simple single-line offset doesn't work here), one Greek
-    answer letter per data cell, no points column."""
+    answer letter per data cell, no points column.
+
+    Most years' answer keys label columns in Greek even when the problems
+    PDF has an English edition ("Ε΄ & ΣΤ΄ ΔΗΜΟΤΙΚΟΥ", "Ε΄-ΣΤ΄ ΔΗΜΟΤΙΚΟΥ",
+    "Ε-ΣΤ" ...) -- the punctuation between the two grade codes varies by
+    year, so plain-text matching on `grade_label` doesn't cover all of
+    them. Pass `grade_pattern` (a raw regex, not escaped) to match those
+    directly instead.
+    """
     from pdf_common import find_column_range
 
     raw = run_pdftotext(pdf_path)
@@ -123,7 +137,7 @@ def parse_answer_key(pdf_path, grade_label):
     header_lines = lines[:data_start]
     data_lines = lines[data_start:]
 
-    pattern = re.escape(grade_label).replace(r"\ ", r"\s*")
+    pattern = grade_pattern if grade_pattern else re.escape(grade_label).replace(r"\ ", r"\s*")
     x0, x1 = find_column_range(header_lines, pattern)
 
     answers = {}
@@ -136,13 +150,18 @@ def parse_answer_key(pdf_path, grade_label):
         if not cell:
             continue
         letter = cell.split()[0]
+        # A voided question (excluded from scoring for this grade) shows
+        # up as "VOID"/"void" or a bare dash instead of a letter -- leave
+        # it unanswered rather than storing punctuation as an "answer".
+        if letter not in GREEK_LETTER_TO_LATIN and letter not in "ABCDE":
+            continue
         answers[qnum] = GREEK_LETTER_TO_LATIN.get(letter, letter)
     return answers
 
 
-def build(problems_pdf, answers_pdf, grade_label, course_id, name, source, image_path, points):
+def build(problems_pdf, answers_pdf, grade_label, course_id, name, source, image_path, points, grade_pattern=None):
     questions = parse_problems(problems_pdf)
-    answers = parse_answer_key(answers_pdf, grade_label)
+    answers = parse_answer_key(answers_pdf, grade_label, grade_pattern=grade_pattern)
 
     out_questions = []
     review = []
@@ -186,6 +205,9 @@ def main():
     ap.add_argument("problems_pdf")
     ap.add_argument("answers_pdf")
     ap.add_argument("--grade", required=True, help='e.g. "5th & 6th grade"')
+    ap.add_argument("--grade-regex", default=None,
+                     help="raw regex to match the answer-key column when it's labeled in "
+                          "Greek (e.g. r'\\u0395.{0,3}[-&].{0,3}\\u03a3\\u03a4') -- overrides --grade for that match only")
     ap.add_argument("--id", required=True, dest="course_id")
     ap.add_argument("--name", required=True)
     ap.add_argument("--source", required=True)
@@ -197,6 +219,7 @@ def main():
     course, review = build(
         args.problems_pdf, args.answers_pdf, args.grade,
         args.course_id, args.name, args.source, args.image_path, args.points,
+        grade_pattern=args.grade_regex,
     )
 
     with open(args.out, "w", encoding="utf-8") as f:

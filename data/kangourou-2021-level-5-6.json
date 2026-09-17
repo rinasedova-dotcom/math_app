@@ -1,0 +1,820 @@
+{
+  "id": "kangourou-2021-level-5-6",
+  "name": "Kangourou Mathematics 2021 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2021-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Which of the following constructions can be made with these 6 bricks?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "In how many places in the picture are two children holding each other with their left hands?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "In the square you can see the digits from 1 to 9. A number is created by starting at the star, following the line and writing down the digits along the line while passing. For example the line shown represents the number 42685. Which of the following lines represents the greatest number?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "Sofie wants to write the word KENGU by using letters from the boxes. She can only take one letter from each box. What letter must Sofie take from box 4?",
+      "options": [
+        {
+          "label": "A",
+          "text": "K"
+        },
+        {
+          "label": "B",
+          "text": "E"
+        },
+        {
+          "label": "C",
+          "text": "N"
+        },
+        {
+          "label": "D",
+          "text": "G"
+        },
+        {
+          "label": "E",
+          "text": "U"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "When you put the five puzzle pieces correctly together they form a rectangle with a calculation. What is the result of this calculation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "41"
+        },
+        {
+          "label": "D",
+          "text": "122"
+        },
+        {
+          "label": "E",
+          "text": "203"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "A measuring tape is wound around a cylinder. What is the number at the question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": "53"
+        },
+        {
+          "label": "B",
+          "text": "60"
+        },
+        {
+          "label": "C",
+          "text": "69"
+        },
+        {
+          "label": "D",
+          "text": "77"
+        },
+        {
+          "label": "E",
+          "text": "81"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "The 5 figures on the grid can only move in the directions indicated by the black arrows. Which figure can leave through gate G?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Carin is going to paint the walls in her room green. The green paint is too dark so she mixes it with white paint. She tries different mixtures. Which of the following mixtures will have the darkest colour green?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 part green + 3 parts white"
+        },
+        {
+          "label": "B",
+          "text": "2 parts green + 6 parts white"
+        },
+        {
+          "label": "C",
+          "text": "3 parts green + 9 parts white"
+        },
+        {
+          "label": "D",
+          "text": "4 part green + 12 parts white"
+        },
+        {
+          "label": "E",
+          "text": "They will all be equally dark"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "Mary had a piece of paper. She folded it in half, with the two pieces exactly matching. Then she folded it again in half. She got the shape below: Which of the shapes P, Q, R could be the original piece of paper?",
+      "options": [
+        {
+          "label": "A",
+          "text": "P"
+        },
+        {
+          "label": "B",
+          "text": "Q"
+        },
+        {
+          "label": "C",
+          "text": "R"
+        },
+        {
+          "label": "D",
+          "text": "P or Q"
+        },
+        {
+          "label": "E",
+          "text": "all P, Q, R"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "There is a square with line segments drawn inside it. The line segments are drawn either from the vertices or the midpoints of other line segments. We coloured 1/8 of the large square. Which figure is our colouring?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "The number 5021972970 is written on a sheet of paper. Julian cuts the sheet twice so he gets three numbers. What is the smallest sum he can get by adding these three numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3244"
+        },
+        {
+          "label": "B",
+          "text": "3444"
+        },
+        {
+          "label": "C",
+          "text": "5172"
+        },
+        {
+          "label": "D",
+          "text": "5217"
+        },
+        {
+          "label": "E",
+          "text": "5444"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "The map shows three bus stations at points A, B and C. A tour from station A to the Zoo and Port and back to A is 10 km long. A tour from station B to the Park and Zoo and back to B is 12 km long. A tour from station C to the Port and Park and back to C is 13 km long. Also A tour from the Zoo to the Park and Port and back to the Zoo is 15 km long. How long is the shortest tour from A to B and C and back to A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18 km"
+        },
+        {
+          "label": "B",
+          "text": "20 km"
+        },
+        {
+          "label": "C",
+          "text": "25 km"
+        },
+        {
+          "label": "D",
+          "text": "35 Km"
+        },
+        {
+          "label": "E",
+          "text": "50 km"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "Rosa wants to start at the arrow, follow the line, and get out at the other arrow. Which piece is NOT possible to put in the middle with ? to obtain that?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "The diagram shows three hexagons with numbers at their vertices, but some numbers are invisible. The sum of the six numbers of each hexagon is 30. What is the number on the vertex marked with a question mark?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "Three rectangles of the same height are positioned as shown. The numbers within the rectangles indicate their areas in 𝑐𝑐𝑐𝑐2 . If 𝐴𝐴𝐴𝐴 = 6 cm, how long is 𝐶𝐶𝐶𝐶?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7 cm"
+        },
+        {
+          "label": "B",
+          "text": "7.5 cm"
+        },
+        {
+          "label": "C",
+          "text": "8 cm"
+        },
+        {
+          "label": "D",
+          "text": "8.2 cm"
+        },
+        {
+          "label": "E",
+          "text": "8.5 cm"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "With 10 identical balls we build a triangular pyramid, as shown. Each ball has one of the letters A, B, C, D and E on it. There are 2 balls for each letter. The picture shows three side views of the pyramid. What is the letter on the ball with the question mark ?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        },
+        {
+          "label": "E",
+          "text": "E"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Ronja had four white tokens and Wanja had four dark ones. Taking turns they were stacking their tokens and created two piles. Which pair of piles could not be a result of their play ?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "My little brother closed his 4-digit bike lock with digits from 0 to 9 and turned each digit in the same direction equally far. Now it shows the combination 6348 as shown. Which of the following CANNOT be the right code of my brother's lock?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "A train company wants one train to leave from X and one train to leave from Y at the same time daily. Moving with constant speed it takes 180 minutes for a train to make a trip from X to Y and 60 minutes from Y to X. They want to build a double track to avoid a crash. Where should the double track be?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "Ann, Bob, Carina, Dan and Ed are sitting at a round table. Ann is not next to Bob, Dan is next to Ed and Bob is not next to Dan. Who are sitting next to Carina?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ann and Bob"
+        },
+        {
+          "label": "B",
+          "text": "Bob and Dan"
+        },
+        {
+          "label": "C",
+          "text": "Dan and Ed"
+        },
+        {
+          "label": "D",
+          "text": "Ed and Ann"
+        },
+        {
+          "label": "E",
+          "text": "it is not possible to find it"
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Maurice asked the canteen chef for the recipe of his pancakes. Maurice has 6 eggs, 400g flour, 500ml milk and 200g butter. At most how many pancakes can he prepare using this recipe?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "The picture shows three gears with a black gear tooth each. Which picture shows the right position of the black teeth after the small gear has turned a full turn clockwise?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "An apple and an orange weigh as much as a pear and a peach. An apple and a pear weigh less than an orange and a peach, and a pear and an orange weigh less than an apple and a peach. Which of the fruits is the heaviest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "apple"
+        },
+        {
+          "label": "B",
+          "text": "orange"
+        },
+        {
+          "label": "C",
+          "text": "peach"
+        },
+        {
+          "label": "D",
+          "text": "pear"
+        },
+        {
+          "label": "E",
+          "text": "impossible to determine"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "In a particular fraction the numerator and denominator are both positive. The numerator of this fraction is increased by 40%. By what percentage should its denominator be decreased so that the new fraction is double the original fraction?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10%"
+        },
+        {
+          "label": "B",
+          "text": "20%"
+        },
+        {
+          "label": "C",
+          "text": "30%"
+        },
+        {
+          "label": "D",
+          "text": "40%"
+        },
+        {
+          "label": "E",
+          "text": "50%"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Three pirates were asked how many coins and how many diamonds their friend Graybeard had. Each of the three answered the truth about one of the questions but lied about the other. Their answers are written on the piece of paper pictured. What is the total amount of coins and diamonds Graybeard has?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Each shelf holds a total of 64 decilitres of apple juice. The bottles have three different sizes: large, medium and small. How many decilitres of apple juice does a medium bottle contain?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "14"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "We have a cube and its side is 7cm long. On each of its 6 faces, we draw the two diagonals in red. Then, we cut the cube into small cubes the sides of which are 1cm long. How many small cubes will have at least one red line drawn on it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "54"
+        },
+        {
+          "label": "B",
+          "text": "62"
+        },
+        {
+          "label": "C",
+          "text": "70"
+        },
+        {
+          "label": "D",
+          "text": "78"
+        },
+        {
+          "label": "E",
+          "text": "86"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "There are trolls and elves, ten in total. Trolls always lie, elves always tell the truth. Ten tokens are distributed with the numbers from 1 to 10, one token to each of them. When asked about the number on their token, they all gave a number from 1 to 10, and the sum of numbers given is 36. What is the least number of trolls among them?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "There are rectangular cards divided into four equal cells with different shapes drawn in each cell. Cards can be placed side by side only if the same shapes appear in adjacent cells on their common side. Nine cards are used to form a rectangle as shown in the figure. Which of the following cards was definitely NOT used to form this rectangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    }
+  ]
+}

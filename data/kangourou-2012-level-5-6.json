@@ -1,0 +1,848 @@
+{
+  "id": "kangourou-2012-level-5-6",
+  "name": "Kangourou Mathematics 2012 — Level 5-6",
+  "source": "THALES Foundation – Kangourou Mathematics Competition",
+  "imagePath": "images/kangourou-2012-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Basil paints the slogan VIVAT KANGAROO on a wall. He wants the different letters to be coloured differently, and the same letters to be coloured identically. How many colours will he needed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 2,
+      "text": "A blackboard is 6 m length. The length of the middle part is 3 m. The two other parts have equal width. How wide is the right part?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 m"
+        },
+        {
+          "label": "B",
+          "text": "1.25 m"
+        },
+        {
+          "label": "C",
+          "text": "1.5 m"
+        },
+        {
+          "label": "D",
+          "text": "1.75 m"
+        },
+        {
+          "label": "E",
+          "text": "2 m"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Sally can put 4 coins in a square built with 4 matches (see picture). At least how many matches will she need in order to build a square containing 16 coins that should not overlap?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 4,
+      "text": "In an airplane, the rows are numbered from 1 to 25, but there is no row number 13. Row number 15 has only 4 passenger seats, all the rest have 6 passenger seats. How many seats for passengers are there in that airplane?",
+      "options": [
+        {
+          "label": "A",
+          "text": "120"
+        },
+        {
+          "label": "B",
+          "text": "138"
+        },
+        {
+          "label": "C",
+          "text": "142"
+        },
+        {
+          "label": "D",
+          "text": "144"
+        },
+        {
+          "label": "E",
+          "text": "150"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "When it is 4 o'clock in the afternoon in London, it is 5 o'clock in the afternoon in Madrid and it is 8 o'clock in the morning on the same day in San Francisco. Ann went to bed in San Francisco at 9 o'clock yesterday evening. What was the time in Madrid at that moment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6 o'clock yesterday morning"
+        },
+        {
+          "label": "B",
+          "text": "6 o'clock yesterday evening"
+        },
+        {
+          "label": "C",
+          "text": "12 o'clock yesterday afternoon"
+        },
+        {
+          "label": "D",
+          "text": "12 o'clock midnight"
+        },
+        {
+          "label": "E",
+          "text": "6 o'clock this morning"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 6,
+      "text": "In the picture we draw a new pattern by connecting all the midpoints of any neighbouring hexagons. What pattern do we get?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 7,
+      "text": "To the number 6 we add 3. Then we multiply the result by 2 and then we add 1. Then the final result will be the same as the result of the computation:",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "The upper coin is rotated without sliding around the fixed lower coin to a position shown on the picture. Which is the resulting relative position of kangaroos?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 3
+    },
+    {
+      "number": 9,
+      "text": "One balloon can lift a basket containing items of weight at most 80 kg. Two such balloons can lift the same basket containing items of weight at most 180 kg. What is the weight of the basket?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 kg"
+        },
+        {
+          "label": "B",
+          "text": "20 kg"
+        },
+        {
+          "label": "C",
+          "text": "30 kg"
+        },
+        {
+          "label": "D",
+          "text": "40 kg"
+        },
+        {
+          "label": "E",
+          "text": "50 kg"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "Vivien and Mike got apples and pears from their grandmother. They had 25 pieces of fruit in their basket altogether. On the way home Vivien ate one apple and three pears, Mike ate 3 apples and 2 pears. At home they found out that they brought home the same number of pears as apples. How many pears did they get from their grandmother?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "13"
+        },
+        {
+          "label": "C",
+          "text": "16"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "21"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 11,
+      "text": "Which three of the numbered puzzle pieces should you add to the picture to complete the square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1, 3, 4"
+        },
+        {
+          "label": "B",
+          "text": "1, 3, 6"
+        },
+        {
+          "label": "C",
+          "text": "2, 3, 5"
+        },
+        {
+          "label": "D",
+          "text": "2, 3, 6"
+        },
+        {
+          "label": "E",
+          "text": "2, 5, 6"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 12,
+      "text": "Lisa has 8 dice with the letters A, B, C and D, the same letter on all sides of each die. She builds a block with them as shown. Two adjacent dice have always different letters. What letter is on the die that cannot be seen on the picture?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 13,
+      "text": "There are five cities in Wonderland. Any two cities are connected by one road, either visible or invisible. On the map of Wonderland, there are only seven visible roads. Alice has magical glasses: when she sees the map through these glasses she can only see the roads that are invisible otherwise. How many invisible roads can she see?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        },
+        {
+          "label": "E",
+          "text": "2"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "The natural numbers are coloured red, blue or green: 1 is red, 2 is blue, 3 is green, 4 is red, 5 is blue, 6 is green, and so on. What colour can be the number of the sum of a red number and a blue number?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 15,
+      "text": "The perimeter of the figure below, built up of identical squares, is equal to 42 cm. What is the area of the figure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 cm2"
+        },
+        {
+          "label": "B",
+          "text": "9 cm2"
+        },
+        {
+          "label": "C",
+          "text": "24 cm2"
+        },
+        {
+          "label": "D",
+          "text": "72 cm2"
+        },
+        {
+          "label": "E",
+          "text": "128 cm2"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 16,
+      "text": "Look at the pictures. Both figures are formed from the same five pieces. The rectangle is (in centimetres) and the other parts are quarters of two different circles. The difference between their perimeters is :",
+      "options": [
+        {
+          "label": "A",
+          "text": "2.5 cm"
+        },
+        {
+          "label": "B",
+          "text": "5 cm"
+        },
+        {
+          "label": "C",
+          "text": "10 cm"
+        },
+        {
+          "label": "D",
+          "text": "20 cm"
+        },
+        {
+          "label": "E",
+          "text": "30 cm"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "Place the numbers from 1 to 7 in the circles, so that the sum of the numbers on each line is the same. What is the number at the top circle of the triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 18,
+      "text": "A rubber ball falls from the roof of a house of height 10 meters. After each impact on the ground it bounces back up to of the previous height. How many times will the ball appear in front of a window whose bottom edge has a height of 5 meters and whose top edge has a height of 6 meters?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "There are 4 gearwheels next to each other. The first one has 30 gears, the second one 15, the third one 60 and the last one 10. How many rounds does the last gearwheel roll, when the first one rolls one round?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "A",
+      "points": 4
+    },
+    {
+      "number": 20,
+      "text": "A regular octagon is folded in half exactly three times until a triangle is obtained. Then the apex is cut off in a right angle as shown in the picture. If the paper is unfolded what will it look like?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "In Winnie's vinegar-wine-water marinade there are vinegar and wine at a ratio of 1 to 2. Wine and water are at a ratio of 3 to 1. Which of the following statements is true? together. together. together.",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 22,
+      "text": "Mary has a pair of scissors and five cardboard letters. She cuts every letter only once (along a straight line) so that it falls apart in as many pieces as possible. Which letter yields most pieces?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 5
+    },
+    {
+      "number": 23,
+      "text": "There were 12 children in a birthday party. The children were aged 6, 7, 8, 9 and 10 years. Four of them were 6 years old. In the group the most common age is 8 years old. What was the average age of the 12 children?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "6.5"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "7.5"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 24,
+      "text": "Rectangle ABCD was cut on 4 smaller rectangles in a way shown on the figure. The perimeters of three of them are 11, 16 and 19. The perimeter of the fourth rectangle is neither the biggest nor the smallest. Find the perimeter of the original rectangle ABCD.",
+      "options": [
+        {
+          "label": "A",
+          "text": "28"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "38"
+        },
+        {
+          "label": "E",
+          "text": "40"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 25,
+      "text": "We arrange the twelve numbers from 1 to 12 in a circle such that any neighbouring numbers always differ by either 1 or 2. Which of the following numbers have to be neighbours?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 26,
+      "text": "Peter wants to cut a rectangle of size into squares with integer sides. What is the minimum number of squares he can get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "42"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Some cells of the square table of size were colored red. The number of red cells in each row was indicated at the end of it, and the number of red cells in each column was indicated at the bottom of it. Then the red colour was eliminated. Which of the following tables can be the result?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "A square-shaped piece of paper was folded twice as shown in the picture. Find the sum of the areas of the shaded rectangles, knowing that the area of the original square is 64 cm2.",
+      "options": [
+        {
+          "label": "A",
+          "text": "10 cm2"
+        },
+        {
+          "label": "B",
+          "text": "14 cm2"
+        },
+        {
+          "label": "C",
+          "text": "15 cm2"
+        },
+        {
+          "label": "D",
+          "text": "16 cm2"
+        },
+        {
+          "label": "E",
+          "text": "24 cm2"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 29,
+      "text": "The numbers of the three houses my friends and I live in are formed with the same digits: abc, bc, c. Knowing that their sum equals 912, find the value of b.",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "0"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 30,
+      "text": "I give Ann and Bill two consecutive positive integers (for instance Ann 7 and Bill 6). They know their numbers are consecutive, they know their own number, but they do not know the number I gave to the other one. Then I heard the following discussion: Ann said to Bill: \"I don't know your number\". Bill said to Ann: \"I don't know your number\". Then Ann said to Bill: \"Now I know your number!\" What is Ann's number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 5
+    }
+  ]
+}
