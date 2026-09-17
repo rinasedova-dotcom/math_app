@@ -129,6 +129,11 @@
       "id": "kmo-2010-st-dimotikou",
       "name": "11th Cyprus Mathematical Olympiad 2010 — 6th Grade Primary",
       "dataFile": "data/kmo-2010-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2020-e-st-dimotikou",
+      "name": "21st Cyprus Mathematical Olympiad 2020 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2020-e-st-dimotikou.json"
     }
   ]
 }
