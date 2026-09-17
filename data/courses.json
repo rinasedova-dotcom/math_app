@@ -124,6 +124,11 @@
       "id": "kmo-2011-e-st-dimotikou",
       "name": "12th Cyprus Mathematical Olympiad 2011 — 5th & 6th Grade Primary",
       "dataFile": "data/kmo-2011-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2010-st-dimotikou",
+      "name": "11th Cyprus Mathematical Olympiad 2010 — 6th Grade Primary",
+      "dataFile": "data/kmo-2010-st-dimotikou.json"
     }
   ]
 }
