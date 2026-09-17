@@ -34,7 +34,7 @@
     },
     {
       "number": 2,
-      "text": "Which number is closest to 0,5? 501 45",
+      "text": "Which number is closest to 0,5?",
       "options": [
         {
           "label": "A",
@@ -42,7 +42,7 @@
         },
         {
           "label": "B",
-          "text": ""
+          "text": "501/1000"
         },
         {
           "label": "C",
@@ -50,7 +50,7 @@
         },
         {
           "label": "D",
-          "text": ""
+          "text": "45/100"
         },
         {
           "label": "E",
@@ -86,11 +86,12 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q3.png"
     },
     {
       "number": 4,
-      "text": "The sum of two numbers a and β is equal to 12 and the difference between the smallest number and the largest number is equal to 2. What is the value of the product a × β?",
+      "text": "The sum of two numbers α and β is equal to 12 and the difference between the smallest number and the largest number is equal to 2. What is the value of the product α × β?",
       "options": [
         {
           "label": "A",
@@ -118,7 +119,7 @@
     },
     {
       "number": 5,
-      "text": "How many of the following numbers are divisible by 18?",
+      "text": "How many of the following numbers are divisible by 18?<br>α = 2 × 2 × 3 × 3 × 7<br>β = 2 × 3 × 5 × 5 × 11<br>γ = 2 × 2 × 2 × 3 × 5<br>δ = 2 × 2 × 3 × 7 × 11",
       "options": [
         {
           "label": "A",
@@ -226,7 +227,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -258,31 +260,32 @@
     },
     {
       "number": 10,
-      "text": "In the figure below, 10 identical squares are placed symmetrically. What part of the shape is shaded? 3 7 3 2 5",
+      "text": "In the figure below, 10 identical squares are placed symmetrically. What part of the shape is shaded?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3/10"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "7/20"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3/8"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "2/5"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "5/8"
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -310,7 +313,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
@@ -342,7 +346,7 @@
     },
     {
       "number": 13,
-      "text": "In the figure below, four equilateral triangles are shown with side lengths 1 cm, 2 cm, 3 cm and 4 cm. How many times larger is the shaded area than the unshaded area of the figure? 4 2 1 3",
+      "text": "In the figure below, four equilateral triangles are shown with side lengths 1 cm, 2 cm, 3 cm and 4 cm. How many times larger is the shaded area than the unshaded area of the figure?",
       "options": [
         {
           "label": "A",
@@ -366,7 +370,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -478,7 +483,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -510,31 +516,32 @@
     },
     {
       "number": 19,
-      "text": "The figure below is made with patterned shapes and corresponds to two-thirds of a larger shape. What part of the larger shape is a triangle and a rhombus together? 2 3 1 3 7",
+      "text": "The figure below is made with patterned shapes and corresponds to two-thirds of a larger shape. What part of the larger shape is a triangle and a rhombus together?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "2/27"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "3/36"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "1/9"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "3/18"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "7/18"
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -650,7 +657,7 @@
     },
     {
       "number": 24,
-      "text": "Two calculators are shown below. A number is entered into the calculator A and then the result of this calculator is entered into the calculator B. The table shows the input values in the calculator A and the corresponding output values of the calculator B. Input of calculator A Output of calculator B 3 4 6 13 9 22 2 1 ; 34 Which number must be entered at the input of the calculator A, so that the number 34 will be displayed at the output of the calculator B?",
+      "text": "Two calculators are shown below. A number is entered into the calculator A and then the result of this calculator is entered into the calculator B.<br>The table shows the input values in the calculator A and the corresponding output values of the calculator B.<br>Which number must be entered at the input of the calculator A, so that the number 34 will be displayed at the output of the calculator B?",
       "options": [
         {
           "label": "A",
@@ -674,7 +681,34 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q24.png",
+      "table": [
+        [
+          "Input of calculator A",
+          "Output of calculator B"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "6",
+          "13"
+        ],
+        [
+          "9",
+          "22"
+        ],
+        [
+          "2",
+          "1"
+        ],
+        [
+          "?",
+          "34"
+        ]
+      ]
     },
     {
       "number": 25,
