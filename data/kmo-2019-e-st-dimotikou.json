@@ -34,7 +34,7 @@
     },
     {
       "number": 2,
-      "text": "The students of a class were asked about their favourite lesson. The results are represented in the bar chart below. How many are the students of the class? 16 14 12 Number of Students 10 8 6 4 2 0 English Mathematics Music Greek",
+      "text": "The students of a class were asked about their favourite lesson. The results are represented in the bar chart below. How many are the students of the class?",
       "options": [
         {
           "label": "A",
@@ -58,7 +58,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -118,7 +119,7 @@
     },
     {
       "number": 5,
-      "text": "The number in each rectangle represents its area. What is the value of number x? 4 5 2 x",
+      "text": "The number in each rectangle represents its area. What is the value of number x?",
       "options": [
         {
           "label": "A",
@@ -142,7 +143,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -174,7 +176,7 @@
     },
     {
       "number": 7,
-      "text": "Assuming that the pattern below continues, how many squares will be in the twentieth ﬁgure? 4th 3rd 2nd 1st",
+      "text": "Assuming that the pattern below continues, how many squares will be in the twentieth figure?",
       "options": [
         {
           "label": "A",
@@ -198,7 +200,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q7.png"
     },
     {
       "number": 8,
@@ -258,7 +261,7 @@
     },
     {
       "number": 10,
-      "text": "What is the value of digit Z? 1 0 0",
+      "text": "What is the value of digit Z?",
       "options": [
         {
           "label": "A",
@@ -282,31 +285,32 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q10.png"
     },
     {
       "number": 11,
-      "text": "It is known that 1 1 1 1 15 + + + = . 11 22 44 88 88 What is the value of the sum 12 23 45 89 + + + ? 11 22 44 88 15 15 15 315 15",
+      "text": "It is known that 1/11 + 1/22 + 1/44 + 1/88 = 15/88. What is the value of the sum 12/11 + 23/22 + 45/44 + 89/88?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "4 15/88"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "4 15/22"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "15/11"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "315/88"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "15/22"
         }
       ],
       "answer": "A",
@@ -314,7 +318,7 @@
     },
     {
       "number": 12,
-      "text": "How many triangles are there in the ﬁgure below?",
+      "text": "How many triangles are there in the figure below?",
       "options": [
         {
           "label": "A",
@@ -338,11 +342,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q12.png"
     },
     {
       "number": 13,
-      "text": "The ﬁgure below consists of 5 squares. Each one of the two small squares has area 1. What is the area of the whole shape?",
+      "text": "The figure below consists of 5 squares. Each one of the two small squares has area 1. What is the area of the whole shape?",
       "options": [
         {
           "label": "A",
@@ -366,11 +371,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
-      "text": "In the table below, each shape represents a whole number. The numbers next to each row or column represent the sum of the shapes in that row or column, respectively. What number must be placed in the center of the table? 12 ? 14 10 12 13 11",
+      "text": "In the table below, each shape represents a whole number. The numbers next to each row or column represent the sum of the shapes in that row or column, respectively. What number must be placed in the center of the table?",
       "options": [
         {
           "label": "A",
@@ -394,7 +400,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -426,7 +433,7 @@
     },
     {
       "number": 16,
-      "text": "The ﬁgure below consists of eight small unit cubes. We place one more unit cube on the top of this ﬁgure. By how much square units will the surface area increase?",
+      "text": "The figure below consists of eight small unit cubes. We place one more unit cube on the top of this figure. By how much square units will the surface area increase?",
       "options": [
         {
           "label": "A",
@@ -450,7 +457,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
@@ -482,7 +490,7 @@
     },
     {
       "number": 18,
-      "text": "In the ﬁgure below, what is the value of number x? 1 5 4 2 3 x 8 9 5 3 4 3 1 6 8 2 7 5 3 1 3 6 6 2",
+      "text": "In the figure below, what is the value of number x?",
       "options": [
         {
           "label": "A",
@@ -506,7 +514,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q18.png"
     },
     {
       "number": 19,
@@ -538,7 +547,7 @@
     },
     {
       "number": 20,
-      "text": "The following 4 × 4 grid is cut into two identical pieces. The two pieces have the same area and shape. One way of cutting the grid is shown below. In how many diﬀerent ways can we cut the grid into two identical pieces, cutting along the lines? (The shapes resulting from each cut should be diﬀerent from shapes resulting from another cut.)",
+      "text": "The following 4 × 4 grid is cut into two identical pieces. The two pieces have the same area and shape. One way of cutting the grid is shown below.<br>In how many different ways can we cut the grid into two identical pieces, cutting along the lines? (The shapes resulting from each cut should be different from shapes resulting from another cut.)",
       "options": [
         {
           "label": "A",
@@ -562,27 +571,28 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
-      "text": "In the sum + , each letter represents an one-digit number, diﬀerent from zero. The sum is a number smaller than 1 and as close to 1 as possible. What is that sum? 61 71 82 93",
+      "text": "In the sum a/β + γ/δ, each letter represents a one-digit number, different from zero. The sum is a number smaller than 1 and as close to 1 as possible. What is that sum?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "61/63"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "71/72"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "82/83"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "93/94"
         },
         {
           "label": "E",
@@ -594,7 +604,7 @@
     },
     {
       "number": 22,
-      "text": "In the following diagram, letters A, B, Γ and Δ represent the total weight of the shapes that each group has. Any two diﬀerent shapes have diﬀerent weight. If we know that A < B < Γ, then which of the following is true?",
+      "text": "In the following diagram, letters A, B, Γ and Δ represent the total weight of the shapes that each group has.<br>Any two different shapes have different weight. If we know that A < B < Γ, then which of the following is true?",
       "options": [
         {
           "label": "A",
@@ -618,7 +628,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q22.png"
     },
     {
       "number": 23,
@@ -650,7 +661,7 @@
     },
     {
       "number": 24,
-      "text": "The fourth column is the column, in which 2 pieces of pizza appear for the ﬁrst time . Which is the next column, in which 2 pieces of pizzas will appear again? 1st 2nd 3rd 4th 5th 6th 7th 8th 9th",
+      "text": "The fourth column is the column, in which 2 pieces of pizza appear for the first time. Which is the next column, in which 2 pieces of pizza will appear again?",
       "options": [
         {
           "label": "A",
@@ -674,11 +685,12 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q24.png"
     },
     {
       "number": 25,
-      "text": "In the ﬁgure below, each letter represents one integer number from 1 up to 9. The sum in each circle is 11. If Γ = 5, then what is the value of E?",
+      "text": "In the figure below, each letter represents one integer number from 1 up to 9. The sum in each circle is 11. If Γ = 5, then what is the value of E?",
       "options": [
         {
           "label": "A",
@@ -702,7 +714,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q25.png"
     }
   ]
 }
