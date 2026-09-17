@@ -61,6 +61,34 @@
       "points": 4
     },
     {
+      "number": 3,
+      "text": "We have a scale, and five weights, a 4 kg, a 5 kg, a 6 kg, an 8 kg and a 10 kg weight. Linda managed to balance the scale, by putting two weights on each side of the scale. Which weight did she not use?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The 4 kg weight"
+        },
+        {
+          "label": "B",
+          "text": "The 5 kg weight"
+        },
+        {
+          "label": "C",
+          "text": "The 6 kg weight"
+        },
+        {
+          "label": "D",
+          "text": "The 8 kg weight"
+        },
+        {
+          "label": "E",
+          "text": "The 10 kg weight"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
       "number": 4,
       "text": "If K, Λ are distinct digits such that what is the value of the product K × Λ? 1 7 6",
       "options": [
@@ -226,7 +254,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -254,7 +283,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -426,7 +456,7 @@
     },
     {
       "number": 17,
-      "text": "A parcel company charges €3 euros to transport a parcel weighing a maximum of 1 kg. If the parcel weighs more than 1 kg and up to 2 kg, the company charges an additional€1,50. If the parcel weighs more than 2 kg and up to 3 kg, the company charges an additional€1,50. In the same way the company continues and charges €1,50 for each additional kilo. How much will we pay if we want to send a parcel weighing 7,2 kg?",
+      "text": "A parcel company charges €3 euros to transport a parcel weighing a maximum of 1 kg. If the parcel weighs more than 1 kg and up to 2 kg, the company charges an additional €1,50. If the parcel weighs more than 2 kg and up to 3 kg, the company charges an additional €1,50. In the same way the company continues and charges €1,50 for each additional kilo. How much will we pay if we want to send a parcel weighing 7,2 kg?",
       "options": [
         {
           "label": "A",
@@ -454,35 +484,53 @@
     },
     {
       "number": 18,
-      "text": "Students at a school were asked to state which sport they prefer. Their responses were recorded in the following table: If we choose at random a student at this school, the Basketball 70 Football 100 Handball 80 Volleyball 50 probability that he has stated that he prefers football is: 1 1 1 1 1",
+      "text": "Students at a school were asked to state which sport they prefer. Their responses were recorded in the following table. If we choose at random a student at this school, the probability that he has stated that he prefers football is:",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1/2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "1/3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "1/4"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "1/5"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "1/6"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "table": [
+        [
+          "Basketball",
+          "70"
+        ],
+        [
+          "Football",
+          "100"
+        ],
+        [
+          "Handball",
+          "80"
+        ],
+        [
+          "Volleyball",
+          "50"
+        ]
+      ]
     },
     {
       "number": 19,
-      "text": "Let ABΓ ∆ be a square. From the vertices B and ∆ we create two equal squares. One of them is BEZH. From the vertex Γ we create the square Γ KΛM . It is also given that: • the area of the square ABΓ ∆ is 400 cm2 , • the area of the square BEZH is 25 cm2 , and • the length of EM is 11 cm. The shaded region has area equal to:",
+      "text": "Let ABΓΔ be a square. From the vertices B and Δ we create two equal squares. One of them is BEZH. From the vertex Γ we create the square ΓKΛM. It is also given that:<br>• the area of the square ABΓΔ is 400 cm2,<br>• the area of the square BEZH is 25 cm2, and<br>• the length of EM is 11 cm.<br>The shaded region has area equal to:",
       "options": [
         {
           "label": "A",
@@ -506,7 +554,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -593,28 +642,56 @@
       "points": 4
     },
     {
-      "number": 24,
-      "text": "Which of the following fractions is not between and ? 3 4 17 33 35 18 65",
+      "number": 23,
+      "text": "A student wanted to perform the multiplication 45 × 123 on his calculator. However, he mispressed one of the digits 1, 2, 3, 4, 5 in the previous operation and the calculator produced a result of 5085. Which digit was mispressed?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 4
+    },
+    {
+      "number": 24,
+      "text": "Which of the following fractions is not between 2/3 and 3/4?",
+      "options": [
+        {
+          "label": "A",
+          "text": "17/24"
+        },
+        {
+          "label": "B",
+          "text": "33/48"
+        },
+        {
+          "label": "C",
+          "text": "35/48"
+        },
+        {
+          "label": "D",
+          "text": "18/23"
+        },
+        {
+          "label": "E",
+          "text": "65/96"
         }
       ],
       "answer": "D",
