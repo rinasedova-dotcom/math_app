@@ -58,7 +58,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -86,7 +87,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -170,7 +172,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
@@ -178,23 +181,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "(6 + 3 · 2) + 1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "6 + 3 · 2 + 1"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "(6 + 3) · (2 + 1)"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "(6 + 3) · 2 + 1"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "6 + 3 · (2 + 1)"
         }
       ],
       "answer": "D",
@@ -222,11 +225,12 @@
         },
         {
           "label": "E",
-          "text": ""
+          "text": "depends on the rotation speed"
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -254,7 +258,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -310,7 +315,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
@@ -318,27 +324,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "A"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "B"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "C"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "D"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "Impossible to say"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q12.png"
     },
     {
       "number": 13,
@@ -366,7 +373,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -374,23 +382,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "impossible to say"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "red or blue"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "only green"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "only red"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "only blue"
         }
       ],
       "answer": "C",
@@ -422,11 +430,12 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
-      "text": "Look at the pictures. Both figures are formed from the same five pieces. The rectangle is (in centimetres) and the other parts are quarters of two different circles. The difference between their perimeters is :",
+      "text": "Look at the pictures. Both figures are formed from the same five pieces. The rectangle is 5 x 10 (in centimetres) and the other parts are quarters of two different circles. The difference between their perimeters is :",
       "options": [
         {
           "label": "A",
@@ -478,11 +487,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
-      "text": "A rubber ball falls from the roof of a house of height 10 meters. After each impact on the ground it bounces back up to of the previous height. How many times will the ball appear in front of a window whose bottom edge has a height of 5 meters and whose top edge has a height of 6 meters?",
+      "text": "A rubber ball falls from the roof of a house of height 10 meters. After each impact on the ground it bounces back up to 4/5 of the previous height. How many times will the ball appear in front of a window whose bottom edge has a height of 5 meters and whose top edge has a height of 6 meters?",
       "options": [
         {
           "label": "A",
@@ -534,7 +544,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -562,31 +573,32 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
-      "text": "In Winnie's vinegar-wine-water marinade there are vinegar and wine at a ratio of 1 to 2. Wine and water are at a ratio of 3 to 1. Which of the following statements is true? together. together. together.",
+      "text": "In Winnie's vinegar-wine-water marinade there are vinegar and wine at a ratio of 1 to 2. Wine and water are at a ratio of 3 to 1. Which of the following statements is true?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "There is more vinegar than wine."
         },
         {
           "label": "B",
-          "text": ""
+          "text": "There is more wine than vinegar and water together."
         },
         {
           "label": "C",
-          "text": ""
+          "text": "There is more vinegar than wine and water together."
         },
         {
           "label": "D",
-          "text": ""
+          "text": "There is more water than vinegar and wine together."
         },
         {
           "label": "E",
-          "text": ""
+          "text": "Vinegar is contained least."
         }
       ],
       "answer": "B",
@@ -618,7 +630,8 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q22.png"
     },
     {
       "number": 23,
@@ -674,7 +687,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q24.png"
     },
     {
       "number": 25,
@@ -682,31 +696,32 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "5 and 6"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "10 and 9"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "6 and 7"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "8 and 10"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "4 and 3"
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q25.png"
     },
     {
       "number": 26,
-      "text": "Peter wants to cut a rectangle of size into squares with integer sides. What is the minimum number of squares he can get?",
+      "text": "Peter wants to cut a rectangle of size 6 x 7 into squares with integer sides. What is the minimum number of squares he can get?",
       "options": [
         {
           "label": "A",
@@ -734,7 +749,7 @@
     },
     {
       "number": 27,
-      "text": "Some cells of the square table of size were colored red. The number of red cells in each row was indicated at the end of it, and the number of red cells in each column was indicated at the bottom of it. Then the red colour was eliminated. Which of the following tables can be the result?",
+      "text": "Some cells of the square table of size 4 x 4 were colored red. The number of red cells in each row was indicated at the end of it, and the number of red cells in each column was indicated at the bottom of it. Then the red colour was eliminated. Which of the following tables can be the result?",
       "options": [
         {
           "label": "A",
@@ -758,7 +773,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q27.png"
     },
     {
       "number": 28,
@@ -786,7 +802,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q28.png"
     },
     {
       "number": 29,
