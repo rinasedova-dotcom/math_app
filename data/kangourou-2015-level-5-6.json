@@ -30,7 +30,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -58,7 +59,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -86,7 +88,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -142,7 +145,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -226,7 +230,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -254,7 +259,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -282,7 +288,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -310,7 +317,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
@@ -342,7 +350,7 @@
     },
     {
       "number": 13,
-      "text": "The rectangle ABCD in the picture consists of 4 equal rectangles. If BC has length 10 cm, what is the length of AB? A B D C",
+      "text": "The rectangle ABCD in the picture consists of 4 equal rectangles. If BC has length 10 cm, what is the length of AB?",
       "options": [
         {
           "label": "A",
@@ -366,7 +374,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -394,7 +403,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -506,7 +516,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q18.png"
     },
     {
       "number": 19,
@@ -562,7 +573,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,7 +602,8 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -626,27 +639,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "4 only"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "7 only"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3 or 4 only"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "3 or 7 only"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "3, 4 or 7 only"
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
@@ -654,23 +668,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "50"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "51"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "67"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "68"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "There is more than one possible final result"
         }
       ],
       "answer": "C",
@@ -730,7 +744,8 @@
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q26.png"
     },
     {
       "number": 27,
@@ -786,7 +801,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q28.png"
     },
     {
       "number": 29,
