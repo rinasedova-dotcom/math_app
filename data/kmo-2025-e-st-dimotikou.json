@@ -62,7 +62,7 @@
     },
     {
       "number": 3,
-      "text": "Given the following pattern, which shape is in the 20th place? Place: 1st 2nd 3rd 4th 5th 6th 7th ··· Shape: ···",
+      "text": "Given the following pattern, which shape is in the 20th place?",
       "options": [
         {
           "label": "A",
@@ -86,7 +86,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -254,7 +255,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -286,7 +288,7 @@
     },
     {
       "number": 11,
-      "text": "The operation X Ψ is defined as 3 What is the result of 2 7? 9",
+      "text": "The operation X ◆ Ψ is defined as:<br>X ◆ Ψ = (X + Ψ) / 3 + 5<br>What is the result of 2 ◆ 7?",
       "options": [
         {
           "label": "A",
@@ -302,7 +304,7 @@
         },
         {
           "label": "D",
-          "text": ""
+          "text": "9/3"
         },
         {
           "label": "E",
@@ -314,7 +316,7 @@
     },
     {
       "number": 12,
-      "text": "• The number α is the highest common factor (HCF) of the numbers 13 and 26. • The number β is the least common multiple (LCM) of the numbers 10 and 25. • The number γ is the smallest prime number. What is the result of the product α × β × γ?",
+      "text": "• The number α is the highest common factor (HCF) of the numbers 13 and 26.<br>• The number β is the least common multiple (LCM) of the numbers 10 and 25.<br>• The number γ is the smallest prime number.<br>What is the result of the product α × β × γ?",
       "options": [
         {
           "label": "A",
@@ -422,7 +424,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -450,7 +453,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
@@ -510,7 +514,7 @@
     },
     {
       "number": 19,
-      "text": "In the following addition, some digits have been replaced by the letters K, Λ, M and N , all of them different than zero. K M M K Λ K K K M N What are the values of K, Λ, M and N ?",
+      "text": "In the following addition, some digits have been replaced by the letters K, Λ, M and N, all of them different than zero.<br>What are the values of K, Λ, M and N?",
       "options": [
         {
           "label": "A",
@@ -534,7 +538,33 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "table": [
+        [
+          "K",
+          "M",
+          "M",
+          ""
+        ],
+        [
+          "K",
+          "Λ",
+          "K",
+          ""
+        ],
+        [
+          "N",
+          "Λ",
+          "Λ",
+          "+"
+        ],
+        [
+          "K",
+          "K",
+          "M",
+          "N"
+        ]
+      ]
     },
     {
       "number": 20,
@@ -562,7 +592,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,11 +621,12 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q21.png"
     },
     {
       "number": 22,
-      "text": "In a survey conducted by the 5th and 6th grade students of a primary school, 73 of the students surveyed said that they wish to visit Greece during the summer holidays. Of the remaining students, 45 said they wish to visit other European countries, and 15 said they will stay in Cyprus. How many students participated in the survey?",
+      "text": "In a survey conducted by the 5th and 6th grade students of a primary school, 3/7 of the students surveyed said that they wish to visit Greece during the summer holidays. Of the remaining students, 45 said they wish to visit other European countries, and 15 said they will stay in Cyprus. How many students participated in the survey?",
       "options": [
         {
           "label": "A",
@@ -650,7 +682,7 @@
     },
     {
       "number": 24,
-      "text": "Five friends, Π, P, Σ, T, and Y have different ages, with T being the youngest. P is older than Y and younger than Σ, while Π is younger than P but older than Y . What is the correct order if we want to place them from the oldest to the youngest?",
+      "text": "Five friends, Π, P, Σ, T, and Υ have different ages, with T being the youngest. P is older than Υ and younger than Σ, while Π is younger than P but older than Υ. What is the correct order if we want to place them from the oldest to the youngest?",
       "options": [
         {
           "label": "A",
@@ -678,7 +710,7 @@
     },
     {
       "number": 25,
-      "text": "The following correspondence is given. What is the result of the operation below? + × −( + )÷",
+      "text": "The following correspondence is given. What is the result of the operation below?",
       "options": [
         {
           "label": "A",
@@ -702,7 +734,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q25.png"
     }
   ]
 }
