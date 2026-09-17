@@ -30,11 +30,12 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q1.png"
     },
     {
       "number": 2,
-      "text": "How many different routes can you find in order to move from to if you can't move in the opposite to the arrows direction?",
+      "text": "How many different routes can you find in order to move from A to B if you can't move in the opposite to the arrows direction?",
       "options": [
         {
           "label": "A",
@@ -58,7 +59,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -90,23 +92,23 @@
     },
     {
       "number": 4,
-      "text": "The perimeter of the shape below is 28 . What is the value of ?",
+      "text": "The perimeter of the shape below is 28 cm. What is the value of x?",
       "options": [
         {
           "label": "A",
-          "text": "8"
+          "text": "8 cm"
         },
         {
           "label": "B",
-          "text": "5"
+          "text": "5 cm"
         },
         {
           "label": "C",
-          "text": "19"
+          "text": "19 cm"
         },
         {
           "label": "D",
-          "text": "11"
+          "text": "11 cm"
         },
         {
           "label": "E",
@@ -114,31 +116,32 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q4.png"
     },
     {
       "number": 5,
-      "text": "If it holds that , which of the following is true?",
+      "text": "If it holds that ♦♦♦ + ●● = ●●●●●●●●●●●, which of the following is true?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "♦ = ●"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "♦ = ●●"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "♦ = ●●●"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "♦ = ●●●●"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "♦ = ●●●●●"
         }
       ],
       "answer": "C",
@@ -146,27 +149,27 @@
     },
     {
       "number": 6,
-      "text": "In what order (from left to right) should the marks « », « » and « » be placed in the boxes in order for the following equality to be true 2 3 5 7 10?",
+      "text": "In what order (from left to right) should the marks «×», «−» and «+» be placed in the boxes in order for the following equality to be true 2 □ 3 □ 5 □ 7 = 10?",
       "options": [
         {
           "label": "A",
-          "text": ", ,"
+          "text": "+, ×, −"
         },
         {
           "label": "B",
-          "text": ", ,"
+          "text": "+, −, ×"
         },
         {
           "label": "C",
-          "text": ", ,"
+          "text": "−, +, ×"
         },
         {
           "label": "D",
-          "text": ", ,"
+          "text": "−, ×, +"
         },
         {
           "label": "E",
-          "text": ", ,"
+          "text": "×, +, −"
         }
       ],
       "answer": "A",
@@ -174,19 +177,19 @@
     },
     {
       "number": 7,
-      "text": "The outcome of the expression is:",
+      "text": "The outcome of the expression 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/2 + 2/3 + 3/4 + 4/5 + 5/6 is:",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "20/40"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "20/720"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "48/60"
         },
         {
           "label": "D",
@@ -202,31 +205,32 @@
     },
     {
       "number": 8,
-      "text": "In the figure below, the large square has an area of 64 . The area of the small square is of the area of the large square. What is the area of the shaded region?",
+      "text": "In the figure below, the large square has an area of 64 cm². The area of the small square is 1/4 of the area of the large square. What is the area of the shaded region?",
       "options": [
         {
           "label": "A",
-          "text": "12"
+          "text": "12 cm²"
         },
         {
           "label": "B",
-          "text": "16"
+          "text": "16 cm²"
         },
         {
           "label": "C",
-          "text": "36"
+          "text": "36 cm²"
         },
         {
           "label": "D",
-          "text": "48"
+          "text": "48 cm²"
         },
         {
           "label": "E",
-          "text": "4"
+          "text": "4 cm²"
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -286,7 +290,7 @@
     },
     {
       "number": 11,
-      "text": "The measure of the angle is:",
+      "text": "The measure of angle α is:",
       "options": [
         {
           "label": "A",
@@ -310,31 +314,32 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
-      "text": "If 5, then which of the following numbers is the smallest?",
+      "text": "If x > 5, then which of the following numbers is the smallest?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "5/x"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "5/(x+1)"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "5/(x-1)"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "x/5"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "(x+1)/5"
         }
       ],
       "answer": "B",
@@ -342,7 +347,7 @@
     },
     {
       "number": 13,
-      "text": "How many squares of side 1 does the next shape in the order have?",
+      "text": "How many squares of side 1 cm does the next shape in the order have?",
       "options": [
         {
           "label": "A",
@@ -366,35 +371,37 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
-      "text": "Zenon has 4 boxes. He places 64 balls in box . Then he proceeded with the following steps: Places half the balls from to . Places half the balls from to . Places half the balls from to . Places all the balls from to . Places half the balls from to . Which box contains the most balls?",
+      "text": "Zenon has 4 boxes. He places 64 balls in box (α). Then he proceeded with the following steps:<br>Places half the balls from (α) to (β).<br>Places half the balls from (β) to (γ).<br>Places half the balls from (α) to (γ).<br>Places all the balls from (α) to (δ).<br>Places half the balls from (γ) to (α).<br>Which box contains the most balls?",
       "options": [
         {
-          "label": "E",
-          "text": "All have the"
-        },
-        {
           "label": "A",
-          "text": "In box"
+          "text": "In box (α)"
         },
         {
           "label": "B",
-          "text": "In box"
+          "text": "In box (β)"
         },
         {
           "label": "C",
-          "text": "In box"
+          "text": "In box (γ)"
         },
         {
           "label": "D",
-          "text": "In box"
+          "text": "In box (δ)"
+        },
+        {
+          "label": "E",
+          "text": "All have the same number"
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -426,7 +433,7 @@
     },
     {
       "number": 16,
-      "text": "A solid wooden cube with side 10 will be cut into cubes with side 3 each. What is the maximum number of 3 ‐side cubes that can be created?",
+      "text": "A solid wooden cube with side 10 cm will be cut into cubes with side 3 cm each. What is the maximum number of 3 cm-side cubes that can be created?",
       "options": [
         {
           "label": "A",
@@ -450,35 +457,37 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
-      "text": "and are squares with 3 . Find the area of the shaded polygon .",
+      "text": "ABΓΔ and ΔΕΓΖ are squares with ΔΕ = 3 cm. Find the area of the shaded polygon ABΓΖΔA.",
       "options": [
         {
           "label": "A",
-          "text": "9"
+          "text": "9 cm²"
         },
         {
           "label": "B",
-          "text": "12"
+          "text": "12 cm²"
         },
         {
           "label": "C",
-          "text": "13.5"
+          "text": "13.5 cm²"
         },
         {
           "label": "D",
-          "text": "18"
+          "text": "18 cm²"
         },
         {
           "label": "E",
-          "text": "27"
+          "text": "27 cm²"
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -506,11 +515,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q18.png"
     },
     {
       "number": 19,
-      "text": "Each of the letters , , , will be replaced with one of the numbers 1,4,5,6 (different 1 digit for each letter). What is the maximum possible value of the expression ? 1 1 8 1",
+      "text": "Each of the letters α, β, γ, δ will be replaced with one of the numbers 1,4,5,6 (different digit for each letter). What is the maximum possible value of the expression α + 1/β + γ/δ?",
       "options": [
         {
           "label": "A",
@@ -518,19 +528,19 @@
         },
         {
           "label": "B",
-          "text": "7"
+          "text": "7 1/2"
         },
         {
           "label": "C",
-          "text": "8"
+          "text": "8 1/5"
         },
         {
           "label": "D",
-          "text": "7"
+          "text": "7 8/15"
         },
         {
           "label": "E",
-          "text": "11"
+          "text": "11 1/4"
         }
       ],
       "answer": "E",
@@ -566,7 +576,7 @@
     },
     {
       "number": 21,
-      "text": "In how many zeros does the following product end? 55 44 33 22 11",
+      "text": "In how many zeros does the following product end?<br>A = 55 × 44 × 33 × 22 × 11",
       "options": [
         {
           "label": "A",
@@ -650,7 +660,7 @@
     },
     {
       "number": 24,
-      "text": "For 0, 〈 〉 is defined as 〈 〉 . The value of 〈3〉 is: 2",
+      "text": "For x ≠ 0, ⟨x⟩ is defined as ⟨x⟩ = x/(x+2) + 1/x. The value of ⟨3⟩ is:",
       "options": [
         {
           "label": "A",
@@ -662,11 +672,11 @@
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4/8"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "14/15"
         },
         {
           "label": "E",
@@ -678,7 +688,7 @@
     },
     {
       "number": 25,
-      "text": "The figure below presents a number of scales. The mass of each shape has an integer value. Each shape always has the same weight. What is the maximum possible mass of , if the weight of is 20 and the weight of is 5 ?",
+      "text": "The figure below presents a number of scales. The mass of each shape has an integer value. Each shape always has the same weight. What is the maximum possible mass of ♦, if the weight of ♥ is 20 kg and the weight of ● is 5 kg?",
       "options": [
         {
           "label": "A",
@@ -702,7 +712,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q25.png"
     }
   ]
 }
