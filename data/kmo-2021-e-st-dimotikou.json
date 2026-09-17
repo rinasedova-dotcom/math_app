@@ -62,7 +62,7 @@
     },
     {
       "number": 3,
-      "text": "On the two scales there are spherical marbles, a pentagon and weights of 20 gr. 20 gr 20 gr 20 gr If the scales are in balance, then how many grams correspond to the pentagon?",
+      "text": "On the two scales there are spherical marbles, a pentagon and weights of 20 gr. If the scales are in balance, then how many grams correspond to the pentagon?",
       "options": [
         {
           "label": "A",
@@ -86,11 +86,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q3.png"
     },
     {
       "number": 4,
-      "text": "In the figure below, the area of the shaded part of the square is 8 cm2 . What is the length of the side of the square?",
+      "text": "In the figure below, the area of the shaded part of the square is 8 cm². What is the length of the side of the square?",
       "options": [
         {
           "label": "A",
@@ -114,7 +115,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -174,7 +176,7 @@
     },
     {
       "number": 7,
-      "text": "The chart below shows the times of five swimmers in a swimming race. Which swimmer finished the race first? Swimmer 22 40 54 66 74 Time (sec)",
+      "text": "The chart below shows the times of five swimmers in a swimming race. Which swimmer finished the race first?",
       "options": [
         {
           "label": "A",
@@ -198,7 +200,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q7.png"
     },
     {
       "number": 8,
@@ -226,7 +229,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -262,55 +266,66 @@
       "options": [
         {
           "label": "A",
-          "text": "Α"
+          "text": ""
         },
         {
           "label": "B",
-          "text": "Β"
+          "text": ""
         },
         {
           "label": "C",
-          "text": "Γ"
+          "text": ""
         },
         {
           "label": "D",
-          "text": "Δ"
+          "text": ""
         },
         {
           "label": "E",
-          "text": "Ε"
+          "text": ""
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q10.png"
     },
     {
       "number": 11,
-      "text": "A rectangle is divided into four parts, as shown in the figure below. What is the area of the shaded part? 28 cm2 36 cm2 21 cm2",
+      "text": "A rectangle is divided into four parts, as shown in the figure below. What is the area of the shaded part?",
       "options": [
         {
           "label": "A",
-          "text": "24 cm2"
+          "text": "24 cm²"
         },
         {
           "label": "B",
-          "text": "27 cm2"
+          "text": "27 cm²"
         },
         {
           "label": "C",
-          "text": "28 cm2"
+          "text": "28 cm²"
         },
         {
           "label": "D",
-          "text": "29 cm2"
+          "text": "29 cm²"
         },
         {
           "label": "E",
-          "text": "30 cm2"
+          "text": "30 cm²"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "table": [
+        [
+          "28 cm²",
+          "36 cm²"
+        ],
+        [
+          "21 cm²",
+          "?"
+        ]
+      ]
     },
     {
       "number": 12,
@@ -370,7 +385,7 @@
     },
     {
       "number": 14,
-      "text": "Daniel has 3 apples and 4 oranges. What is the least number of fruits that Daniel must 2 buy, so that of all of his fruits are apples? 3",
+      "text": "Daniel has 3 apples and 4 oranges. What is the least number of fruits that Daniel must buy, so that 2/3 of all of his fruits are apples?",
       "options": [
         {
           "label": "A",
@@ -398,7 +413,7 @@
     },
     {
       "number": 15,
-      "text": "A barrel holds 200 litres of wine. At the moment only X litres are missing out of 200. 3 If we remove another 50 litres, then the barrel will be full at its . How many are the 5 X litres that are missing?",
+      "text": "A barrel holds 200 litres of wine. At the moment only X litres are missing out of 200. If we remove another 50 litres, then the barrel will be full at its 3/5. How many are the X litres that are missing?",
       "options": [
         {
           "label": "A",
