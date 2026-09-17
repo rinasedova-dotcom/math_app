@@ -30,7 +30,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -62,7 +63,7 @@
     },
     {
       "number": 3,
-      "text": "𝟐𝟐𝟐𝟐 × 𝟏𝟏𝟏𝟏 + 𝟐𝟐𝟐𝟐 + 𝟏𝟏𝟏𝟏 =",
+      "text": "20 × 19 + 20 + 19 =",
       "options": [
         {
           "label": "A",
@@ -142,7 +143,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -170,11 +172,12 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
-      "text": "Laura wants to colour a 𝟐𝟐 × 𝟐𝟐 square of this figure . How many possibilities are there?",
+      "text": "Laura wants to colour a 2 × 2 square of this figure . How many possibilities are there?",
       "options": [
         {
           "label": "A",
@@ -282,7 +285,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -394,7 +398,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -478,7 +483,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -562,7 +568,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,7 +597,8 @@
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -618,7 +626,8 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q22.png"
     },
     {
       "number": 23,
@@ -630,7 +639,7 @@
         },
         {
           "label": "B",
-          "text": "My daughter Ann has 2 brothers 2 αδελφούς"
+          "text": "My daughter Ann has 2 brothers"
         },
         {
           "label": "C",
@@ -638,11 +647,11 @@
         },
         {
           "label": "D",
-          "text": "My son Basil has 2 brothers 2 αδελφούς"
+          "text": "My son Basil has 2 brothers"
         },
         {
           "label": "E",
-          "text": "I have 5 children 5 παιδιά"
+          "text": "I have 5 children"
         }
       ],
       "answer": "D",
@@ -654,31 +663,32 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "both 1st and 2nd are possible"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "both 2nd and 3rd are possible"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "both 3rd and 4th are possible"
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q24.png"
     },
     {
       "number": 25,
-      "text": "The cardboard is folded into a 𝟐𝟐 × 𝟏𝟏 × 𝟏𝟏 box. Which picture does NOT show this box?",
+      "text": "The cardboard is folded into a 2 × 1 × 1 box. Which picture does NOT show this box?",
       "options": [
         {
           "label": "A",
@@ -702,7 +712,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q25.png"
     },
     {
       "number": 26,
@@ -758,7 +769,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q27.png"
     },
     {
       "number": 28,
@@ -786,11 +798,12 @@
         }
       ],
       "answer": "A",
-      "points": 5
+      "points": 5,
+      "image": "q28.png"
     },
     {
       "number": 29,
-      "text": "Linas builds a 𝟒𝟒 × 𝟒𝟒 × 𝟒𝟒 cube using 𝟑𝟑𝟑𝟑 white and 𝟑𝟑𝟑𝟑 black 𝟏𝟏 × 𝟏𝟏 × 𝟏𝟏 cubes. He arranges the cubes so that as much of the surface of his large cube is white. What fraction of the surface of his cube is white?",
+      "text": "Linas builds a 4 × 4 × 4 cube using 32 white and 32 black 1 × 1 × 1 cubes. He arranges the cubes so that as much of the surface of his large cube is white. What fraction of the surface of his cube is white?",
       "options": [
         {
           "label": "A",
