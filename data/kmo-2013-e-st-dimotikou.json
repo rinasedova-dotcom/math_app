@@ -34,19 +34,19 @@
     },
     {
       "number": 2,
-      "text": "Which of the following expressions has the largest value? 1 1 1 1",
+      "text": "Which of the following expressions has the largest value?",
       "options": [
         {
           "label": "A",
-          "text": "(1  ) : 3"
+          "text": "(1 − 1/3) : 3"
         },
         {
           "label": "B",
-          "text": "3 :"
+          "text": "3 : 1/3"
         },
         {
           "label": "C",
-          "text": ":3"
+          "text": "1/3 : 3"
         },
         {
           "label": "D",
@@ -54,7 +54,7 @@
         },
         {
           "label": "E",
-          "text": "(3  ) : 3"
+          "text": "(3 − 1/3) : 3"
         }
       ],
       "answer": "B",
@@ -142,11 +142,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q5.png"
     },
     {
       "number": 6,
-      "text": "What is the value of the following calculation? 1 1 1 1 1 (1  )  (1  )  (1  )  ...  (1  )  (1  ) 2 3 4 1012 1013",
+      "text": "What is the value of the following calculation?<br>(1 + 1/2) × (1 + 1/3) × (1 + 1/4) × … × (1 + 1/1012) × (1 + 1/1013)",
       "options": [
         {
           "label": "A",
@@ -202,7 +203,7 @@
     },
     {
       "number": 8,
-      "text": "In the figure below ΑΒΓ is an isosceles triangle. Both ΑΒΕΔ and ΑΓΖΗ are rectangles. What is the value of angle ΔΑΗ? 40° 40°",
+      "text": "In the figure below ΑΒΓ is an isosceles triangle. Both ΑΒΕΔ and ΑΓΖΗ are rectangles. What is the value of angle ΔΑΗ?",
       "options": [
         {
           "label": "A",
@@ -226,31 +227,32 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q8.png"
     },
     {
       "number": 9,
-      "text": "From 2  2  2  2 we observe that the sum of the two numbers 2 and 2 is equal to their product. In which of the following pairs of numbers, we find the same property? 2 3 4 6 7",
+      "text": "From 2 + 2 = 2 × 2 we observe that the sum of the two numbers 2 and 2 is equal to their product. In which of the following pairs of numbers do we find the same property?",
       "options": [
         {
           "label": "A",
-          "text": "2 and"
+          "text": "2 and 2/3"
         },
         {
           "label": "B",
-          "text": "3 and"
+          "text": "3 and 3/2"
         },
         {
           "label": "C",
-          "text": "4 and"
+          "text": "4 and 4/5"
         },
         {
           "label": "D",
-          "text": "5 and"
+          "text": "5 and 6/5"
         },
         {
           "label": "E",
-          "text": "6 and"
+          "text": "6 and 7/5"
         }
       ],
       "answer": "B",
@@ -262,23 +264,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3×7+48 = 37+4×8"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "9×6+73 = 96+7×3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "6×3+85 = 63+8×5"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "2×5+69 = 25+6×9"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "4×5+67 = 45+6×7"
         }
       ],
       "answer": "B",
@@ -398,7 +400,7 @@
     },
     {
       "number": 15,
-      "text": "In the figure below, both ΟΑΒ (Ô  90) and ΟΓΔ (Ô  90) are right-angle triangles. O is a common vertex. If the measure of angle ΑΟΔ=122° what is the measure of the angle ΒΟΓ?",
+      "text": "In the figure below, both ΟΑΒ (Ô = 90°) and ΟΓΔ (Ô = 90°) are right-angle triangles. O is a common vertex. If the measure of angle ΑΟΔ = 122°, what is the measure of the angle ΒΟΓ?",
       "options": [
         {
           "label": "A",
@@ -422,7 +424,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -458,27 +461,28 @@
       "options": [
         {
           "label": "A",
-          "text": "increases by"
+          "text": "increases by 2 cm²"
         },
         {
           "label": "B",
-          "text": "increases by"
+          "text": "increases by 1 cm²"
         },
         {
           "label": "C",
-          "text": "remains the"
+          "text": "remains the same"
         },
         {
           "label": "D",
-          "text": "decreases by"
+          "text": "decreases by 1 cm²"
         },
         {
           "label": "E",
-          "text": "decreases by"
+          "text": "decreases by 2 cm²"
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -510,7 +514,7 @@
     },
     {
       "number": 19,
-      "text": "The following figures consist of squares and circles. Which of the following has the largest shaded area? X Y Z 2 cm 2 cm 2 cm",
+      "text": "The following figures consist of squares and circles. Which of the following has the largest shaded area?",
       "options": [
         {
           "label": "A",
@@ -534,7 +538,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -594,27 +599,27 @@
     },
     {
       "number": 22,
-      "text": "If  is defined by the equation αβ=α+α  β+β for all numbers α and β, what is the value of z if 8z=14? 3 1 3 1 2",
+      "text": "If ♠ is defined by the equation α♠β = α + α×β + β for all numbers α and β, what is the value of z if 8♠z = 14?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3/4"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "1/4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3/2"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "1/2"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "2/3"
         }
       ],
       "answer": "E",
@@ -650,7 +655,7 @@
     },
     {
       "number": 24,
-      "text": "The table below shows six children from two families such that every three are siblings. Every child has blue or brown eyes and black or blonde hair. Children from the same family have at least one common characteristic. Which two of the children have Dimitris as their brother? Child’s name Eye color Hair color Vasilis blue black Dimitris brown blonde Eftixia brown black Ioanna blue blonde Argiris blue black Loukia blue blonde",
+      "text": "The table below shows six children from two families such that every three are siblings. Every child has blue or brown eyes and black or blonde hair. Children from the same family have at least one common characteristic. Which two of the children have Dimitris as their brother?",
       "options": [
         {
           "label": "A",
@@ -674,7 +679,44 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "table": [
+        [
+          "Child's name",
+          "Eye color",
+          "Hair color"
+        ],
+        [
+          "Vasilis",
+          "blue",
+          "black"
+        ],
+        [
+          "Dimitris",
+          "brown",
+          "blonde"
+        ],
+        [
+          "Eftixia",
+          "brown",
+          "black"
+        ],
+        [
+          "Ioanna",
+          "blue",
+          "blonde"
+        ],
+        [
+          "Argiris",
+          "blue",
+          "black"
+        ],
+        [
+          "Loukia",
+          "blue",
+          "blonde"
+        ]
+      ]
     },
     {
       "number": 25,
@@ -702,7 +744,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q25.png"
     }
   ]
 }
