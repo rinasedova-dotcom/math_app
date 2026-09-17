@@ -6,7 +6,7 @@
   "questions": [
     {
       "number": 1,
-      "text": "What is the unit digit of the number ?",
+      "text": "What is the unit digit of the number A?<br>A = (1234 × 100) + (12345 × 1000) + (12 × 10) + (1 × 2)",
       "options": [
         {
           "label": "A",
@@ -62,7 +62,7 @@
     },
     {
       "number": 3,
-      "text": "What is the sum of 21,5 2,15 0,215 0,0215?",
+      "text": "What is the sum of 21.5 + 2.15 + 0.215 + 0.0215?",
       "options": [
         {
           "label": "A",
@@ -90,31 +90,32 @@
     },
     {
       "number": 4,
-      "text": "The given figure is the net of a cube, and each face is labeled with a letter. When the cube is formed, which letter is on the face opposite to the one labeled with the letter ?",
+      "text": "The given figure is the net of a cube, and each face is labeled with a letter. When the cube is formed, which letter is on the face opposite to the one labeled with the letter I?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "O"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "A"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "M"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "K"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "Σ"
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -146,7 +147,7 @@
     },
     {
       "number": 6,
-      "text": "The perimeter of a square field is 600 . What is the area of the field in ?",
+      "text": "The perimeter of a square field is 600 m. What is the area of the field in m²?",
       "options": [
         {
           "label": "A",
@@ -198,7 +199,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q7.png"
     },
     {
       "number": 8,
@@ -230,7 +232,7 @@
     },
     {
       "number": 9,
-      "text": "What number must be filled into the missing square so that the equality holds? 222 2222 7 244400",
+      "text": "What number must be filled into the missing square so that the equality holds?<br>(222 + 2222) × (☐ + 7) = 244400",
       "options": [
         {
           "label": "A",
@@ -258,35 +260,36 @@
     },
     {
       "number": 10,
-      "text": "Given a round table with 8 balloons on it, as shown on the diagram below. Starting from and moving clockwise we burst every fourth balloon. is the first balloon to burst. If we carry on this procedure, what is the last balloon to burst?",
+      "text": "Given a round table with 8 balloons on it, as shown on the diagram below. Starting from A and moving clockwise we burst every fourth balloon. Δ is the first balloon to burst. If we carry on this procedure, what is the last balloon to burst?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "E"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "H"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "A"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "Θ"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "Z"
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q10.png"
     },
     {
       "number": 11,
-      "text": "In the figure below, each square represents 1 ². What is the ratio of the area of the triangle to the triangle ?",
+      "text": "In the figure below, each square represents 1 cm². What is the ratio of the area of the triangle ΑΒΓ to the triangle ΑΓΔ?",
       "options": [
         {
           "label": "A",
@@ -310,11 +313,12 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
-      "text": "If we build a house with an area of 225 in a square field of side 30 . What percentage of the field is occupied by the house?",
+      "text": "If we build a house with an area of 225 m² in a square field of side 30 m, what percentage of the field is occupied by the house?",
       "options": [
         {
           "label": "A",
@@ -422,11 +426,12 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
-      "text": "In the figure below, the square has a perimeter of 32 and the square has an area of 9 ². What is the perimeter of the square ?",
+      "text": "In the figure below, the square A has a perimeter of 32 cm and the square Γ has an area of 9 cm². What is the perimeter of the square B?",
       "options": [
         {
           "label": "A",
@@ -450,11 +455,12 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
-      "text": "A driver will cover a total distance of 1000 and he wants all the tires of the car to be used equally. If there are 4 tires and one spare, how many km will each tire have to cover?",
+      "text": "A driver will cover a total distance of 1000 km and he wants all the tires of the car to be used equally. If there are 4 tires and one spare, how many km will each tire have to cover?",
       "options": [
         {
           "label": "A",
@@ -562,7 +568,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,11 +597,12 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q21.png"
     },
     {
       "number": 22,
-      "text": "In the figure below, is a square, and are equilateral triangles. What is the value of the angle ?",
+      "text": "In the figure below, ΑΒΓΔ is a square, ΑΕΒ and ΒΖΓ are equilateral triangles. What is the value of the angle ΒΕΖ?",
       "options": [
         {
           "label": "A",
@@ -618,7 +626,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q22.png"
     },
     {
       "number": 23,
@@ -702,7 +711,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q25.png"
     }
   ]
 }
