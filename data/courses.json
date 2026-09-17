@@ -104,6 +104,11 @@
       "id": "kmo-2025-e-st-dimotikou",
       "name": "26th Cyprus Mathematical Olympiad 2025 — 5th & 6th Grade Primary",
       "dataFile": "data/kmo-2025-e-st-dimotikou.json"
+    },
+    {
+      "id": "kmo-2015-e-st-dimotikou",
+      "name": "16th Cyprus Mathematical Olympiad 2015 — 5th & 6th Grade Primary",
+      "dataFile": "data/kmo-2015-e-st-dimotikou.json"
     }
   ]
 }
