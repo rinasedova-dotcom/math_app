@@ -30,7 +30,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -58,7 +59,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -86,7 +88,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -114,7 +117,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -142,7 +146,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -170,7 +175,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
@@ -198,7 +204,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q7.png"
     },
     {
       "number": 8,
@@ -254,7 +261,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -282,7 +290,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -338,7 +347,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q12.png"
     },
     {
       "number": 13,
@@ -366,7 +376,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -394,11 +405,12 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
-      "text": "Three rectangles of the same height are positioned as shown. The numbers within the rectangles indicate their areas in 𝑐𝑐𝑐𝑐2 . If 𝐴𝐴𝐴𝐴 = 6 cm, how long is 𝐶𝐶𝐶𝐶?",
+      "text": "Three rectangles of the same height are positioned as shown. The numbers within the rectangles indicate their areas in cm². If AB = 6 cm, how long is CD?",
       "options": [
         {
           "label": "A",
@@ -422,7 +434,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -450,7 +463,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
@@ -478,7 +492,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -486,26 +501,54 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "8560"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "3015"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4906"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "1893"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "0782"
         }
       ],
       "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 19,
+      "text": "There were 20 apples and 20 pears in the box. Carl randomly took 20 fruits from this box, and Luca took the other 20 fruits. Only one of the following sentences is surely true. Which one?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carl got at least one pear."
+        },
+        {
+          "label": "B",
+          "text": "Carl got as many apples as pears."
+        },
+        {
+          "label": "C",
+          "text": "Carl got as many apples as Luca."
+        },
+        {
+          "label": "D",
+          "text": "Carl got as many pears as Luca got apples."
+        },
+        {
+          "label": "E",
+          "text": "Carl got as many pears as Luca."
+        }
+      ],
+      "answer": "D",
       "points": 4
     },
     {
@@ -618,7 +661,8 @@
         }
       ],
       "answer": "A",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
@@ -730,7 +774,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q27.png"
     },
     {
       "number": 28,
@@ -814,7 +859,8 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q30.png"
     }
   ]
 }
