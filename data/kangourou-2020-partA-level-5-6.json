@@ -30,7 +30,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -58,7 +59,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -86,7 +88,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -142,7 +145,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -170,7 +174,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
@@ -226,7 +231,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -282,7 +288,8 @@
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -310,11 +317,12 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
-      "text": "When the bat Elyse leaves the cave a digital clock shows When Elyse has come back and is hanging upside down she sees again. How long has she been hunting outside the cave?",
+      "text": "When the bat Elyse leaves the cave a digital clock shows 20:20. When Elyse has come back and is hanging upside down she sees 20:20 again. How long has she been hunting outside the cave?",
       "options": [
         {
           "label": "A",
@@ -346,23 +354,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "I am telling the truth (λέγω την αλήθεια)"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "You are telling the truth (λέγεις την αλήθεια)"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "We both are telling the truth (λέγουμε την αλήθεια και οι δυο μας)"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "I always lie (πάντα λέω ψέματα)"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "One and only one of us is telling the truth (ένας και μόνο ένας από εμάς λέει την αλήθεια)"
         }
       ],
       "answer": "A",
@@ -394,7 +402,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -422,7 +431,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -478,11 +488,12 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 19,
-      "text": "The following scheme shows the friendship among Ann, Beatrice, Chloe, Diana, Elisabeth and Fiona. Each number represents one of the girls and each line represents a friendship between two girls. Each of the 3 girls Chloe, Diana and Fiona has four friends. Chloe and Diana are both friends of Beatrice. Beatrice has no other friends. Which number represents Fiona? τη Fiona;",
+      "text": "The following scheme shows the friendship among Ann, Beatrice, Chloe, Diana, Elisabeth and Fiona. Each number represents one of the girls and each line represents a friendship between two girls. Each of the 3 girls Chloe, Diana and Fiona has four friends. Chloe and Diana are both friends of Beatrice. Beatrice has no other friends. Which number represents Fiona?",
       "options": [
         {
           "label": "A",
@@ -506,7 +517,8 @@
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -534,7 +546,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -562,7 +575,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -590,7 +604,8 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q22.png"
     },
     {
       "number": 23,
@@ -618,7 +633,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
@@ -646,7 +662,8 @@
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q24.png"
     },
     {
       "number": 25,
@@ -758,7 +775,8 @@
         }
       ],
       "answer": "A",
-      "points": 5
+      "points": 5,
+      "image": "q28.png"
     },
     {
       "number": 29,
@@ -786,35 +804,37 @@
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q29.png"
     },
     {
       "number": 30,
-      "text": "A large square is divided into smaller squares. In one of the squares a diagonal is also drawn. What fraction of the large square is shaded? 4 3 4 1 1",
+      "text": "A large square is divided into smaller squares. In one of the squares a diagonal is also drawn. What fraction of the large square is shaded?",
       "options": [
         {
           "label": "A",
-          "text": "5"
+          "text": "4/5"
         },
         {
           "label": "B",
-          "text": "8"
+          "text": "3/8"
         },
         {
           "label": "C",
-          "text": "9"
+          "text": "4/9"
         },
         {
           "label": "D",
-          "text": "3"
+          "text": "1/3"
         },
         {
           "label": "E",
-          "text": "2"
+          "text": "1/2"
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q30.png"
     }
   ]
 }
