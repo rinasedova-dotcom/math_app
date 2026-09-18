@@ -30,7 +30,60 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q1.png",
+      "table": [
+        [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        [
+          "9",
+          "10",
+          "11",
+          "12",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
     },
     {
       "number": 2,
@@ -38,27 +91,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "31"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "51"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "74"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "711"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "800"
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q2.png"
     },
     {
       "number": 3,
@@ -86,11 +140,12 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
-      "text": "Roza has a piece of paper, marked as shown, which she folds to form a cube. Which of the following five cubes can she get from this paper? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "text": "Roza has a piece of paper, marked as shown, which she folds to form a cube. Which of the following five cubes can she get from this paper?",
       "options": [
         {
           "label": "A",
@@ -114,7 +169,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -122,27 +178,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "10"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "11"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "12"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "13"
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -150,27 +207,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "12"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "20"
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
@@ -202,31 +260,32 @@
     },
     {
       "number": 8,
-      "text": "Alice has the four puzzle pieces shown. Which pair can be combined to form this hexagon? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "text": "Alice has the four puzzle pieces shown. Which pair can be combined to form this hexagon?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1 and 2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "1 and 3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "2 and 3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "2 and 4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "1 and 4"
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -234,27 +293,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "2, 4 and 9"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "1, 5 and 10"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4, 6 and 12"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "3, 6 and 9"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "5, 7 and 12"
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -282,7 +342,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -290,23 +351,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "□♡"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "□□"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "♡♡"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "◇□"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "♡◇"
         }
       ],
       "answer": "C",
@@ -342,7 +403,7 @@
     },
     {
       "number": 13,
-      "text": "I look in a mirror, I can see the image of my digital clock standing on the table behind me, as shown. What image will I see when I look in the mirror 30 minutes later? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "text": "I look in a mirror, I can see the image of my digital clock standing on the table behind me, as shown. What image will I see when I look in the mirror 30 minutes later?",
       "options": [
         {
           "label": "A",
@@ -366,7 +427,8 @@
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -402,27 +464,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1 and 2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "1 and 4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "2 and 3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "2 and 4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "3 and 4"
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -430,55 +493,57 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "7"
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
-      "text": "George has four blocks, stacked as shown. In a single move, George can take some, or all of the blocks from the top of the stack and place them upside down, as shown. He wants the blocks to be stacked in this order: What is the smallest number of moves he needs to make to get the correct order? KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "text": "George has four blocks, stacked as shown. In a single move, George can take some, or all of the blocks from the top of the stack and place them upside down, as shown. He wants the blocks to be stacked in this order: What is the smallest number of moves he needs to make to get the correct order?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "6"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -510,31 +575,32 @@
     },
     {
       "number": 19,
-      "text": "Luna wants the sum of the numbers in the white cells to equal the sum of the numbers in the grey cells. Which two numbers does she need to swap? 7 4 6 8 11",
+      "text": "Luna wants the sum of the numbers in the white cells to equal the sum of the numbers in the grey cells. Which two numbers does she need to swap?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1 and 11"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2 and 8"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3 and 7"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "4 and 13"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "7 and 13"
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
@@ -542,27 +608,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1 and 4"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2 and 3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "1 and 3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "2 and 4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "it cannot be determined"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,7 +657,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -618,11 +686,12 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q22.png"
     },
     {
       "number": 23,
-      "text": "Elsa has two machines. Machine R rotates the paper 90◦ clockwise. Machine S stamps the paper with a ♣ . In which order are the machines used to create the image shown? Machine? Machine? Machine? Machine?",
+      "text": "Elsa has two machines. Machine R rotates the paper 90° clockwise. Machine S stamps the paper with a ♣. In which order are the machines used to create the image shown?",
       "options": [
         {
           "label": "A",
@@ -646,7 +715,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
@@ -654,83 +724,86 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "12"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "15"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "17"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "20"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "37"
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q24.png"
     },
     {
       "number": 25,
-      "text": "On a table there is a tower made of blocks numbered from 1 to 50. Emma 50 2 builds a new tower in the following way. She takes two blocks from the top 49 1 of the original tower and puts them on the table as the base of the new tower. She continues by taking the two top blocks from the remainder of 4 48 the original tower and putting them on the top of the new tower, as seen in 3 47 the diagram. Which of the following pairs of numbers are on adjacent 2 50 1 49 blocks in the new tower?",
+      "text": "On a table there is a tower made of blocks numbered from 1 to 50. Emma builds a new tower in the following way. She takes two blocks from the top of the original tower and puts them on the table as the base of the new tower. She continues by taking the two top blocks from the remainder of the original tower and putting them on the top of the new tower, as seen in the diagram. Which of the following pairs of numbers are on adjacent blocks in the new tower?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "29 and 28"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "34 and 35"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "29 and 26"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "31 and 33"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "27 and 30"
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q25.png"
     },
     {
       "number": 26,
-      "text": "Martin has three cards with numbers written on both sides. The card with number 1 on one side has number 4 on the opposite side, the card with 2 on has 5 on the opposite side and the card with 3 on has 6 on the opposite side. Martin randomly Κάρτα 1 / places three cards on the table and adds up the three numbers he sees. How many different sums can Martin get? Κάρτα 2 / KANGOUROU MATHEMATICS COMPETITION 2023 LEVEL 5-6",
+      "text": "Martin has three cards with numbers written on both sides. The card with number 1 on one side has number 4 on the opposite side, the card with 2 on has 5 on the opposite side and the card with 3 on has 6 on the opposite side. Martin randomly places three cards on the table and adds up the three numbers he sees. How many different sums can Martin get?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "10"
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q26.png"
     },
     {
       "number": 27,
@@ -766,23 +839,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "8"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "7"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "5"
         }
       ],
       "answer": "C",
@@ -814,7 +887,8 @@
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q29.png"
     },
     {
       "number": 30,
@@ -822,27 +896,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "↑"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "↓"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "→"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "←"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "there is no such path"
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q30.png"
     }
   ]
 }
