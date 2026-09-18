@@ -30,7 +30,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -86,11 +87,12 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
-      "text": "Which of the strips should be placed in the space in the picture so that each child is connected to a different kite? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "Which of the strips should be placed in the space in the picture so that each child is connected to a different kite?",
       "options": [
         {
           "label": "A",
@@ -114,7 +116,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -142,7 +145,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -174,31 +178,32 @@
     },
     {
       "number": 7,
-      "text": "There are 2 wheels each marked with 7 positions. The wheels spin in opposite directions and each makes a complete turn in seven minutes. At the end of each minute, each letter lies exactly in front of a number. The picture shows the first two positions of the wheels and we can see that initially letter A is in front of number 1, letter B is in front of number 2, and so on. The wheels turn until letter C is in front of number 2. Which number is in front of letter F at that point? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "There are 2 wheels each marked with 7 positions. The wheels spin in opposite directions and each makes a complete turn in seven minutes. At the end of each minute, each letter lies exactly in front of a number. The picture shows the first two positions of the wheels and we can see that initially letter A is in front of number 1, letter B is in front of number 2, and so on. The wheels turn until letter C is in front of number 2. Which number is in front of letter F at that point?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "7"
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q7.png"
     },
     {
       "number": 8,
@@ -226,59 +231,61 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
-      "text": "Peter has a package of 445 g and the following eight weights: He put the package on the scale, as shown. What is the minimum number of weights he needs to use to balance the scale? 445 g",
+      "text": "Peter has a package of 445 g and the following eight weights: He put the package on the scale, as shown. What is the minimum number of weights he needs to use to balance the scale?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "6"
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
-      "text": "The rooms in the hotel are numbered in ascending order, starting from 1. No number is omitted. Kangaroo counted the digits in the rooms and found digit 2, 14 times and digit 5, 3 times. What is the largest number of rooms there can be in the hotel? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "The rooms in the hotel are numbered in ascending order, starting from 1. No number is omitted. Kangaroo counted the digits in the rooms and found digit 2, 14 times and digit 5, 3 times. What is the largest number of rooms there can be in the hotel?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "25"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "26"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "34"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "35"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "41"
         }
       ],
       "answer": "C",
@@ -290,27 +297,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "24"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "27"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "30"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "32"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "36"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
@@ -318,27 +326,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "A"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "B"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "C"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "D"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "E"
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q12.png"
     },
     {
       "number": 13,
@@ -366,7 +375,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -374,27 +384,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "10"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "13"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "14"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "16"
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q14.png"
     },
     {
       "number": 15,
@@ -402,27 +413,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "8"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "10"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "12"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q15.png"
     },
     {
       "number": 16,
@@ -430,55 +442,57 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "16"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "18"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "30"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "32"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "34"
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
-      "text": "The figure below shows a beehive with 16 cells. Some of the cells contain honey. The number in each cell indicates how many of its neighbouring cells contain honey. Two cells are neighbours if they share a common edge. How many cells in the beehive contain honey? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "The figure below shows a beehive with 16 cells. Some of the cells contain honey. The number in each cell indicates how many of its neighbouring cells contain honey. Two cells are neighbours if they share a common edge. How many cells in the beehive contain honey?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "7"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "8"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "9"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "10"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "11"
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q17.png"
     },
     {
       "number": 18,
@@ -486,27 +500,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "7"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "8"
         }
       ],
       "answer": "D",
-      "points": 4
+      "points": 4,
+      "image": "q18.png"
     },
     {
       "number": 19,
@@ -514,55 +529,57 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "36"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "40"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "44"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "48"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "52"
         }
       ],
       "answer": "B",
-      "points": 4
+      "points": 4,
+      "image": "q19.png"
     },
     {
       "number": 20,
-      "text": "Ria wants to complete the puzzle shown so that each row and each column contain the numbers 1, 2, 3 and 4 exactly once. She wants to place the numbers so that the greater than and less symbols (> and <) give a correct relationship between the two values either side of them. The symbols work in all directions, as shown in the example. What number should she place in the grey circle? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "Ria wants to complete the puzzle shown so that each row and each column contain the numbers 1, 2, 3 and 4 exactly once. She wants to place the numbers so that the greater than and less symbols (> and <) give a correct relationship between the two values either side of them. The symbols work in all directions, as shown in the example. What number should she place in the grey circle?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "2 or 3 / 2 ή 3"
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -570,27 +587,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "26"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "40"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "43"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "47"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "56"
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -626,31 +644,32 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "5"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "6"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "7"
         }
       ],
       "answer": "A",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
-      "text": "Dimitri wants to fold the net shown to make a cube. He wants the triangles that touch the edges of neighbouring faces of the cube to be shaded the same. How should he shade the triangles of the unshaded square in the net? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "Dimitri wants to fold the net shown to make a cube. He wants the triangles that touch the edges of neighbouring faces of the cube to be shaded the same. How should he shade the triangles of the unshaded square in the net?",
       "options": [
         {
           "label": "A",
@@ -674,7 +693,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q24.png"
     },
     {
       "number": 25,
@@ -686,7 +706,7 @@
         },
         {
           "label": "B",
-          "text": "It is certain that exactly 1 cup stands on its matching saucer. 1 φλιτζάνι"
+          "text": "It is certain that exactly 1 cup stands on its matching saucer"
         },
         {
           "label": "C",
@@ -698,7 +718,7 @@
         },
         {
           "label": "E",
-          "text": "It is impossible for all 4 cups to stand on its matching saucer. 4"
+          "text": "It is impossible for all 4 cups to stand on its matching saucer"
         }
       ],
       "answer": "D",
@@ -710,51 +730,52 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "5"
         }
       ],
       "answer": "C",
-      "points": 5
+      "points": 5,
+      "image": "q26.png"
     },
     {
       "number": 27,
-      "text": "A grandmother has some candies. She decides to divide them up amongst her grandchildren so that each has a bag containing same number of candies. She puts the largest possible number of candies in each bag and, when she is done, she sees that there are 20 candies in each bag and 12 candies are left over. What is the smallest possible number of candies she could have? KANGOUROU MATHEMATICS COMPETITION 2023-2024 LEVEL / ΕΠΙΠΕΔΟ 5-6",
+      "text": "A grandmother has some candies. She decides to divide them up amongst her grandchildren so that each has a bag containing same number of candies. She puts the largest possible number of candies in each bag and, when she is done, she sees that there are 20 candies in each bag and 12 candies are left over. What is the smallest possible number of candies she could have?",
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "52"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "232"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "272"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "411"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "432"
         }
       ],
       "answer": "C",
@@ -766,23 +787,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "24"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "25"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "27"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "28"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "29"
         }
       ],
       "answer": "A",
@@ -794,27 +815,28 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "10"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "14"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "16"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "28"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "20"
         }
       ],
       "answer": "E",
-      "points": 5
+      "points": 5,
+      "image": "q29.png"
     },
     {
       "number": 30,
@@ -822,23 +844,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "8"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "9"
         }
       ],
       "answer": "D",
