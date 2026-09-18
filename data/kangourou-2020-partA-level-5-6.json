@@ -492,6 +492,35 @@
       "image": "q17.png"
     },
     {
+      "number": 18,
+      "text": "Amy glues 6 stickers on the sides of a cube: She shows the cube to her friend (see picture). Which sticker is on the face opposite to the mouse?",
+      "image": "q18.png",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 4
+    },
+    {
       "number": 19,
       "text": "The following scheme shows the friendship among Ann, Beatrice, Chloe, Diana, Elisabeth and Fiona. Each number represents one of the girls and each line represents a friendship between two girls. Each of the 3 girls Chloe, Diana and Fiona has four friends. Chloe and Diana are both friends of Beatrice. Beatrice has no other friends. Which number represents Fiona?",
       "options": [
