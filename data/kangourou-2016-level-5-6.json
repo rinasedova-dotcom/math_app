@@ -30,7 +30,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q1.png"
     },
     {
       "number": 2,
@@ -86,7 +87,8 @@
         }
       ],
       "answer": "A",
-      "points": 3
+      "points": 3,
+      "image": "q3.png"
     },
     {
       "number": 4,
@@ -114,7 +116,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q4.png"
     },
     {
       "number": 5,
@@ -122,27 +125,28 @@
       "options": [
         {
           "label": "A",
-          "text": "10 𝑐𝑚2"
+          "text": "10 cm²"
         },
         {
           "label": "B",
-          "text": "20 𝑐𝑚2"
+          "text": "20 cm²"
         },
         {
           "label": "C",
-          "text": "25 𝑐𝑚2"
+          "text": "25 cm²"
         },
         {
           "label": "D",
-          "text": "40 𝑐𝑚2"
+          "text": "40 cm²"
         },
         {
           "label": "E",
-          "text": "50 𝑐𝑚2"
+          "text": "50 cm²"
         }
       ],
       "answer": "E",
-      "points": 3
+      "points": 3,
+      "image": "q5.png"
     },
     {
       "number": 6,
@@ -170,7 +174,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q6.png"
     },
     {
       "number": 7,
@@ -226,7 +231,8 @@
         }
       ],
       "answer": "D",
-      "points": 3
+      "points": 3,
+      "image": "q8.png"
     },
     {
       "number": 9,
@@ -254,7 +260,8 @@
         }
       ],
       "answer": "C",
-      "points": 3
+      "points": 3,
+      "image": "q9.png"
     },
     {
       "number": 10,
@@ -282,7 +289,8 @@
         }
       ],
       "answer": "B",
-      "points": 3
+      "points": 3,
+      "image": "q10.png"
     },
     {
       "number": 11,
@@ -310,7 +318,8 @@
         }
       ],
       "answer": "A",
-      "points": 4
+      "points": 4,
+      "image": "q11.png"
     },
     {
       "number": 12,
@@ -366,7 +375,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q13.png"
     },
     {
       "number": 14,
@@ -450,7 +460,8 @@
         }
       ],
       "answer": "E",
-      "points": 4
+      "points": 4,
+      "image": "q16.png"
     },
     {
       "number": 17,
@@ -562,7 +573,8 @@
         }
       ],
       "answer": "C",
-      "points": 4
+      "points": 4,
+      "image": "q20.png"
     },
     {
       "number": 21,
@@ -590,7 +602,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q21.png"
     },
     {
       "number": 22,
@@ -622,7 +635,7 @@
     },
     {
       "number": 23,
-      "text": "What is the greatest number of shapes of the form that can be cut out from a 𝟓 × 𝟓 square?",
+      "text": "What is the greatest number of the shape shown below that can be cut out from a 5 × 5 square?",
       "options": [
         {
           "label": "A",
@@ -646,7 +659,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q23.png"
     },
     {
       "number": 24,
@@ -702,7 +716,8 @@
         }
       ],
       "answer": "B",
-      "points": 5
+      "points": 5,
+      "image": "q25.png"
     },
     {
       "number": 26,
@@ -730,7 +745,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q26.png"
     },
     {
       "number": 27,
@@ -758,7 +774,8 @@
         }
       ],
       "answer": "D",
-      "points": 5
+      "points": 5,
+      "image": "q27.png"
     },
     {
       "number": 28,
