@@ -10,23 +10,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "Monday"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "Tuesday"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "Wednesday"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "Thursday"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "Friday"
         }
       ],
       "answer": "E",

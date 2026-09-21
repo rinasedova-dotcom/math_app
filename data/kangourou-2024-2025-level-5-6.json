@@ -494,23 +494,23 @@
       "options": [
         {
           "label": "A",
-          "text": ""
+          "text": "1"
         },
         {
           "label": "B",
-          "text": ""
+          "text": "2"
         },
         {
           "label": "C",
-          "text": ""
+          "text": "3"
         },
         {
           "label": "D",
-          "text": ""
+          "text": "4"
         },
         {
           "label": "E",
-          "text": ""
+          "text": "it cannot be calculated"
         }
       ],
       "answer": "B",
@@ -540,7 +540,8 @@
           "",
           ""
         ]
-      ]
+      ],
+      "image": "q19.png"
     },
     {
       "number": 20,
