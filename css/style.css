@@ -63,6 +63,9 @@ main {
 
 h2 { margin-top: 0; }
 
+.welcome-card { text-align: center; }
+.welcome-card .actions { justify-content: center; }
+
 .course-list { display: flex; flex-direction: column; gap: 10px; }
 
 .course-item {

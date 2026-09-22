@@ -15,13 +15,11 @@
   </nav>
 </header>
 <main>
-  <div class="card">
-    <h2>Choose your course(s)</h2>
-    <p id="loading-msg">Loading courses…</p>
-    <div class="course-list" id="course-list"></div>
+  <div class="card welcome-card">
+    <h2>Ready to practice?</h2>
+    <p>You'll get random multiple-choice math questions drawn from past competition papers.</p>
     <div class="actions">
-      <button class="btn" id="start-btn" disabled>Start Quiz</button>
-      <button class="btn secondary" id="select-all-btn">Select all</button>
+      <button class="btn" id="start-btn">Start Practicing</button>
     </div>
   </div>
 
@@ -40,66 +38,10 @@
 <footer class="pagefoot">Practice questions sourced from math competition papers, Level 5-6 / 5th &amp; 6th grade.</footer>
 
 <script src="js/storage.js"></script>
-<script src="js/data.js"></script>
 <script>
-let allCourses = [];
-
-function selectedCourseIds() {
-  return Array.from(document.querySelectorAll(".course-item input:checked")).map(cb => cb.value);
-}
-
-function refreshStartButton() {
-  document.getElementById("start-btn").disabled = selectedCourseIds().length === 0;
-}
-
-async function init() {
-  try {
-    allCourses = await loadAllCourses();
-  } catch (e) {
-    document.getElementById("loading-msg").textContent =
-      "Could not load courses. If you opened this file directly, please serve the site with a local web server instead.";
-    return;
-  }
-  document.getElementById("loading-msg").remove();
-
-  const prefs = getPrefs();
-  const previouslySelected = prefs.selectedCourseIds || allCourses.map(c => c.id);
-
-  const list = document.getElementById("course-list");
-  allCourses.forEach(course => {
-    const label = document.createElement("label");
-    label.className = "course-item";
-    const checked = previouslySelected.includes(course.id) ? "checked" : "";
-    label.innerHTML = `
-      <input type="checkbox" value="${course.id}" ${checked} />
-      <span>${course.name}</span>
-      <span class="count">${course.questions.length} questions</span>
-    `;
-    list.appendChild(label);
-  });
-
-  list.addEventListener("change", () => {
-    savePrefs({ ...getPrefs(), selectedCourseIds: selectedCourseIds() });
-    refreshStartButton();
-  });
-
-  refreshStartButton();
-
-  document.getElementById("select-all-btn").addEventListener("click", () => {
-    document.querySelectorAll(".course-item input").forEach(cb => cb.checked = true);
-    savePrefs({ ...getPrefs(), selectedCourseIds: selectedCourseIds() });
-    refreshStartButton();
-  });
-
-  document.getElementById("start-btn").addEventListener("click", () => {
-    const ids = selectedCourseIds();
-    if (ids.length === 0) return;
-    savePrefs({ ...getPrefs(), selectedCourseIds: ids });
-    window.location.href = "quiz.html";
-  });
-
-  renderStats();
-}
+document.getElementById("start-btn").addEventListener("click", () => {
+  window.location.href = "quiz.html";
+});
 
 function renderStats() {
   const results = getResults();
@@ -111,7 +53,7 @@ function renderStats() {
   document.getElementById("stat-accuracy").textContent = Math.round((correct / results.length) * 100) + "%";
 }
 
-init();
+renderStats();
 </script>
 </body>
 </html>
