@@ -1,0 +1,839 @@
+{
+  "id": "kangourou-2017-level-5-6",
+  "name": "Kangourou Mathematics 2017 — Level 5-6",
+  "source": "Thales Foundation Cyprus",
+  "imagePath": "images/kangourou-2017-level-5-6",
+  "questions": [
+    {
+      "number": 1,
+      "text": "Four cards lie in a row. Which row of cards can you not obtain if you can only swap two cards?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "B",
+      "points": 3,
+      "image": "q1.png"
+    },
+    {
+      "number": 2,
+      "text": "A fly has 6 legs, a spider has 8. Together, 3 flies and 2 spiders have as many legs as 9 chickens and ...",
+      "options": [
+        {
+          "label": "A",
+          "text": "2 cats"
+        },
+        {
+          "label": "B",
+          "text": "3 cats"
+        },
+        {
+          "label": "C",
+          "text": "4 cats"
+        },
+        {
+          "label": "D",
+          "text": "5 cats"
+        },
+        {
+          "label": "E",
+          "text": "6 cats"
+        }
+      ],
+      "answer": "C",
+      "points": 3
+    },
+    {
+      "number": 3,
+      "text": "Alice has 4 pieces of this shape: Which picture can she not make from these 4 pieces?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 3,
+      "image": "q3.png"
+    },
+    {
+      "number": 4,
+      "text": "Kalle knows that 𝟏𝟏𝟏𝟏 × 𝟏𝟏𝟏𝟏 = 𝟏𝟐𝟑𝟒𝟑𝟐𝟏. How much is 𝟏𝟏𝟏𝟏 × 𝟐𝟐𝟐𝟐?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3456543"
+        },
+        {
+          "label": "B",
+          "text": "2345432"
+        },
+        {
+          "label": "C",
+          "text": "2234322"
+        },
+        {
+          "label": "D",
+          "text": "2468642"
+        },
+        {
+          "label": "E",
+          "text": "4321234"
+        }
+      ],
+      "answer": "D",
+      "points": 3
+    },
+    {
+      "number": 5,
+      "text": "On a planet there are 10 islands and 12 bridges. All bridges are open for traffic right now. What is the smallest number of bridges that must be closed in order to stop the traffic between A and B.",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "points": 3,
+      "image": "q5.png"
+    },
+    {
+      "number": 6,
+      "text": "Jane, Kate and Lynn go for a walk. Jane walks up front, Kate walks in the middle and Lynn walks behind. Jane weighs 500 kg more than Kate. Kate weighs 1000 kg less than Lynn. Which of the following pictures shows Jane, Kate and Lynn in the right order?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 3,
+      "image": "q6.png"
+    },
+    {
+      "number": 7,
+      "text": "A special dice has a number on each face. The sums of the numbers on opposite faces are all equal. Five of the numbers are 5, 6, 9, 11 and 14. What number is on the sixth face?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "E",
+      "points": 3
+    },
+    {
+      "number": 8,
+      "text": "Martin wants to colour the squares of the rectangle so that 1/3 of all squares are blue and half of all squares are yellow. The rest of the squares are to be coloured red. How many squares will he colour red?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "points": 3,
+      "image": "q8.png"
+    },
+    {
+      "number": 9,
+      "text": "While Peter is solving 2 problems on the \"Kangaroo\" contest, Nick manages to solve three problems. Totally the boys solved 30 problems. How many problems did Nick solve more than Peter?",
+      "options": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "answer": "B",
+      "points": 3
+    },
+    {
+      "number": 10,
+      "text": "Bob folded a piece of paper, used a hole puncher and punched exactly one whole in the paper. The unfolded the paper can be seen in the picture below. Which of the following pictures shows the lines along which Bob folded the piece of paper?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "D",
+      "points": 3,
+      "image": "q10.png"
+    },
+    {
+      "number": 11,
+      "text": "The Modern Furniture store is selling sofas, loveseats(lovecat), and chairs made from identical modular pieces as shown in the picture. Including the armrests, the width of the sofa is 220 cm and the width of the loveseat is 160 cm. What is the width of the chair?",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 cm"
+        },
+        {
+          "label": "B",
+          "text": "80 cm"
+        },
+        {
+          "label": "C",
+          "text": "90 cm"
+        },
+        {
+          "label": "D",
+          "text": "100 cm"
+        },
+        {
+          "label": "E",
+          "text": "120 cm"
+        }
+      ],
+      "answer": "D",
+      "points": 4,
+      "image": "q11.png"
+    },
+    {
+      "number": 12,
+      "text": "The 5 keys fit the 5 padlocks. The numbers on the keys refer to the letters on the padlocks. What is written on the last key?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "C",
+      "points": 4,
+      "image": "q12.png"
+    },
+    {
+      "number": 13,
+      "text": "Tom writes all the numbers from 1 to 20 in a row and obtains the 31-digit number 1234567891011121314151617181920. Then he deletes 24 of the 31 digits such that the remaining number is as large as possible. Which number does he get?",
+      "options": [
+        {
+          "label": "A",
+          "text": "9671819"
+        },
+        {
+          "label": "B",
+          "text": "9567892"
+        },
+        {
+          "label": "C",
+          "text": "9781920"
+        },
+        {
+          "label": "D",
+          "text": "9912345"
+        },
+        {
+          "label": "E",
+          "text": "9818192"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 14,
+      "text": "Morten wants to put the construction into a regular box. Which of the following boxes is the smallest he can use?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 × 3 × 4"
+        },
+        {
+          "label": "B",
+          "text": "3 × 5 × 5"
+        },
+        {
+          "label": "C",
+          "text": "3 × 4 × 5"
+        },
+        {
+          "label": "D",
+          "text": "4 × 4 × 4"
+        },
+        {
+          "label": "E",
+          "text": "4 × 4 × 5"
+        }
+      ],
+      "answer": "C",
+      "points": 4,
+      "image": "q14.png"
+    },
+    {
+      "number": 15,
+      "text": "When we add the numbers in each row and along the columns we get the results shown. Which statement is true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "𝑎 is equal to 𝑑"
+        },
+        {
+          "label": "B",
+          "text": "𝑏 is equal to 𝑐"
+        },
+        {
+          "label": "C",
+          "text": "𝑎 is greater than 𝑑"
+        },
+        {
+          "label": "D",
+          "text": "𝑎 is less than 𝑑"
+        },
+        {
+          "label": "E",
+          "text": "𝑐 is greater than 𝑏"
+        }
+      ],
+      "answer": "D",
+      "points": 4,
+      "image": "q15.png"
+    },
+    {
+      "number": 16,
+      "text": "Peter went hiking in the mountains for 5 days. He started on Monday and his last trip was on Friday. Each day he walked 2 km more than the day before. When the tour was over, his total distance was 70 km. What distance did Peter walk on Thursday?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12 km"
+        },
+        {
+          "label": "B",
+          "text": "13 km"
+        },
+        {
+          "label": "C",
+          "text": "14 km"
+        },
+        {
+          "label": "D",
+          "text": "15 km"
+        },
+        {
+          "label": "E",
+          "text": "16 km"
+        }
+      ],
+      "answer": "E",
+      "points": 4
+    },
+    {
+      "number": 17,
+      "text": "There is a picture of a kangaroo in the first triangle. Dotted lines act as mirrors. The first 2 reflections are shown. What does the reflection look like in the shaded triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "E",
+      "points": 4,
+      "image": "q17.png"
+    },
+    {
+      "number": 18,
+      "text": "Numbers are placed in the cells of the 𝟒 × 𝟒 square shown in the picture. Mary finds the 𝟐 × 𝟐 square where the sum of the numbers in the four cells is the largest. What is that sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
+        },
+        {
+          "label": "E",
+          "text": "15"
+        }
+      ],
+      "answer": "D",
+      "points": 4,
+      "image": "q18.png"
+    },
+    {
+      "number": 19,
+      "text": "Rafael has three squares. The first one has side length 2 cm. The second one has side length 4 cm and a vertex is placed in the centre of the first square. The last one has side length 6 cm and a vertex is placed in the centre of the second square, as shown in the picture. What is the area of the figure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 cm2"
+        },
+        {
+          "label": "B",
+          "text": "51 cm2"
+        },
+        {
+          "label": "C",
+          "text": "27 cm2"
+        },
+        {
+          "label": "D",
+          "text": "16 cm2"
+        },
+        {
+          "label": "E",
+          "text": "6 cm2"
+        }
+      ],
+      "answer": "B",
+      "points": 4,
+      "image": "q19.png"
+    },
+    {
+      "number": 20,
+      "text": "Four players scored goals in a handball match. All of them scored a different number of goals. Among the four Mike was the one who scored the least number of goals. The other three have scored 20 goals in total. What is the largest number of goals Mike could have scored?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        },
+        {
+          "label": "E",
+          "text": "6"
+        }
+      ],
+      "answer": "C",
+      "points": 4
+    },
+    {
+      "number": 21,
+      "text": "A bar consists of 2 grey cubes and 1 white cube glued together as shown in the figure. Which figure can be built from 9 such bars?",
+      "options": [
+        {
+          "label": "A",
+          "text": ""
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": ""
+        },
+        {
+          "label": "E",
+          "text": ""
+        }
+      ],
+      "answer": "A",
+      "points": 5,
+      "image": "q21.png"
+    },
+    {
+      "number": 22,
+      "text": "The numbers 1, 2, 3, 4, and 5 have to be written in the five cells in the figure in the following way: if a number is just below another number, it has to be greater. If a number is just to the right of another number, it has to be greater. In how many ways can this be done?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "D",
+      "points": 5,
+      "image": "q22.png"
+    },
+    {
+      "number": 23,
+      "text": "8 kangaroos stood in a line as shown in the diagram. At some point, two kangaroos standing side by side and facing each other exchanged places by jumping past each other. This was repeated until no further jumps were possible. How many exchanges were made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "16"
+        }
+      ],
+      "answer": "D",
+      "points": 5,
+      "image": "q23.png"
+    },
+    {
+      "number": 25,
+      "text": "The square floor in the picture is covered by triangular and square tiles in grey and white. At least how many tiles must be swapped such that the pattern looks the same from each of the four directions shown?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Three triangles, one square"
+        },
+        {
+          "label": "B",
+          "text": "One triangle, three squares"
+        },
+        {
+          "label": "C",
+          "text": "One triangle, one square"
+        },
+        {
+          "label": "D",
+          "text": "Three triangles, three squares"
+        },
+        {
+          "label": "E",
+          "text": "Three triangles, two squares"
+        }
+      ],
+      "answer": "C",
+      "points": 5,
+      "image": "q25.png"
+    },
+    {
+      "number": 26,
+      "text": "A bag contains only red marbles and green marbles. For any 5 marbles we pick, at least one is red; for any 6 marbles we pick, at least one is green. What is the largest number of marbles that the bag can contain?",
+      "options": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "7"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    },
+    {
+      "number": 27,
+      "text": "Ala likes even numbers, Beata likes numbers divisible by 3, Celina likes numbers divisible by 5. Each of these three girls went separately to a basket containing 8 balls with numbers written on them, and took all the balls with numbers she likes. It turned out that Ala collected balls with numbers 32 and 52 , Beata 24, 33 and 45 , Celina 20, 25 and 35. In what order did the girls approach the basket?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ala, Celina, Beata"
+        },
+        {
+          "label": "B",
+          "text": "Celina, Beata, Ala"
+        },
+        {
+          "label": "C",
+          "text": "Beata, Ala, Celina"
+        },
+        {
+          "label": "D",
+          "text": "Beata, Celina, Ala"
+        },
+        {
+          "label": "E",
+          "text": "Celina, Ala, Beata"
+        }
+      ],
+      "answer": "D",
+      "points": 5
+    },
+    {
+      "number": 28,
+      "text": "John wants to write a natural number in each box in the diagram such that each number above the bottom row is the sum of the two numbers in the boxes immediately underneath. What is the largest number of odd numbers that John can write?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "D",
+      "points": 5,
+      "image": "q28.png"
+    },
+    {
+      "number": 29,
+      "text": "Julia has four different coloured pencils and wants to use some or all of them to paint the map of an island divided into four nations, as in the picture. If the map of two nations with a common border cannot have the same colour, in how many ways can she colour the map of the island?",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "36"
+        },
+        {
+          "label": "E",
+          "text": "48"
+        }
+      ],
+      "answer": "E",
+      "points": 5,
+      "image": "q29.png"
+    },
+    {
+      "number": 30,
+      "text": "In each cell of a 𝟔 × 𝟔 board there is a lamp. We say that two lamps in this board are neighbours if they lie in cells with a common side. Initially some lamps are lit and, each minute, every lamp having at least two lit neighbouring lamps is lit. What is the minimum number of lamps that need to be lit initially, in order to ensure that, at some time, all lamps will be lit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "answer": "C",
+      "points": 5
+    }
+  ]
+}

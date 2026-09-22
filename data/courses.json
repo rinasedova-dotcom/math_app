@@ -134,6 +134,11 @@
       "id": "kmo-2020-e-st-dimotikou",
       "name": "21st Cyprus Mathematical Olympiad 2020 — 5th & 6th Grade Primary",
       "dataFile": "data/kmo-2020-e-st-dimotikou.json"
+    },
+    {
+      "id": "kangourou-2017-level-5-6",
+      "name": "Kangourou Mathematics 2017 — Level 5-6",
+      "dataFile": "data/kangourou-2017-level-5-6.json"
     }
   ]
 }
