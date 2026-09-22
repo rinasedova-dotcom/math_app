@@ -19,9 +19,12 @@
     <h2>Your results</h2>
     <div class="stats" id="stats-row"></div>
     <div class="filters">
-      <label for="course-filter">Course:</label>
-      <select id="course-filter">
-        <option value="">All courses</option>
+      <label for="date-filter">Date:</label>
+      <select id="date-filter">
+        <option value="">All answers to date</option>
+        <option value="today">Today</option>
+        <option value="7days">Last 7 days</option>
+        <option value="30days">Last 30 days</option>
       </select>
       <label for="outcome-filter">Outcome:</label>
       <select id="outcome-filter">
@@ -62,13 +65,24 @@ function fmtDate(iso) {
   return d.toLocaleDateString() + " " + d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 }
 
+function dateFilterCutoff(value) {
+  if (!value) return null;
+  const now = new Date();
+  const start = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  if (value === "today") return start;
+  if (value === "7days") return new Date(start.getTime() - 6 * 24 * 60 * 60 * 1000);
+  if (value === "30days") return new Date(start.getTime() - 29 * 24 * 60 * 60 * 1000);
+  return null;
+}
+
 function render() {
   const results = getResults().slice().reverse();
-  const courseFilter = document.getElementById("course-filter").value;
+  const dateFilter = document.getElementById("date-filter").value;
   const outcomeFilter = document.getElementById("outcome-filter").value;
+  const cutoff = dateFilterCutoff(dateFilter);
 
   const filtered = results.filter(r => {
-    if (courseFilter && r.courseId !== courseFilter) return false;
+    if (cutoff && new Date(r.timestamp) < cutoff) return false;
     if (outcomeFilter === "correct" && !r.isCorrect) return false;
     if (outcomeFilter === "wrong" && r.isCorrect) return false;
     return true;
@@ -99,20 +113,7 @@ function render() {
   `;
 }
 
-function populateCourseFilter() {
-  const results = getResults();
-  const seen = new Map();
-  results.forEach(r => seen.set(r.courseId, r.courseName));
-  const select = document.getElementById("course-filter");
-  seen.forEach((name, id) => {
-    const opt = document.createElement("option");
-    opt.value = id;
-    opt.textContent = name;
-    select.appendChild(opt);
-  });
-}
-
-document.getElementById("course-filter").addEventListener("change", render);
+document.getElementById("date-filter").addEventListener("change", render);
 document.getElementById("outcome-filter").addEventListener("change", render);
 document.getElementById("clear-btn").addEventListener("click", () => {
   if (confirm("Clear all recorded results? This cannot be undone.")) {
@@ -121,7 +122,6 @@ document.getElementById("clear-btn").addEventListener("click", () => {
   }
 });
 
-populateCourseFilter();
 render();
 </script>
 </body>
