@@ -139,6 +139,11 @@
       "id": "kangourou-2017-level-5-6",
       "name": "Kangourou Mathematics 2017 — Level 5-6",
       "dataFile": "data/kangourou-2017-level-5-6.json"
+    },
+    {
+      "id": "kangourou-2020-partB-level-5-6",
+      "name": "Kangourou Mathematics 2020 (Part B) — Level 5-6",
+      "dataFile": "data/kangourou-2020-partB-level-5-6.json"
     }
   ]
 }
