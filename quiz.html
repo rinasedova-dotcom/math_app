@@ -21,6 +21,8 @@
 </main>
 <footer class="pagefoot" id="pool-info"></footer>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/supabase-config.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/data.js"></script>
 <script>
@@ -89,7 +91,7 @@ function renderQuestion() {
   });
 }
 
-function handleAnswer(label) {
+async function handleAnswer(label) {
   if (answered) return;
   answered = true;
   const q = current.question;
@@ -113,7 +115,7 @@ function handleAnswer(label) {
   document.getElementById("next-btn").style.display = "inline-block";
   document.getElementById("next-btn").addEventListener("click", renderQuestion);
 
-  saveResult({
+  const saved = await saveResult({
     courseId: current.courseId,
     courseName: current.courseName,
     questionNumber: q.number,
@@ -122,6 +124,9 @@ function handleAnswer(label) {
     correctAnswer: q.answer,
     isCorrect: isCorrect,
   });
+  if (!saved) {
+    feedback.textContent += " (Note: couldn't save this result — check your connection.)";
+  }
 }
 
 async function init() {
