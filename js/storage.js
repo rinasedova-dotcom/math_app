@@ -1,6 +1,15 @@
 const PREFS_KEY = "mathQuizPrefs";
 
-const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let supabaseClient = null;
+try {
+  if (window.supabase && typeof window.supabase.createClient === "function") {
+    supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  } else {
+    console.error("Supabase client library did not load; saving/loading will be unavailable.");
+  }
+} catch (e) {
+  console.error("Failed to initialize Supabase client", e);
+}
 
 function rowToResult(row) {
   return {
@@ -17,6 +26,7 @@ function rowToResult(row) {
 }
 
 async function getResults() {
+  if (!supabaseClient) return [];
   const { data, error } = await supabaseClient
     .from("results")
     .select("*")
@@ -29,6 +39,7 @@ async function getResults() {
 }
 
 async function saveResult(result) {
+  if (!supabaseClient) return null;
   const row = {
     course_id: result.courseId,
     course_name: result.courseName,
@@ -61,6 +72,7 @@ function rowToAction(row) {
 }
 
 async function getPointsActions() {
+  if (!supabaseClient) return [];
   const { data, error } = await supabaseClient
     .from("points_actions")
     .select("*")
@@ -73,6 +85,7 @@ async function getPointsActions() {
 }
 
 async function savePointsAction(actionType, points, detail) {
+  if (!supabaseClient) return null;
   const row = { action_type: actionType, points: points, detail: detail || null };
   const { data, error } = await supabaseClient
     .from("points_actions")
@@ -96,6 +109,7 @@ function rowToRedemption(row) {
 }
 
 async function getPointsRedemptions() {
+  if (!supabaseClient) return [];
   const { data, error } = await supabaseClient
     .from("points_redemptions")
     .select("*")
@@ -108,6 +122,7 @@ async function getPointsRedemptions() {
 }
 
 async function savePointsRedemption(pointsRedeemed, euroValue) {
+  if (!supabaseClient) return null;
   const row = { points_redeemed: pointsRedeemed, euro_value: euroValue };
   const { data, error } = await supabaseClient
     .from("points_redemptions")
