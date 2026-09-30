@@ -39,6 +39,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script src="js/supabase-config.js"></script>
+<script src="js/telegram-config.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/points-config.js"></script>
 <script src="js/data.js"></script>
@@ -215,6 +216,24 @@ function closeModal() {
   if (overlay) overlay.remove();
 }
 
+async function sendTelegramNotification(text) {
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text }),
+    });
+    if (!res.ok) {
+      console.error("Telegram notification failed", await res.text());
+      return false;
+    }
+    return true;
+  } catch (e) {
+    console.error("Telegram notification error", e);
+    return false;
+  }
+}
+
 function onActionClick(actionType) {
   const cfg = POINTS_CONFIG.actions[actionType];
 
@@ -324,6 +343,7 @@ function onExtractClick() {
     closeModal();
     if (saved) {
       showToast(`Extracted ${pts} points (${fmtEuro(euro)})`);
+      sendTelegramNotification(`💰 Denis redeemed ${pts} points → ${fmtEuro(euro)}. Please send via Revolut.`);
       refresh();
     } else {
       showToast("Couldn't save — check your connection.");
