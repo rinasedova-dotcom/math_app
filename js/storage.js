@@ -50,6 +50,77 @@ async function saveResult(result) {
   return rowToResult(data);
 }
 
+function rowToAction(row) {
+  return {
+    id: row.id,
+    timestamp: row.created_at,
+    actionType: row.action_type,
+    points: row.points,
+    detail: row.detail,
+  };
+}
+
+async function getPointsActions() {
+  const { data, error } = await supabaseClient
+    .from("points_actions")
+    .select("*")
+    .order("created_at", { ascending: true });
+  if (error) {
+    console.error("Failed to load point actions from Supabase", error);
+    return [];
+  }
+  return data.map(rowToAction);
+}
+
+async function savePointsAction(actionType, points, detail) {
+  const row = { action_type: actionType, points: points, detail: detail || null };
+  const { data, error } = await supabaseClient
+    .from("points_actions")
+    .insert(row)
+    .select()
+    .single();
+  if (error) {
+    console.error("Failed to save point action to Supabase", error);
+    return null;
+  }
+  return rowToAction(data);
+}
+
+function rowToRedemption(row) {
+  return {
+    id: row.id,
+    timestamp: row.created_at,
+    pointsRedeemed: row.points_redeemed,
+    euroValue: row.euro_value,
+  };
+}
+
+async function getPointsRedemptions() {
+  const { data, error } = await supabaseClient
+    .from("points_redemptions")
+    .select("*")
+    .order("created_at", { ascending: true });
+  if (error) {
+    console.error("Failed to load redemptions from Supabase", error);
+    return [];
+  }
+  return data.map(rowToRedemption);
+}
+
+async function savePointsRedemption(pointsRedeemed, euroValue) {
+  const row = { points_redeemed: pointsRedeemed, euro_value: euroValue };
+  const { data, error } = await supabaseClient
+    .from("points_redemptions")
+    .insert(row)
+    .select()
+    .single();
+  if (error) {
+    console.error("Failed to save redemption to Supabase", error);
+    return null;
+  }
+  return rowToRedemption(data);
+}
+
 function getPrefs() {
   try {
     const raw = localStorage.getItem(PREFS_KEY);
