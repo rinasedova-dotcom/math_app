@@ -183,6 +183,7 @@ main.points-main {
 .tile-cooking .action-icon { background: #FFE1EC; color: #D6336C; }
 .tile-reading .action-icon { background: #E3D9FF; color: #6D3FF0; }
 .tile-babysitting .action-icon { background: #FFE0EF; color: #D6336C; }
+.tile-custom .action-icon { background: #FFF2C2; color: #B8860B; }
 .tile-greek .action-icon,
 .tile-russian .action-icon { background: var(--surface-soft); color: var(--ink-muted); outline-color: var(--ink-muted); }
 

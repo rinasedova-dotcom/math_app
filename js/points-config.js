@@ -9,6 +9,7 @@ const POINTS_CONFIG = {
     russian: { label: "Russian", comingSoon: true, icon: "book" },
     reading: { label: "Reading", pointsPerHour: 6, icon: "read" },
     babysitting: { label: "Babysitting", pointsPerHour: 3, icon: "babysitting" },
+    custom: { label: "Custom", custom: true, icon: "custom" },
   },
 };
 
@@ -19,4 +20,12 @@ function computeHourlyPoints(actionType, minutes) {
 
 function pointsToEuro(points) {
   return points / POINTS_CONFIG.pointsPerEuro;
+}
+
+function todaysSecretCode() {
+  const now = new Date();
+  const dd = String(now.getDate()).padStart(2, "0");
+  const mm = String(now.getMonth() + 1).padStart(2, "0");
+  const yy = String(now.getFullYear()).slice(-2);
+  return dd + mm + yy;
 }
