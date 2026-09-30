@@ -8,11 +8,13 @@ const POINTS_CONFIG = {
     greek: { label: "Greek", comingSoon: true, icon: "book" },
     russian: { label: "Russian", comingSoon: true, icon: "book" },
     reading: { label: "Reading", pointsPerHour: 6, icon: "read" },
+    babysitting: { label: "Babysitting", pointsPerHour: 3, icon: "babysitting" },
   },
 };
 
-function computeReadingPoints(minutes) {
-  return Math.floor((minutes * POINTS_CONFIG.actions.reading.pointsPerHour) / 60);
+function computeHourlyPoints(actionType, minutes) {
+  const rate = POINTS_CONFIG.actions[actionType].pointsPerHour;
+  return Math.floor((minutes * rate) / 60);
 }
 
 function pointsToEuro(points) {
