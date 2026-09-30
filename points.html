@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Points</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/points.css" />
+</head>
+<body class="points-body">
+
+<div class="points-topbar">
+  <a class="icon-btn" href="quiz.html" aria-label="Go to Math Quiz" title="Math Quiz">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="10" x2="8" y2="10.01"></line><line x1="12" y1="10" x2="12" y2="10.01"></line><line x1="16" y1="10" x2="16" y2="10.01"></line><line x1="8" y1="14" x2="8" y2="14.01"></line><line x1="12" y1="14" x2="12" y2="14.01"></line><line x1="16" y1="14" x2="16" y2="14.01"></line><line x1="8" y1="18" x2="16" y2="18"></line></svg>
+  </a>
+  <div style="font-weight:700;">🏆 Points</div>
+  <div style="width:48px;"></div>
+</div>
+
+<div class="points-hero">
+  <p class="eyebrow">DENIS'S</p>
+  <h1 class="display-word">Points</h1>
+  <div class="points-total" id="points-total">0</div>
+  <div class="points-euro" id="points-euro">€0.00</div>
+  <button class="extract-btn" id="extract-btn">Extract Points</button>
+</div>
+
+<main class="points-main">
+  <p class="section-label">Earn points</p>
+  <div class="action-grid" id="action-grid"></div>
+
+  <p class="section-label">Recent activity</p>
+  <div class="activity-list" id="activity-list"></div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/supabase-config.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/points-config.js"></script>
+<script src="js/data.js"></script>
+<script>
+const ICONS = {
+  football: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7l3.5 2.5-1.3 4.1H9.8L8.5 9.5z"></path><path d="M12 7V4M15.5 9.5l2.8-1.5M8.5 9.5l-2.8-1.5M14.2 13.6l1.7 3.1M9.8 13.6l-1.7 3.1"></path></svg>',
+  broom: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L10 14"></path><path d="M4 20l3-1 1-3 3.5-3.5 3 3L11 19l-3 1z"></path><path d="M9 15l-3 3"></path></svg>',
+  trash: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6"></path><path d="M10 11v6M14 11v6"></path><path d="M9 6V4a1 1 0 011-1h4a1 1 0 011 1v2"></path></svg>',
+  chef: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8.5a4 4 0 118 0c1.4.3 2.5 1.5 2.5 3v1H5.5v-1c0-1.5 1.1-2.7 2.5-3z"></path><path d="M6 19v-6.5h12V19a1 1 0 01-1 1H7a1 1 0 01-1-1z"></path><line x1="6" y1="16" x2="18" y2="16"></line></svg>',
+  read: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-2-1.5-5-2-8-1v13c3-1 6-.5 8 1 2-1.5 5-2 8-1V5c-3-1-6-.5-8 1z"></path><line x1="12" y1="6" x2="12" y2="19"></line></svg>',
+  book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13a3 3 0 013 3v13H7a3 3 0 01-3-3z"></path><path d="M4 4v10"></path></svg>',
+  calculator: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="10" x2="8" y2="10.01"></line><line x1="12" y1="10" x2="12" y2="10.01"></line><line x1="16" y1="10" x2="16" y2="10.01"></line><line x1="8" y1="14" x2="8" y2="14.01"></line><line x1="12" y1="14" x2="12" y2="14.01"></line><line x1="16" y1="14" x2="16" y2="14.01"></line><line x1="8" y1="18" x2="16" y2="18"></line></svg>',
+};
+
+const SIMPLE_ACTIONS = ["football_goal", "room_cleaning", "trash_handling", "cooking"];
+const ACTION_ORDER = ["math_quiz", "football_goal", "room_cleaning", "trash_handling", "cooking", "greek", "russian", "reading"];
+
+let questionPointsMap = new Map();
+let currentTotal = 0;
+
+function fmtEuro(v) {
+  return "€" + v.toFixed(2);
+}
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString() + " " + d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+}
+
+function showToast(msg) {
+  const toast = document.getElementById("toast");
+  toast.textContent = msg;
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 2200);
+}
+
+function buildQuestionPointsMap(allCourses) {
+  const map = new Map();
+  allCourses.forEach(course => {
+    course.questions.forEach(q => {
+      map.set(course.id + "|" + q.number, q.points);
+    });
+  });
+  return map;
+}
+
+function computeQuizDelta(result) {
+  const pts = questionPointsMap.get(result.courseId + "|" + result.questionNumber);
+  if (pts == null) return 0;
+  return result.isCorrect ? pts : -pts;
+}
+
+async function loadAll() {
+  const [allCourses, results, actions, redemptions] = await Promise.all([
+    loadAllCourses(),
+    getResults(),
+    getPointsActions(),
+    getPointsRedemptions(),
+  ]);
+  questionPointsMap = buildQuestionPointsMap(allCourses);
+  return { results, actions, redemptions };
+}
+
+function computeTotal(results, actions, redemptions) {
+  const quizPoints = results.reduce((sum, r) => sum + computeQuizDelta(r), 0);
+  const actionPoints = actions.reduce((sum, a) => sum + a.points, 0);
+  const redeemedPoints = redemptions.reduce((sum, r) => sum + r.pointsRedeemed, 0);
+  return quizPoints + actionPoints - redeemedPoints;
+}
+
+function renderTotal(total) {
+  currentTotal = total;
+  document.getElementById("points-total").textContent = total;
+  document.getElementById("points-euro").textContent = fmtEuro(pointsToEuro(total));
+  document.getElementById("extract-btn").disabled = total <= 0;
+}
+
+function renderActivity(results, actions, redemptions) {
+  const entries = [];
+  results.forEach(r => {
+    const delta = computeQuizDelta(r);
+    entries.push({
+      timestamp: r.timestamp,
+      label: r.courseName + " · Q" + r.questionNumber,
+      meta: r.isCorrect ? "Correct answer" : "Wrong answer",
+      delta,
+    });
+  });
+  actions.forEach(a => {
+    const cfg = POINTS_CONFIG.actions[a.actionType];
+    entries.push({
+      timestamp: a.timestamp,
+      label: (cfg ? cfg.label : a.actionType) + (a.detail ? " · " + a.detail : ""),
+      meta: "Action completed",
+      delta: a.points,
+    });
+  });
+  redemptions.forEach(r => {
+    entries.push({
+      timestamp: r.timestamp,
+      label: "Extracted to money",
+      meta: fmtEuro(r.euroValue),
+      delta: -r.pointsRedeemed,
+    });
+  });
+  entries.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+  const list = document.getElementById("activity-list");
+  const recent = entries.slice(0, 12);
+  if (recent.length === 0) {
+    list.innerHTML = '<div class="empty-note">No activity yet — complete an action to start earning points.</div>';
+    return;
+  }
+  list.innerHTML = recent.map(e => `
+    <div class="activity-row">
+      <div>
+        <div class="label">${e.label}</div>
+        <div class="meta">${e.meta} · ${fmtTime(e.timestamp)}</div>
+      </div>
+      <div class="delta ${e.delta >= 0 ? "positive" : "negative"}">${e.delta >= 0 ? "+" : ""}${e.delta}</div>
+    </div>
+  `).join("");
+}
+
+function renderActionGrid() {
+  const grid = document.getElementById("action-grid");
+  grid.innerHTML = ACTION_ORDER.map(key => {
+    if (key === "math_quiz") {
+      return `
+        <a class="action-tile tile-quiz" href="quiz.html" style="text-decoration:none;">
+          <div class="action-icon">${ICONS.calculator}</div>
+          <div class="action-title">Math Quiz</div>
+          <div class="action-caption">Go practice →</div>
+        </a>`;
+    }
+    const cfg = POINTS_CONFIG.actions[key];
+    const icon = ICONS[cfg.icon] || ICONS.book;
+    if (cfg.comingSoon) {
+      return `
+        <button class="action-tile tile-${key}" disabled>
+          <div class="action-icon">${icon}</div>
+          <div class="action-title">${cfg.label}</div>
+          <div class="action-caption">Coming soon</div>
+        </button>`;
+    }
+    const caption = key === "reading" ? `${cfg.pointsPerHour} pts / hour` : `+${cfg.points} pts`;
+    return `
+      <button class="action-tile tile-${key}" data-action="${key}">
+        <div class="action-icon">${icon}</div>
+        <div class="action-title">${cfg.label}</div>
+        <div class="action-caption">${caption}</div>
+      </button>`;
+  }).join("");
+
+  grid.querySelectorAll("button[data-action]").forEach(btn => {
+    btn.addEventListener("click", () => onActionClick(btn.dataset.action));
+  });
+}
+
+function openModal(html) {
+  const overlay = document.createElement("div");
+  overlay.className = "modal-overlay";
+  overlay.innerHTML = `<div class="modal-card">${html}</div>`;
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeModal();
+  });
+  document.body.appendChild(overlay);
+  return overlay;
+}
+
+function closeModal() {
+  const overlay = document.querySelector(".modal-overlay");
+  if (overlay) overlay.remove();
+}
+
+function onActionClick(actionType) {
+  const cfg = POINTS_CONFIG.actions[actionType];
+
+  if (actionType === "reading") {
+    const overlay = openModal(`
+      <h3>Reading</h3>
+      <p>How many minutes did you read?</p>
+      <label for="reading-minutes">Minutes</label>
+      <input type="number" id="reading-minutes" min="1" step="1" placeholder="e.g. 30" />
+      <div class="modal-hint" id="reading-preview">= 0 points</div>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="modal-cancel">Cancel</button>
+        <button class="modal-btn confirm" id="modal-confirm" disabled>Add points</button>
+      </div>
+    `);
+    const input = overlay.querySelector("#reading-minutes");
+    const preview = overlay.querySelector("#reading-preview");
+    const confirmBtn = overlay.querySelector("#modal-confirm");
+    input.addEventListener("input", () => {
+      const minutes = parseInt(input.value, 10);
+      if (!minutes || minutes <= 0) {
+        preview.textContent = "= 0 points";
+        confirmBtn.disabled = true;
+        return;
+      }
+      const pts = computeReadingPoints(minutes);
+      preview.textContent = `= ${pts} point${pts === 1 ? "" : "s"}`;
+      confirmBtn.disabled = pts <= 0;
+    });
+    overlay.querySelector("#modal-cancel").addEventListener("click", closeModal);
+    confirmBtn.addEventListener("click", async () => {
+      const minutes = parseInt(input.value, 10);
+      const pts = computeReadingPoints(minutes);
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = "Saving…";
+      const saved = await savePointsAction("reading", pts, `${minutes} minutes`);
+      closeModal();
+      if (saved) {
+        showToast(`+${pts} points added!`);
+        refresh();
+      } else {
+        showToast("Couldn't save — check your connection.");
+      }
+    });
+    return;
+  }
+
+  if (SIMPLE_ACTIONS.includes(actionType)) {
+    const overlay = openModal(`
+      <h3>${cfg.label}</h3>
+      <p>Add ${cfg.points} points for completing "${cfg.label}"?</p>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="modal-cancel">Cancel</button>
+        <button class="modal-btn confirm" id="modal-confirm">Confirm</button>
+      </div>
+    `);
+    overlay.querySelector("#modal-cancel").addEventListener("click", closeModal);
+    overlay.querySelector("#modal-confirm").addEventListener("click", async () => {
+      const confirmBtn = overlay.querySelector("#modal-confirm");
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = "Saving…";
+      const saved = await savePointsAction(actionType, cfg.points, null);
+      closeModal();
+      if (saved) {
+        showToast(`+${cfg.points} points added!`);
+        refresh();
+      } else {
+        showToast("Couldn't save — check your connection.");
+      }
+    });
+  }
+}
+
+function onExtractClick() {
+  if (currentTotal <= 0) return;
+  const overlay = openModal(`
+    <h3>Extract Points</h3>
+    <p>Convert points to money. You have <strong>${currentTotal}</strong> points available.</p>
+    <label for="extract-points">Points to convert</label>
+    <input type="number" id="extract-points" min="1" max="${currentTotal}" step="1" placeholder="e.g. 20" />
+    <div class="modal-hint" id="extract-preview">= €0.00</div>
+    <div class="modal-error" id="extract-error">Enter a value between 1 and ${currentTotal}.</div>
+    <div class="modal-actions">
+      <button class="modal-btn cancel" id="modal-cancel">Cancel</button>
+      <button class="modal-btn confirm" id="modal-confirm" disabled>Extract</button>
+    </div>
+  `);
+  const input = overlay.querySelector("#extract-points");
+  const preview = overlay.querySelector("#extract-preview");
+  const errorEl = overlay.querySelector("#extract-error");
+  const confirmBtn = overlay.querySelector("#modal-confirm");
+  input.addEventListener("input", () => {
+    const pts = parseInt(input.value, 10);
+    const valid = pts > 0 && pts <= currentTotal;
+    preview.textContent = "= " + fmtEuro(pointsToEuro(valid ? pts : 0));
+    errorEl.classList.toggle("show", input.value !== "" && !valid);
+    confirmBtn.disabled = !valid;
+  });
+  overlay.querySelector("#modal-cancel").addEventListener("click", closeModal);
+  confirmBtn.addEventListener("click", async () => {
+    const pts = parseInt(input.value, 10);
+    if (!(pts > 0 && pts <= currentTotal)) return;
+    const euro = pointsToEuro(pts);
+    confirmBtn.disabled = true;
+    confirmBtn.textContent = "Saving…";
+    const saved = await savePointsRedemption(pts, euro);
+    closeModal();
+    if (saved) {
+      showToast(`Extracted ${pts} points (${fmtEuro(euro)})`);
+      refresh();
+    } else {
+      showToast("Couldn't save — check your connection.");
+    }
+  });
+}
+
+async function refresh() {
+  const { results, actions, redemptions } = await loadAll();
+  const total = computeTotal(results, actions, redemptions);
+  renderTotal(total);
+  renderActivity(results, actions, redemptions);
+}
+
+document.getElementById("extract-btn").addEventListener("click", onExtractClick);
+renderActionGrid();
+refresh();
+</script>
+</body>
+</html>
