@@ -52,14 +52,15 @@
     <div class="empty-state" id="empty-state" style="display:none;">
       No answers recorded yet. <a href="quiz.html">Start a quiz</a> to begin tracking your results.
     </div>
-    <div class="actions">
-      <button class="btn danger" id="clear-btn">Clear all results</button>
-    </div>
   </div>
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/supabase-config.js"></script>
 <script src="js/storage.js"></script>
 <script>
+let allResults = [];
+
 function fmtDate(iso) {
   const d = new Date(iso);
   return d.toLocaleDateString() + " " + d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
@@ -76,7 +77,7 @@ function dateFilterCutoff(value) {
 }
 
 function render() {
-  const results = getResults().slice().reverse();
+  const results = allResults.slice().reverse();
   const dateFilter = document.getElementById("date-filter").value;
   const outcomeFilter = document.getElementById("outcome-filter").value;
   const cutoff = dateFilterCutoff(dateFilter);
@@ -115,14 +116,13 @@ function render() {
 
 document.getElementById("date-filter").addEventListener("change", render);
 document.getElementById("outcome-filter").addEventListener("change", render);
-document.getElementById("clear-btn").addEventListener("click", () => {
-  if (confirm("Clear all recorded results? This cannot be undone.")) {
-    clearResults();
-    render();
-  }
-});
 
-render();
+async function init() {
+  allResults = await getResults();
+  render();
+}
+
+init();
 </script>
 </body>
 </html>
