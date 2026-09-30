@@ -39,6 +39,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script src="js/supabase-config.js"></script>
+<script src="js/telegram-config.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/points-config.js"></script>
 <script src="js/data.js"></script>
@@ -52,10 +53,11 @@ const ICONS = {
   book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13a3 3 0 013 3v13H7a3 3 0 01-3-3z"></path><path d="M4 4v10"></path></svg>',
   calculator: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"></rect><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="10" x2="8" y2="10.01"></line><line x1="12" y1="10" x2="12" y2="10.01"></line><line x1="16" y1="10" x2="16" y2="10.01"></line><line x1="8" y1="14" x2="8" y2="14.01"></line><line x1="12" y1="14" x2="12" y2="14.01"></line><line x1="16" y1="14" x2="16" y2="14.01"></line><line x1="8" y1="18" x2="16" y2="18"></line></svg>',
   babysitting: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="3"></circle><path d="M6 20c0-3.3 2.7-6 6-6s6 2.7 6 6"></path><circle cx="18" cy="10" r="2"></circle><path d="M15.5 20c0-2 1.2-3.6 2.9-4.2"></path></svg>',
+  custom: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.2 4.9 5.3.6-4 3.7 1.1 5.3L12 14.9 7.4 17.5l1.1-5.3-4-3.7 5.3-.6z"></path></svg>',
 };
 
 const SIMPLE_ACTIONS = ["football_goal", "room_cleaning", "trash_handling", "cooking"];
-const ACTION_ORDER = ["math_quiz", "football_goal", "room_cleaning", "trash_handling", "cooking", "greek", "russian", "reading", "babysitting"];
+const ACTION_ORDER = ["math_quiz", "football_goal", "room_cleaning", "trash_handling", "cooking", "greek", "russian", "reading", "babysitting", "custom"];
 
 let questionPointsMap = new Map();
 let currentTotal = 0;
@@ -185,7 +187,9 @@ function renderActionGrid() {
           <div class="action-caption">Coming soon</div>
         </button>`;
     }
-    const caption = cfg.pointsPerHour != null ? `${cfg.pointsPerHour} pts / hour` : `+${cfg.points} pts`;
+    const caption = cfg.pointsPerHour != null
+      ? `${cfg.pointsPerHour} pts / hour`
+      : cfg.custom ? "Enter amount" : `+${cfg.points} pts`;
     return `
       <button class="action-tile tile-${key}" data-action="${key}">
         <div class="action-icon">${icon}</div>
@@ -213,6 +217,24 @@ function openModal(html) {
 function closeModal() {
   const overlay = document.querySelector(".modal-overlay");
   if (overlay) overlay.remove();
+}
+
+async function sendTelegramNotification(text) {
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text }),
+    });
+    if (!res.ok) {
+      console.error("Telegram notification failed", await res.text());
+      return false;
+    }
+    return true;
+  } catch (e) {
+    console.error("Telegram notification error", e);
+    return false;
+  }
 }
 
 function onActionClick(actionType) {
@@ -254,6 +276,59 @@ function onActionClick(actionType) {
       closeModal();
       if (saved) {
         showToast(`+${pts} points added!`);
+        refresh();
+      } else {
+        showToast("Couldn't save — check your connection.");
+      }
+    });
+    return;
+  }
+
+  if (cfg.custom) {
+    const overlay = openModal(`
+      <h3>Custom</h3>
+      <p>Add a custom number of points. Requires today's secret code.</p>
+      <label for="custom-points">Points</label>
+      <input type="number" id="custom-points" step="1" placeholder="e.g. 5" />
+      <label for="custom-reason">Reason (optional)</label>
+      <input type="text" id="custom-reason" placeholder="e.g. Extra chore" />
+      <label for="custom-code">Secret code</label>
+      <input type="text" id="custom-code" inputmode="numeric" maxlength="6" />
+      <div class="modal-error" id="custom-error">Incorrect code.</div>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="modal-cancel">Cancel</button>
+        <button class="modal-btn confirm" id="modal-confirm" disabled>Add points</button>
+      </div>
+    `);
+    const pointsInput = overlay.querySelector("#custom-points");
+    const reasonInput = overlay.querySelector("#custom-reason");
+    const codeInput = overlay.querySelector("#custom-code");
+    const errorEl = overlay.querySelector("#custom-error");
+    const confirmBtn = overlay.querySelector("#modal-confirm");
+
+    function validate() {
+      const pts = parseInt(pointsInput.value, 10);
+      const validPoints = Number.isInteger(pts) && pts !== 0;
+      const codeEntered = codeInput.value.trim();
+      const validCode = codeEntered === todaysSecretCode();
+      errorEl.classList.toggle("show", codeEntered.length === 6 && !validCode);
+      confirmBtn.disabled = !(validPoints && validCode);
+      return { pts, validPoints, validCode };
+    }
+    pointsInput.addEventListener("input", validate);
+    codeInput.addEventListener("input", validate);
+
+    overlay.querySelector("#modal-cancel").addEventListener("click", closeModal);
+    confirmBtn.addEventListener("click", async () => {
+      const { pts, validPoints, validCode } = validate();
+      if (!(validPoints && validCode)) return;
+      const reason = reasonInput.value.trim();
+      confirmBtn.disabled = true;
+      confirmBtn.textContent = "Saving…";
+      const saved = await savePointsAction("custom", pts, reason || null);
+      closeModal();
+      if (saved) {
+        showToast(`${pts > 0 ? "+" : ""}${pts} points added!`);
         refresh();
       } else {
         showToast("Couldn't save — check your connection.");
@@ -324,6 +399,7 @@ function onExtractClick() {
     closeModal();
     if (saved) {
       showToast(`Extracted ${pts} points (${fmtEuro(euro)})`);
+      sendTelegramNotification(`💰 Denis redeemed ${pts} points → ${fmtEuro(euro)}. Please send via Revolut.`);
       refresh();
     } else {
       showToast("Couldn't save — check your connection.");
