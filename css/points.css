@@ -182,6 +182,7 @@ main.points-main {
 .tile-trash_handling .action-icon { background: #FFD9C2; color: var(--flame); }
 .tile-cooking .action-icon { background: #FFE1EC; color: #D6336C; }
 .tile-reading .action-icon { background: #E3D9FF; color: #6D3FF0; }
+.tile-babysitting .action-icon { background: #FFE0EF; color: #D6336C; }
 .tile-greek .action-icon,
 .tile-russian .action-icon { background: var(--surface-soft); color: var(--ink-muted); outline-color: var(--ink-muted); }
 
