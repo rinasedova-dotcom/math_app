@@ -203,12 +203,14 @@ function renderActionGrid() {
   });
 }
 
+let modalDismissLocked = false;
+
 function openModal(html) {
   const overlay = document.createElement("div");
   overlay.className = "modal-overlay";
   overlay.innerHTML = `<div class="modal-card">${html}</div>`;
   overlay.addEventListener("click", (e) => {
-    if (e.target === overlay) closeModal();
+    if (e.target === overlay && !modalDismissLocked) closeModal();
   });
   document.body.appendChild(overlay);
   return overlay;
@@ -217,6 +219,7 @@ function openModal(html) {
 function closeModal() {
   const overlay = document.querySelector(".modal-overlay");
   if (overlay) overlay.remove();
+  modalDismissLocked = false;
 }
 
 async function sendTelegramNotification(text) {
@@ -237,8 +240,158 @@ async function sendTelegramNotification(text) {
   }
 }
 
+function fmtClock(totalSeconds) {
+  const s = Math.max(0, Math.round(totalSeconds));
+  const mm = Math.floor(s / 60);
+  const ss = s % 60;
+  return String(mm).padStart(2, "0") + ":" + String(ss).padStart(2, "0");
+}
+
+function openReadingTimerModal() {
+  const cfg = POINTS_CONFIG.actions.reading;
+  let timerInterval = null;
+  let endTimestamp = null;
+  let pausedRemainingMs = null;
+  let earnedPoints = 0;
+  let originalMinutes = 0;
+
+  const overlay = openModal(`
+    <h3>Reading</h3>
+    <div id="reading-body"></div>
+  `);
+  const body = overlay.querySelector("#reading-body");
+
+  function renderSetup() {
+    modalDismissLocked = false;
+    body.innerHTML = `
+      <p>How many minutes do you plan to read?</p>
+      <label for="reading-minutes">Minutes</label>
+      <input type="number" id="reading-minutes" min="1" step="1" placeholder="e.g. 30" />
+      <div class="modal-hint" id="reading-preview">= 0 points</div>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="reading-cancel">Cancel</button>
+        <button class="modal-btn confirm" id="reading-start" disabled>Start Timer</button>
+      </div>
+    `;
+    const input = body.querySelector("#reading-minutes");
+    const preview = body.querySelector("#reading-preview");
+    const startBtn = body.querySelector("#reading-start");
+    input.addEventListener("input", () => {
+      const minutes = parseInt(input.value, 10);
+      if (!minutes || minutes <= 0) {
+        preview.textContent = "= 0 points";
+        startBtn.disabled = true;
+        return;
+      }
+      const pts = computeHourlyPoints("reading", minutes);
+      preview.textContent = `= ${pts} point${pts === 1 ? "" : "s"}`;
+      startBtn.disabled = pts <= 0;
+    });
+    body.querySelector("#reading-cancel").addEventListener("click", closeModal);
+    startBtn.addEventListener("click", () => {
+      const minutes = parseInt(input.value, 10);
+      originalMinutes = minutes;
+      earnedPoints = computeHourlyPoints("reading", minutes);
+      startCountdown(minutes * 60);
+    });
+  }
+
+  function startCountdown(seconds) {
+    modalDismissLocked = true;
+    endTimestamp = Date.now() + seconds * 1000;
+    pausedRemainingMs = null;
+    renderRunning();
+    tick();
+    timerInterval = setInterval(tick, 250);
+  }
+
+  function tick() {
+    const remainingMs = endTimestamp - Date.now();
+    const display = body.querySelector("#timer-clock");
+    if (display) display.textContent = fmtClock(remainingMs / 1000);
+    if (remainingMs <= 0) {
+      clearInterval(timerInterval);
+      timerInterval = null;
+      renderTimeUp();
+    }
+  }
+
+  function renderRunning() {
+    body.innerHTML = `
+      <p>Reading in progress…</p>
+      <div class="timer-clock" id="timer-clock">${fmtClock((endTimestamp - Date.now()) / 1000)}</div>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="timer-pause">Pause</button>
+        <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
+      </div>
+    `;
+    body.querySelector("#timer-pause").addEventListener("click", pauseTimer);
+    body.querySelector("#timer-complete").addEventListener("click", finishReading);
+  }
+
+  function pauseTimer() {
+    clearInterval(timerInterval);
+    timerInterval = null;
+    pausedRemainingMs = Math.max(0, endTimestamp - Date.now());
+    body.innerHTML = `
+      <p>Paused.</p>
+      <div class="timer-clock" id="timer-clock">${fmtClock(pausedRemainingMs / 1000)}</div>
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="timer-resume">Resume</button>
+        <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
+      </div>
+    `;
+    body.querySelector("#timer-resume").addEventListener("click", () => {
+      endTimestamp = Date.now() + pausedRemainingMs;
+      renderRunning();
+      tick();
+      timerInterval = setInterval(tick, 250);
+    });
+    body.querySelector("#timer-complete").addEventListener("click", finishReading);
+  }
+
+  function renderTimeUp() {
+    body.innerHTML = `
+      <p>⏰ Time's up! Finished reading, or need more time?</p>
+      <label for="timer-adjust">Add adjustment minutes (no extra points)</label>
+      <input type="number" id="timer-adjust" min="1" step="1" placeholder="e.g. 5" />
+      <div class="modal-actions">
+        <button class="modal-btn cancel" id="timer-add">Add time</button>
+        <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
+      </div>
+    `;
+    body.querySelector("#timer-add").addEventListener("click", () => {
+      const extra = parseInt(body.querySelector("#timer-adjust").value, 10);
+      if (!extra || extra <= 0) return;
+      startCountdown(extra * 60);
+    });
+    body.querySelector("#timer-complete").addEventListener("click", finishReading);
+  }
+
+  async function finishReading() {
+    if (timerInterval) clearInterval(timerInterval);
+    modalDismissLocked = false;
+    body.innerHTML = `<p>Saving…</p>`;
+    const saved = await savePointsAction("reading", earnedPoints, `${originalMinutes} minutes`);
+    closeModal();
+    if (saved) {
+      showToast(`+${earnedPoints} points added!`);
+      refresh();
+    } else {
+      showToast("Couldn't save — check your connection.");
+    }
+  }
+
+  renderSetup();
+}
+
 function onActionClick(actionType) {
   const cfg = POINTS_CONFIG.actions[actionType];
+
+  if (actionType === "reading") {
+    openReadingTimerModal();
+    return;
+  }
 
   if (cfg.pointsPerHour != null) {
     const overlay = openModal(`
