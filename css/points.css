@@ -265,19 +265,33 @@ main.points-main {
   font-weight: 600;
   margin-bottom: 6px;
 }
-.modal-card input[type="number"] {
+.modal-card input[type="number"],
+.modal-card input[type="text"] {
   width: 100%;
   padding: 12px 14px;
   border-radius: var(--radius-pill);
   border: 2px solid var(--surface-soft);
   background: var(--surface-soft);
+  color: var(--ink);
   font-size: 16px;
   font-family: var(--font-ui);
   margin-bottom: 8px;
+  box-sizing: border-box;
 }
-.modal-card input[type="number"]:focus {
+.modal-card input[type="number"]:focus,
+.modal-card input[type="text"]:focus {
   outline: none;
   border-color: var(--accent-blue);
+}
+.modal-card input::placeholder {
+  color: var(--ink-muted);
+  font-family: var(--font-ui);
+}
+.timer-clock {
+  font-family: var(--font-display);
+  font-size: 56px;
+  text-align: center;
+  margin: 8px 0 20px;
 }
 .modal-hint {
   font-size: 12px;
