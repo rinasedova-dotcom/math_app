@@ -335,6 +335,23 @@ main.points-main {
 }
 .modal-btn:hover:not(:disabled) { opacity: 0.85; }
 
+.modal-link-cancel {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 4px;
+  background: none;
+  border: none;
+  color: var(--ink-muted);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+.modal-link-cancel:hover { color: var(--ink); }
+
 .toast {
   position: fixed;
   bottom: 24px;

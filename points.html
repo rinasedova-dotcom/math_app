@@ -316,17 +316,19 @@ function openReadingTimerModal() {
     }
   }
 
+  const CANCEL_LINK_HTML = `<button class="modal-link-cancel" id="timer-cancel">Cancel reading</button>`;
+
   function renderRunning() {
     body.innerHTML = `
       <p>Reading in progress…</p>
       <div class="timer-clock" id="timer-clock">${fmtClock((endTimestamp - Date.now()) / 1000)}</div>
       <div class="modal-actions">
-        <button class="modal-btn cancel" id="timer-pause">Pause</button>
-        <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
+        <button class="modal-btn confirm" id="timer-pause">Pause</button>
       </div>
+      ${CANCEL_LINK_HTML}
     `;
     body.querySelector("#timer-pause").addEventListener("click", pauseTimer);
-    body.querySelector("#timer-complete").addEventListener("click", finishReading);
+    body.querySelector("#timer-cancel").addEventListener("click", cancelReading);
   }
 
   function pauseTimer() {
@@ -340,6 +342,7 @@ function openReadingTimerModal() {
         <button class="modal-btn cancel" id="timer-resume">Resume</button>
         <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
       </div>
+      ${CANCEL_LINK_HTML}
     `;
     body.querySelector("#timer-resume").addEventListener("click", () => {
       endTimestamp = Date.now() + pausedRemainingMs;
@@ -348,6 +351,7 @@ function openReadingTimerModal() {
       timerInterval = setInterval(tick, 250);
     });
     body.querySelector("#timer-complete").addEventListener("click", finishReading);
+    body.querySelector("#timer-cancel").addEventListener("click", cancelReading);
   }
 
   function renderTimeUp() {
@@ -359,6 +363,7 @@ function openReadingTimerModal() {
         <button class="modal-btn cancel" id="timer-add">Add time</button>
         <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
       </div>
+      ${CANCEL_LINK_HTML}
     `;
     body.querySelector("#timer-add").addEventListener("click", () => {
       const extra = parseInt(body.querySelector("#timer-adjust").value, 10);
@@ -366,6 +371,14 @@ function openReadingTimerModal() {
       startCountdown(extra * 60);
     });
     body.querySelector("#timer-complete").addEventListener("click", finishReading);
+    body.querySelector("#timer-cancel").addEventListener("click", cancelReading);
+  }
+
+  function cancelReading() {
+    if (timerInterval) clearInterval(timerInterval);
+    modalDismissLocked = false;
+    closeModal();
+    showToast("Reading cancelled — no points added.");
   }
 
   async function finishReading() {
