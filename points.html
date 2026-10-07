@@ -339,8 +339,7 @@ function openReadingTimerModal() {
       <p>Paused.</p>
       <div class="timer-clock" id="timer-clock">${fmtClock(pausedRemainingMs / 1000)}</div>
       <div class="modal-actions">
-        <button class="modal-btn cancel" id="timer-resume">Resume</button>
-        <button class="modal-btn confirm" id="timer-complete">Complete Reading</button>
+        <button class="modal-btn confirm" id="timer-resume">Resume</button>
       </div>
       ${CANCEL_LINK_HTML}
     `;
@@ -350,7 +349,6 @@ function openReadingTimerModal() {
       tick();
       timerInterval = setInterval(tick, 250);
     });
-    body.querySelector("#timer-complete").addEventListener("click", finishReading);
     body.querySelector("#timer-cancel").addEventListener("click", cancelReading);
   }
 
