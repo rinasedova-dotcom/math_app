@@ -128,6 +128,7 @@ h2 {
 }
 .badge.course { background: #DCEBFF; color: var(--accent-blue); }
 .badge.points { background: #FFF2C2; color: #B8860B; }
+.badge.progress { background: #E3D9FF; color: #6D3FF0; }
 
 .question-meta { display:flex; gap: 10px; align-items:center; margin-bottom: 8px; flex-wrap: wrap; }
 
