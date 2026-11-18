@@ -34,14 +34,48 @@ let pool = [];
 let current = null;
 let answered = false;
 let lastKey = null;
+let statusMap = new Map();
+
+function questionKey(item) {
+  return item.courseId + "-" + item.question.number;
+}
+
+// getResults() returns rows in ascending timestamp order, so later entries
+// for the same question naturally overwrite earlier ones with the latest result.
+function buildStatusMap(results) {
+  const map = new Map();
+  results.forEach(r => {
+    map.set(r.courseId + "-" + r.questionNumber, r.isCorrect);
+  });
+  return map;
+}
+
+function getCandidatePools() {
+  const unseen = [];
+  const wrong = [];
+  const mastered = [];
+  pool.forEach(item => {
+    const key = questionKey(item);
+    if (!statusMap.has(key)) {
+      unseen.push(item);
+    } else if (statusMap.get(key) === false) {
+      wrong.push(item);
+    } else {
+      mastered.push(item);
+    }
+  });
+  return { unseen, wrong, mastered };
+}
 
 function pickQuestion() {
   if (pool.length === 0) return null;
-  if (pool.length === 1) return pool[0];
+  const { unseen, wrong, mastered } = getCandidatePools();
+  const candidates = unseen.length > 0 ? unseen : (wrong.length > 0 ? wrong : mastered);
+  if (candidates.length <= 1) return candidates[0];
   let choice;
   do {
-    choice = pool[Math.floor(Math.random() * pool.length)];
-  } while (lastKey && choice.courseId + "-" + choice.question.number === lastKey);
+    choice = candidates[Math.floor(Math.random() * candidates.length)];
+  } while (lastKey && questionKey(choice) === lastKey);
   return choice;
 }
 
@@ -55,6 +89,8 @@ function renderQuestion() {
   lastKey = current.courseId + "-" + current.question.number;
   const q = current.question;
   const card = document.getElementById("quiz-card");
+  const { unseen, wrong } = getCandidatePools();
+  const remaining = unseen.length + wrong.length;
 
   let mediaHtml = "";
   if (q.image) {
@@ -80,6 +116,7 @@ function renderQuestion() {
     <div class="question-meta">
       <span class="badge course">${current.courseName}</span>
       <span class="badge points">Question ${q.number} · ${q.points} pts</span>
+      <span class="badge progress">${remaining} question${remaining === 1 ? "" : "s"} left to master</span>
     </div>
     <div class="question-text">${q.text}</div>
     ${mediaHtml}
@@ -100,6 +137,7 @@ async function handleAnswer(label) {
   answered = true;
   const q = current.question;
   const isCorrect = label === q.answer;
+  statusMap.set(current.courseId + "-" + q.number, isCorrect);
 
   document.querySelectorAll(".option").forEach(btn => {
     btn.classList.add("disabled");
@@ -135,9 +173,9 @@ async function handleAnswer(label) {
 
 async function init() {
   const prefs = getPrefs();
-  let allCourses;
+  let allCourses, results;
   try {
-    allCourses = await loadAllCourses();
+    [allCourses, results] = await Promise.all([loadAllCourses(), getResults()]);
   } catch (e) {
     document.getElementById("quiz-card").innerHTML =
       "<p>Could not load course data. Please serve this site with a local web server.</p>";
@@ -148,6 +186,7 @@ async function init() {
     : allCourses.map(c => c.id);
 
   pool = buildQuestionPool(allCourses, selectedIds);
+  statusMap = buildStatusMap(results);
   document.getElementById("pool-info").textContent =
     pool.length + " question(s) in the current practice pool.";
   renderQuestion();
